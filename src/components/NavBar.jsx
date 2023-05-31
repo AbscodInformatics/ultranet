@@ -200,7 +200,7 @@ const NavBar = () => {
           <div className="block md:hidden w-full mt-5 ">
             <div
               onClick={() => setDropDown(!dropDown)}
-              className="cursor-pointer px-4 py-3 text-white bg-indigo-600 rounded flex justify-between items-center w-full"
+              className="cursor-pointer px-4 py-3 text-black bg-[white] rounded flex justify-between items-center w-full"
             >
               <div className="flex space-x-2">
                 <span
@@ -209,13 +209,13 @@ const NavBar = () => {
                     text.length != 0 ? "" : "hidden"
                   } font-semibold text-lg leading-3`}
                 >
-                  Selected:{" "}
+                  DashBoard:{" "}
                 </span>
                 <p
                   id="textClicked"
                   className="font-normal text-lg leading-3 focus:outline-none hover:bg-gray-800 duration-100 cursor-pointer "
                 >
-                  {text ? text : "Collections"}
+                  {text ? text : "Dashboard"}
                 </p>
               </div>
               <svg
@@ -249,31 +249,31 @@ const NavBar = () => {
                   onClick={() => setSelectedText("Arts")}
                   className="px-4 py-3 text-gray-600 bg-gray-50 border border-gray-50 focus:outline-none focus:bg-gray-100 hover:bg-gray-100 duration-100 cursor-pointer text-xs leading-3 font-normal"
                 >
-                  Arts
+                  Offers
                 </li>
                 <li
                   onClick={() => setSelectedText("Space")}
                   className="px-4 py-3 text-gray-600 bg-gray-50 border border-gray-50 focus:outline-none focus:bg-gray-100 hover:bg-gray-100 duration-100 cursor-pointer text-xs leading-3 font-normal"
                 >
-                  Space
+                  Home
                 </li>
                 <li
                   onClick={() => setSelectedText("Game")}
                   className="px-4 py-3 text-gray-600 bg-gray-50 border border-gray-50 focus:outline-none focus:bg-gray-100 hover:bg-gray-100 duration-100 cursor-pointer text-xs leading-3 font-normal"
                 >
-                  Game
+                  Business
                 </li>
                 <li
                   onClick={() => setSelectedText("Utility")}
                   className="px-4 py-3 text-gray-600 bg-gray-50 border border-gray-50 focus:outline-none focus:bg-gray-100 hover:bg-gray-100 duration-100 cursor-pointer text-xs leading-3 font-normal"
                 >
-                  Utility
+                  FAQ's
                 </li>
                 <li
                   onClick={() => setSelectedText("Cards")}
                   className="px-4 py-3 text-gray-600 bg-gray-50 border border-gray-50 focus:outline-none focus:bg-gray-100 hover:bg-gray-100 duration-100 cursor-pointer text-xs leading-3 font-normal"
                 >
-                  Cards
+                  How To UltraNet Work's
                 </li>
               </ul>
             </div>
