@@ -8,20 +8,11 @@ const Footer = () => {
           <div className="flex lg:flex-row md:flex-col flex-col gap-8 w-full">
             <div className="w-full">
               <img
-                className="lg:block md:hidden hidden w-full   "
+                className=" w-full   "
                 src="/contactus.png"
                 alt="map-lg"
               />
-              <img
-                className="lg:hidden md:block hidden"
-                src="https://tuk-cdn.s3.amazonaws.com/can-uploader/mp09.png"
-                alt="map-md"
-              />
-              <img
-                className="lg:hidden md:hidden block"
-                src="https://tuk-cdn.s3.amazonaws.com/can-uploader/sm888.png"
-                alt="map-sm"
-              />
+              
             </div>
             <div className="lg:max-w-[624px] w-full">
               <p className="lg:text-4xl text-3xl font-semibold leading-9 text-gray-800 mb-6 ">
@@ -289,7 +280,7 @@ const Footer = () => {
                   </div>
                 </div>
                 <div className="flex items-center lg:justify-between md:justify-center lg:gap-0 md:gap-10 gap-3 flex-wrap lg:pt-32 md:pt-16 pt-16">
-                  <div className="flex gap-6">
+                  <div className="flex md:flex-row flex-col gap-6">
                     <p className="text-sm  text-white ">+91-7065000280</p>
                     <p className="text-sm  text-white ">+91-7065000960</p>
                     <p className="text-sm  text-white">

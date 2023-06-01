@@ -48,13 +48,13 @@ const NavBar = () => {
 
   return (
     <div>
-      <div className="bg-white h-16">
+      <div className="bg-[#e10000] md:bg-white h-16">
         <div className="bg-[#e10000] h-1"></div>
         <ul className="pr-12 md:flex items-center justify-center h-full hidden">
           <li>
             <a
               href=""
-              className="focus:outline-none  border-transparent font-medium cursor-pointer h-full flex items-center hover:text-[#e10000] text-lg text-gray-800 tracking-normal border-b-2 border-white"
+              className="focus:outline-none  border-transparent font-medium cursor-pointer h-full flex items-center  md:hover:text-[#e10000] text-lg text-white md:text-gray-800 tracking-normal border-b-2 border-white"
             >
               New Connetion
             </a>
@@ -62,7 +62,7 @@ const NavBar = () => {
           <li>
             <a
               href=""
-              className="focus:outline-none border-b-2 border-transparent font-medium cursor-pointer h-full flex items-center hover:text-[#e10000] text-lg text-gray-800 mx-6 tracking-normal"
+              className="focus:outline-none border-b-2 border-transparent font-medium cursor-pointer h-full flex items-center text-white md:hover:text-[#e10000] text-lg md:text-gray-800 mx-6 tracking-normal"
             >
               Speed Test
             </a>
@@ -70,7 +70,7 @@ const NavBar = () => {
           <li>
             <a
               href=""
-              className="focus:outline-none border-b-2 border-transparent font-medium cursor-pointer h-full flex items-center hover:text-[#e10000] text-lg text-gray-800 mr-6 tracking-normal"
+              className="focus:outline-none border-b-2 border-transparent font-medium cursor-pointer h-full flex items-center text-white md:hover:text-[#e10000] text-lg md:text-gray-800 mr-6 tracking-normal"
             >
               Contact Us
             </a>
@@ -78,7 +78,7 @@ const NavBar = () => {
           <li>
             <a
               href=""
-              className="focus:outline-none border-b-2 border-transparent font-medium cursor-pointer h-full flex items-center hover:text-[#e10000] text-lg text-gray-800 mr-6 tracking-normal"
+              className="focus:outline-none border-b-2 border-transparent font-medium cursor-pointer h-full flex items-center text-black md:hover:text-[#e10000] text-lg md:text-gray-800 mr-6 tracking-normal"
             >
               My Account
             </a>
@@ -86,7 +86,7 @@ const NavBar = () => {
           <li>
             <a
               href=""
-              className="focus:outline-none border-b-2 border-transparent font-medium cursor-pointer h-full flex items-center hover:text-[#e10000] text-lg text-gray-800 mr-6 tracking-normal"
+              className="focus:outline-none border-b-2 border-transparent font-medium cursor-pointer h-full flex items-center text-white md:hover:text-[#e10000] text-lg md:text-gray-800 mr-6 tracking-normal"
             >
               Quick Pay!
             </a>
@@ -200,7 +200,7 @@ const NavBar = () => {
           <div className="block md:hidden w-full mt-5 ">
             <div
               onClick={() => setDropDown(!dropDown)}
-              className="cursor-pointer px-4 py-3 text-black bg-[white] rounded flex justify-between items-center w-full"
+              className="cursor-pointer px-4 py-3 text-white bg-[#e10000] rounded flex justify-between items-center w-full"
             >
               <div className="flex space-x-2">
                 <span
@@ -209,13 +209,13 @@ const NavBar = () => {
                     text.length != 0 ? "" : "hidden"
                   } font-semibold text-lg leading-3`}
                 >
-                  DashBoard:{" "}
+                  Ultranet:{" "}
                 </span>
                 <p
                   id="textClicked"
                   className="font-normal text-lg leading-3 focus:outline-none hover:bg-gray-800 duration-100 cursor-pointer "
                 >
-                  {text ? text : "Dashboard"}
+                  {text ? text : "Ultranet"}
                 </p>
               </div>
               <svg
@@ -246,31 +246,31 @@ const NavBar = () => {
                 } font-normal text-base leading-4 absolute top-2  w-full rounded shadow-md`}
               >
                 <li
-                  onClick={() => setSelectedText("Arts")}
+                  onClick={() => setSelectedText("Offers")}
                   className="px-4 py-3 text-gray-600 bg-gray-50 border border-gray-50 focus:outline-none focus:bg-gray-100 hover:bg-gray-100 duration-100 cursor-pointer text-xs leading-3 font-normal"
                 >
                   Offers
                 </li>
                 <li
-                  onClick={() => setSelectedText("Space")}
+                  onClick={() => setSelectedText("Home")}
                   className="px-4 py-3 text-gray-600 bg-gray-50 border border-gray-50 focus:outline-none focus:bg-gray-100 hover:bg-gray-100 duration-100 cursor-pointer text-xs leading-3 font-normal"
                 >
                   Home
                 </li>
                 <li
-                  onClick={() => setSelectedText("Game")}
+                  onClick={() => setSelectedText("Business")}
                   className="px-4 py-3 text-gray-600 bg-gray-50 border border-gray-50 focus:outline-none focus:bg-gray-100 hover:bg-gray-100 duration-100 cursor-pointer text-xs leading-3 font-normal"
                 >
                   Business
                 </li>
                 <li
-                  onClick={() => setSelectedText("Utility")}
+                  onClick={() => setSelectedText(" FAQ's")}
                   className="px-4 py-3 text-gray-600 bg-gray-50 border border-gray-50 focus:outline-none focus:bg-gray-100 hover:bg-gray-100 duration-100 cursor-pointer text-xs leading-3 font-normal"
                 >
                   FAQ's
                 </li>
                 <li
-                  onClick={() => setSelectedText("Cards")}
+                  onClick={() => setSelectedText(" How To UltraNet Work's")}
                   className="px-4 py-3 text-gray-600 bg-gray-50 border border-gray-50 focus:outline-none focus:bg-gray-100 hover:bg-gray-100 duration-100 cursor-pointer text-xs leading-3 font-normal"
                 >
                   How To UltraNet Work's

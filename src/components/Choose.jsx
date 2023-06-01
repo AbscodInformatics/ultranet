@@ -7,34 +7,8 @@ import { FaRupeeSign, FaHome } from "react-icons/fa";
 import { motion, useAnimation } from "framer-motion";
 
 const Choose = () => {
-  const controls = useAnimation();
 
-  useEffect(() => {
-    const options = {
-      root: null, // Use the viewport as the root element
-      rootMargin: "0px",
-      threshold: 0.2, // Trigger animation when 50% of the grid container is visible
-    };
-
-    const handleIntersection = (entries) => {
-      entries.forEach((entry) => {
-        if (entry.isIntersecting) {
-          controls.start({ opacity: 1, y: 0 });
-        }
-      });
-    };
-
-    // Create a new Intersection Observer instance
-    const observer = new IntersectionObserver(handleIntersection, options);
-
-    // Observe the grid container element
-    observer.observe(document.querySelector(".grid-container"));
-
-    // Cleanup the observer when component unmounts
-    return () => {
-      observer.disconnect();
-    };
-  }, []);
+ 
   return (
     <div className="bg-black">
       <div className=" flex py-5 text-white justify-center gap-5 flex-col items-center">
@@ -44,10 +18,10 @@ const Choose = () => {
           performance tweaks!
         </div>
       </div>
-      <div className="grid grid-cols-3 mx-[8%] gap-8 py-12 px-4">
+      <div className="grid  md:grid-cols-3 mx-[8%] gap-8 py-12 px-4">
         <motion.div
-          initial={{ scale: 0 }}
-          whileInView={{ scale: 1 }}
+          initial={{ scale: 0, duration: 0 }}
+          whileInView={{ scale: 1, duration: 75 }}
           className="text-white bg-gradient-to-r px-7 py-16 rounded-3xl from-[#e10000] via-[#cc3737] to-[#6c0505] max-w-sm flex flex-col gap-10 dark:bg-gray-800 shadow "
         >
           <div className="sm:text-4xl text-3xl font-semibold leading-8 text-gray-800 dark:text-gray-100">
@@ -59,10 +33,9 @@ const Choose = () => {
             packages at all times
           </div>
         </motion.div>
-        {/* <motion.div animate={{ opacity: isVisible ? 1 : 0 }} /> */}
         <motion.div
-          initial={{ scale: 0 }}
-          whileInView={{ scale: 1 }}
+          initial={{ scale: 0, duration: 0 }}
+          whileInView={{ scale: 1, duration: 75 }}
           className="grid-container text-white bg-gradient-to-r px-7 py-16 rounded-3xl from-[#e10000] via-[#cc3737] to-[#6c0505] max-w-sm flex flex-col gap-10 dark:bg-gray-800 shadow "
         >
           <div className="sm:text-4xl text-3xl font-semibold leading-8 text-gray-800 dark:text-gray-100">
@@ -75,8 +48,8 @@ const Choose = () => {
           </div>
         </motion.div>{" "}
         <motion.div
-          initial={{ scale: 0 }}
-          whileInView={{ scale: 1 }}
+          initial={{ scale: 0, duration: 0 }}
+          whileInView={{ scale: 1, duration: 75 }}
           className="text-white bg-gradient-to-r px-7 py-16 rounded-3xl from-[#e10000] via-[#cc3737] to-[#6c0505] max-w-sm flex flex-col gap-10 dark:bg-gray-800 shadow "
         >
           <div className="sm:text-4xl text-3xl font-semibold leading-8 text-gray-800 dark:text-gray-100">
@@ -89,8 +62,10 @@ const Choose = () => {
           </div>
         </motion.div>
         <motion.div
-          initial={{ scale: 0 }}
-          whileInView={{ scale: 1 }} className="text-white bg-gradient-to-r px-7 py-16 rounded-3xl from-[#e10000] via-[#cc3737] to-[#6c0505] max-w-sm flex flex-col gap-10 dark:bg-gray-800 shadow ">
+          initial={{ scale: 0, duration: 0 }}
+          whileInView={{ scale: 1, duration: 75 }}
+          className="text-white bg-gradient-to-r px-7 py-16 rounded-3xl from-[#e10000] via-[#cc3737] to-[#6c0505] max-w-sm flex flex-col gap-10 dark:bg-gray-800 shadow "
+        >
           <div className="sm:text-4xl text-3xl font-semibold leading-8 text-gray-800 dark:text-gray-100">
             <FaRupeeSign color="white" />
           </div>
@@ -101,8 +76,8 @@ const Choose = () => {
           </div>
         </motion.div>
         <motion.div
-          initial={{ scale: 0 }}
-          whileInView={{ scale: 1 }}
+          initial={{ scale: 0, duration: 0 }}
+          whileInView={{ scale: 1, duration: 75 }}
           className="text-white bg-gradient-to-r px-7 py-16 rounded-3xl from-[#e10000] via-[#cc3737] to-[#6c0505] max-w-sm flex flex-col gap-10 dark:bg-gray-800 shadow "
         >
           <div className="sm:text-4xl text-3xl font-semibold leading-8 text-gray-800 dark:text-gray-100">
@@ -115,10 +90,8 @@ const Choose = () => {
           </div>
         </motion.div>
         <motion.div
-          initial={{ scale: 0 }}
-          whileInView={{ scale: 1 }}
-          //   initial={{ opacity: 0, y: -100 }} // Initial animation values
-          //   animate={controls}
+          initial={{ scale: 0, duration: 0 }}
+          whileInView={{ scale: 1, duration: 75 }}
           className="text-white bg-gradient-to-r px-7 py-16 rounded-3xl from-[#e10000] via-[#cc3737] to-[#6c0505] max-w-sm flex flex-col gap-10 dark:bg-gray-800 shadow "
         >
           <div className="sm:text-4xl text-3xl font-semibold leading-8 text-gray-800 dark:text-gray-100">

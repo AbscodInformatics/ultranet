@@ -1,12 +1,13 @@
 import React from 'react'
 import {BiRupee} from "react-icons/bi"
+import { motion, useAnimation } from "framer-motion";
 
 const Plan = () => {
   return (
-    <div className="bg-black">
-      <div>
+    <div className="bg-black md:pb-5">
+     
         <div className=" flex py-5 text-white justify-center gap-5 flex-col items-center">
-          <div className="text-3xl  text-white">
+          <div className="md:text-3xl  text-xl text-white">
             INFINITE FIBRE BROADBAND PLANS
           </div>
           <div className="gap-5 flex">
@@ -18,10 +19,11 @@ const Plan = () => {
             </button>
           </div>
         </div>
-      </div>
-      <div>
-        <div className="grid grid-cols-3 mx-[5%]  bg-[black]">
-          <div className="flex justify-center md:flex-row flex-col mx-auto gap-10 mt-3">
+     
+        <div className="flex flex-wrap mx-[5%]  bg-[black]">
+          <motion.div
+          initial={{ scale: 0, duration: 0 }}
+          whileInView={{ scale: 1, duration: 75 }} className="flex justify-center md:flex-row flex-col mx-auto gap-10 mt-3">
             <div className="flex items-center  justify-center py-8 px-4">
               <div className="md:w-[400px] flex flex-col gap-7 shadow-lg  rounded-[20px] pb-10 dark:bg-gray-800 bg-white">
                 <h1 className=" text-[white] py-3 rounded-t-[20px] bg-gradient-to-r from-[#e10000] via-[#cc3737] to-[#6c0505] dark:text-gray-100  text-center font-bold text-xl  pl-3">
@@ -44,8 +46,10 @@ const Plan = () => {
                 </div>
               </div>
             </div>
-          </div>
-          <div className="flex justify-center md:flex-row flex-col mx-auto gap-10 mt-3">
+          </motion.div>
+          <motion.div
+          initial={{ scale: 0, duration: 0 }}
+          whileInView={{ scale: 1, duration: 75 }} className="flex justify-center md:flex-row flex-col mx-auto gap-10 mt-3">
             <div className="flex items-center  justify-center py-8 px-4">
               <div className="md:w-[400px] flex flex-col gap-7 shadow-lg  rounded-[20px] pb-10 dark:bg-gray-800 bg-white">
                 <h1 className=" text-[white] py-3 rounded-t-[20px] bg-gradient-to-r from-[#e10000] via-[#cc3737] to-[#6c0505] dark:text-gray-100  text-center font-bold text-xl  pl-3">
@@ -69,8 +73,10 @@ const Plan = () => {
                 </div>
               </div>
             </div>
-          </div>
-          <div className="flex justify-center md:flex-row flex-col mx-auto gap-10 mt-3">
+          </motion.div>
+          <motion.div
+          initial={{ scale: 0, duration: 0 }}
+          whileInView={{ scale: 1, duration: 75 }} className="flex justify-center md:flex-row flex-col mx-auto gap-10 mt-3">
             <div className="flex items-center  justify-center py-8 px-4">
               <div className="md:w-[400px] flex flex-col gap-7 shadow-lg  rounded-[20px] pb-10 dark:bg-gray-800 bg-white">
                 <h1 className=" text-[white] py-3 rounded-t-[20px] bg-gradient-to-r from-[#e10000] via-[#cc3737] to-[#6c0505] dark:text-gray-100  text-center font-bold text-xl  pl-3">
@@ -94,7 +100,7 @@ const Plan = () => {
                 </div>
               </div>
             </div>
-          </div>
+          </motion.div>
           <style>
             {`
     * {
@@ -153,7 +159,7 @@ const Plan = () => {
     `}
           </style>
         </div>
-      </div>
+      
     </div>
   );
 }

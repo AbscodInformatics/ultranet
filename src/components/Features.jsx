@@ -4,7 +4,7 @@ const Features = () => {
   return (
     <div className=" py-[5%] text-white bg-black">
       <div className=" flex justify-center gap-5 flex-col items-center">
-        <div className="text-3xl text-center text-white">
+        <div className="text-3xl text-center mx-1 md:mx-0 text-white">
           HOW ULTRANET IS DIFFERENT
         </div>
         <div className="text-xl text-justify mt-[2%] mx-[5%]">
