@@ -1,23 +1,26 @@
 import React from "react";
+import { FaInstagramSquare } from "react-icons/fa";
+import { Link } from "react-router-dom";
+import { ImLinkedin2, ImFacebook } from "react-icons/im";
+import { BsYoutube ,BsTwitter} from "react-icons/bs";
 
 const Footer = () => {
   return (
-    <div className="bg-black">
+    <div className="">
       <div className=" px-4">
         <div className=" mx-auto py-12 lg:px-20  md:px-6 px-4 lg:max-w-[1440px] md:max-w-[744px] max-w-[375px] bg-white">
           <div className="flex lg:flex-row md:flex-col flex-col gap-8 w-full">
             <div className="w-full">
               <img
-                className=" w-full   "
-                src="/contactus.png"
+                className=" w-full mt-5 object-cover "
+                src="/contactus1.png"
                 alt="map-lg"
               />
-              
             </div>
             <div className="lg:max-w-[624px] w-full">
-              <p className="lg:text-4xl text-3xl font-semibold leading-9 text-gray-800 mb-6 ">
+              <div className="text-5xl font-bold text-center mx-1 md:mx-0 bg-gradient-to-r from-teal-500 via-blue-500 to-pink-500 text-transparent bg-clip-text ">
                 Contact Us
-              </p>
+              </div>
               <p className="text-base leading-none text-white mb-8">
                 We are always here to help in whatever way we can
               </p>
@@ -69,14 +72,14 @@ const Footer = () => {
                 placeholder="Type your message here."
                 defaultValue={""}
               />
-              <button className="bg-gradient-to-r rounded-3xl from-[#e10000] via-[#f03e3e] to-[#1c0303] text-base font-medium leading-none text-white bg-gray-800 w-full py-4 hover:bg-gray-700 bg-transform duration-300">
+              <button className="hover:bg-gradient-to-r bg-[#071343] px-8 text-lg py-3 hover:from-pink-500 hover:via-red-500 hover:to-yellow-500 text-white font-medium rounded transition duration-300 ">
                 Send
               </button>
             </div>
           </div>
-          <div className="bg-black mt-10">
+          <div className="hover:bg-gradient-to-r bg-[#071343] px-8 text-lg py-3 hover:from-pink-500 hover:via-red-500 hover:to-yellow-500  transition duration-0 ease-in hover:ease-in mt-10">
             <div className="px-3 py-12">
-              <div className="lg:max-w-[1280px] md:max-w-[696px] w-full mx-auto bg-[#e10000] lg:px-10 md:px-6 px-4 py-7">
+              <div className="lg:max-w-[1280px] md:max-w-[696px] w-full mx-auto bg-[#071343] lg:px-10 md:px-6 px-4 py-7">
                 <div className="grid lg:grid-cols-4 md:grid-cols-3 grid-cols-1">
                   <div className="text-white ">
                     <p className="text-xl font-semibold e ">About us</p>
@@ -263,18 +266,41 @@ const Footer = () => {
                         Follow Us
                       </p>
                       <div className="flex gap-4 pt-4">
-                        <img
-                          src="https://tuk-cdn.s3.amazonaws.com/can-uploader/Facebook.png"
-                          alt="facebook"
-                        />
-                        <img
-                          src="https://tuk-cdn.s3.amazonaws.com/can-uploader/Instagram%20%281%29.png"
-                          alt="insta"
-                        />
-                        <img
-                          src="https://tuk-cdn.s3.amazonaws.com/can-uploader/Twitter.png"
-                          alt="twitter"
-                        />
+                        <div className="my-auto ">
+                          <ul className="flex  ">
+                            <li className="w-10 hover:scale-[1.55]  duration-500 h-10 rounded-full bg-[#0077B5]  flex justify-center content-center items-center text-white m-2">
+                              <Link to="" className="mx-5">
+                                <ImLinkedin2 className="" />
+                              </Link>
+                            </li>
+                            <li className="hover:scale-[1.55]  duration-500 w-10 h-10 rounded-full bg-[#3b5998]  flex justify-center items-center text-white m-2">
+                              <Link to="" className="mx-5">
+                                <ImFacebook className="" />
+                              </Link>
+                            </li>
+                            <li className="hover:scale-[1.55]  duration-500 w-10 h-10 rounded-full bg-[#00acee]  flex justify-center items-center text-white m-2">
+                              <Link to="" className="mx-5">
+                                <BsTwitter className="" />
+                              </Link>
+                            </li>
+                            <li className="hover:scale-[1.55]  duration-500 w-10 h-10 rounded-full bg-[#c4302b]  flex justify-center items-center text-white m-2">
+                              <Link to="" className="mx-5 ">
+                                <BsYoutube className="text-white" />
+                              </Link>
+                            </li>
+                            <li
+                              className="hover:scale-[1.55]  duration-500 w-10 h-10 rounded-full   flex justify-center items-center text-white m-2"
+                              style={{
+                                background:
+                                  "radial-gradient(circle farthest-corner at 35% 90%, #fec564, transparent 50%), radial-gradient(circle farthest-corner at 0 140%, #fec564, transparent 50%), radial-gradient(ellipse farthest-corner at 0 -25%, #5258cf, transparent 50%), radial-gradient(ellipse farthest-corner at 20% -50%, #5258cf, transparent 50%), radial-gradient(ellipse farthest-corner at 100% 0, #893dc2, transparent 50%), radial-gradient(ellipse farthest-corner at 60% -20%, #893dc2, transparent 50%), radial-gradient(ellipse farthest-corner at 100% 100%, #d9317a, transparent), linear-gradient(#6559ca, #bc318f 30%, #e33f5f 50%, #f77638 70%, #fec66d 100%)",
+                              }}
+                            >
+                              <Link to="" className="mx-5 ">
+                                <FaInstagramSquare className="text-white" />
+                              </Link>
+                            </li>
+                          </ul>
+                        </div>
                       </div>
                     </div>
                   </div>
@@ -293,8 +319,9 @@ const Footer = () => {
                       alt="copywrite"
                       className="text-white"
                     />
-                    <p className="text-sm e text-white">All Rights Reserved</p>
-                    <p className="text-sm e text-white">@ ULTRANET.</p>
+                    <p className="text-sm e text-white">
+                      Copyright : 2021, UltraNet. All Rights Reserved.
+                    </p>
                   </div>
                 </div>
               </div>

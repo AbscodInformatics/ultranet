@@ -28,7 +28,7 @@ const Testimonials = () => {
           className="mySwiper"
         >
           <SwiperSlide>
-            <div className="lg:max-w-[784px] mt-20 py-10 md:max-w-[716px] max-w-[475px] mx-auto bg-[#e10000] text-white lg:px-10 md:px-6 px-4  rounded-lg">
+            <div className="lg:max-w-[784px] mt-20 py-10 md:max-w-[716px] max-w-[475px] mx-auto bg-[#e10000] text-white lg:px-10 md:px-6 px-4  rounded-xl">
               <div className="flex justify-center  text-3xl text-[#e10000]  -mt-[12%] items-center">
                 <div className="w-28 h-28 rounded-full  text-center pt-[5%] font-bold bg-white">
                   S G
@@ -59,7 +59,7 @@ const Testimonials = () => {
             </div>
           </SwiperSlide>
           <SwiperSlide>
-            <div className="lg:max-w-[784px] mt-20 py-10 md:max-w-[716px] max-w-[475px] mx-auto bg-[#e10000] text-white lg:px-10 md:px-6 px-4  rounded-lg">
+            <div className="lg:max-w-[784px] mt-20 py-10 md:max-w-[716px] max-w-[475px] mx-auto bg-[#e10000] text-white lg:px-10 md:px-6 px-4  rounded-xl">
               <div className="flex justify-center  text-3xl text-[#e10000]  -mt-[12%] items-center">
                 <div className="w-28 h-28 rounded-full  text-center pt-[5%] font-bold bg-white">
                  N B
@@ -91,7 +91,7 @@ const Testimonials = () => {
             </div>
           </SwiperSlide>
           <SwiperSlide>
-            <div className="lg:max-w-[784px] mt-20 py-10 md:max-w-[716px] max-w-[475px] mx-auto bg-[#e10000] text-white lg:px-10 md:px-6 px-4  rounded-lg">
+            <div className="lg:max-w-[784px] mt-20 py-10 md:max-w-[716px] max-w-[475px] mx-auto bg-[#e10000] text-white lg:px-10 md:px-6 px-4  rounded-xl">
               <div className="flex justify-center  text-3xl text-[#e10000]  -mt-[12%] items-center">
                 <div className="w-28 h-28 rounded-full  text-center pt-[5%] font-bold bg-white">
                  R R
@@ -123,7 +123,7 @@ const Testimonials = () => {
             </div>
           </SwiperSlide>
           <SwiperSlide>
-            <div className="lg:max-w-[784px] mt-20 py-10 md:max-w-[716px] max-w-[475px] mx-auto bg-[#e10000] text-white lg:px-10 md:px-6 px-4  rounded-lg">
+            <div className="lg:max-w-[784px] mt-20 py-10 md:max-w-[716px] max-w-[475px] mx-auto bg-[#e10000] text-white lg:px-10 md:px-6 px-4  rounded-xl">
               <div className="flex justify-center  text-3xl text-[#e10000]  -mt-[12%] items-center">
                 <div className="w-28 h-28 rounded-full  text-center pt-[5%] font-bold bg-white">
                  R S
@@ -155,7 +155,7 @@ const Testimonials = () => {
             </div>
           </SwiperSlide>
           <SwiperSlide>
-            <div className="lg:max-w-[784px] mt-20 py-10 md:max-w-[716px] max-w-[475px] mx-auto bg-[#e10000] text-white lg:px-10 md:px-6 px-4  rounded-lg">
+            <div className="lg:max-w-[784px] mt-20 py-10 md:max-w-[716px] max-w-[475px] mx-auto bg-[#e10000] text-white lg:px-10 md:px-6 px-4  rounded-xl">
               <div className="flex justify-center  text-3xl text-[#e10000]  -mt-[12%] items-center">
                 <div className="w-28 h-28 rounded-full  text-center pt-[5%] font-bold bg-white">
                 S V
@@ -188,7 +188,7 @@ const Testimonials = () => {
             </div>
           </SwiperSlide>
           <SwiperSlide>
-            <div className="lg:max-w-[784px] mt-20 py-10 md:max-w-[716px] max-w-[475px] mx-auto bg-[#e10000] text-white lg:px-10 md:px-6 px-4  rounded-lg">
+            <div className="lg:max-w-[784px] mt-20 py-10 md:max-w-[716px] max-w-[475px] mx-auto bg-[#e10000] text-white lg:px-10 md:px-6 px-4  rounded-xl">
               <div className="flex justify-center  text-3xl text-[#e10000]  -mt-[12%] items-center">
                 <div className="w-28 h-28 rounded-full  text-center pt-[5%] font-bold bg-white">
                 T J

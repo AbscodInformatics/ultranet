@@ -29,8 +29,8 @@ const PlanFilter = () => {
   };
 
   return (
-    <div className="bg-black py-5">
-      <div className="flex w-[700px] mt-5 mx-auto text-xl bg-white h-16 justify-center gap-10 items-center ">
+    <div className=" py-5">
+      <div className="flex w-[700px] mt-5 mx-auto text-xl rounded-xl bg-[#071343] h-16 justify-center gap-10 items-center ">
         <button
           className={`tab active:bg-[##af0d0d] p-4 hover:text-white  rounded-lg focus:bg-[#af0d0d]  hover:bg-[#af0d0d] ${
             activeTab === "monthly" ? "active" : ""

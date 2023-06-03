@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import {BsRouterFill} from "react-icons/bs"
 import { IoMdArrowDropup } from "react-icons/io";
+import { Link } from "react-router-dom";
 
 const NavBar = () => {
   let arr = [true, false, false, false, false, false];
@@ -47,97 +48,27 @@ const NavBar = () => {
   };
 
   return (
-    <div>
-      <div className="bg-[#e10000] md:bg-white h-16">
-        <div className="bg-[#e10000] h-1"></div>
-        <ul className="pr-12 md:flex items-center justify-center h-full hidden">
-          <li>
-            <a
-              href=""
-              className="focus:outline-none  border-transparent font-medium cursor-pointer h-full flex items-center  md:hover:text-[#e10000] text-lg text-white md:text-gray-800 tracking-normal border-b-2 border-white"
-            >
-              New Connetion
-            </a>
-          </li>
-          <li>
-            <a
-              href=""
-              className="focus:outline-none border-b-2 border-transparent font-medium cursor-pointer h-full flex items-center text-white md:hover:text-[#e10000] text-lg md:text-gray-800 mx-6 tracking-normal"
-            >
-              Speed Test
-            </a>
-          </li>
-          <li>
-            <a
-              href=""
-              className="focus:outline-none border-b-2 border-transparent font-medium cursor-pointer h-full flex items-center text-white md:hover:text-[#e10000] text-lg md:text-gray-800 mr-6 tracking-normal"
-            >
-              Contact Us
-            </a>
-          </li>
-          <li>
-            <a
-              href=""
-              className="focus:outline-none border-b-2 border-transparent font-medium cursor-pointer h-full flex items-center text-black md:hover:text-[#e10000] text-lg md:text-gray-800 mr-6 tracking-normal"
-            >
-              My Account
-            </a>
-          </li>
-          <li>
-            <a
-              href=""
-              className="focus:outline-none border-b-2 border-transparent font-medium cursor-pointer h-full flex items-center text-white md:hover:text-[#e10000] text-lg md:text-gray-800 mr-6 tracking-normal"
-            >
-              Quick Pay!
-            </a>
-          </li>
-        </ul>
-      </div>
-      <div className="2xl:container bg-black 2xl:mx-auto">
-        <div className="rounded bg-black shadow-lg py-5 px-7">
-          <nav className="flex justify-between ">
+    <div className="fixed w-full z-10">
+      <div className="2xl:container bg-white 2xl:mx-auto">
+        <div className="rounded bg-white shadow-lg py-2 px-7">
+          <nav className="flex justify-around items-center ">
             <div className="flex items-center  lg:pr-16 pr-6">
               <img src="/UltranetLogo.png" className="w-40 " />
             </div>
             {/* For medium and plus sized devices */}
             <ul className="pr-12 md:flex items-center  gap-10 h-full hidden">
               <li>
-                <a
-                  onMouseEnter={handleHover}
-                  onMouseLeave={handleLeave}
-                  className="focus:outline-none text-lg border-transparent font-medium cursor-pointer h-full flex items-center hover:text-[#e10000]  text-white tracking-normal border-b-2 border-white"
-                >
-                  Offers
-                </a>
-                {showDialog && (
-                  <div className="absolute flex mt-5 justify-evenly text-lg px-10 py-7 w-[500px] bg-white p-4 rounded-3xl shadow-lg">
-                    <div className="-mt-10 text-white  -ml-10">
-                      <IoMdArrowDropup size={30} />
-                    </div>
-                    <p className="flex items-center gap-3">
-                      <BsRouterFill /> Delhi
-                    </p>
-                    <p>|</p>
-                    <p className="flex items-center gap-3">
-                      {" "}
-                      <BsRouterFill />
-                      Rest Of India
-                    </p>
-                  </div>
-                )}
-              </li>
-              <li>
-                <a
-                  href=""
+                <Link
+                  to="/"
                   onMouseEnter={handleHover1}
                   onMouseLeave={handleLeave1}
-                  className="focus:outline-none border-b-2 border-transparent font-medium cursor-pointer h-full flex items-center hover:text-[#e10000] text-lg text-white mx-6 tracking-normal"
+                  className="focus:outline-none border-b-2 border-transparent font-medium cursor-pointer h-full flex items-center hover:text-[#e10000] text-lg text-black mx-6 tracking-normal"
                 >
                   Home
-                </a>
+                </Link>
                 {showDialog1 && (
                   <div className="absolute flex mt-5 justify-evenly text-lg px-10 py-7 w-[500px] bg-white p-4 rounded-3xl shadow-lg">
-                    <div className="-mt-10 text-white  -ml-10">
+                    <div className="-mt-10 text-black  -ml-10">
                       <IoMdArrowDropup size={30} />
                     </div>
                     <p className="flex items-center gap-3">
@@ -153,17 +84,44 @@ const NavBar = () => {
                 )}
               </li>
               <li>
-                <a
-                  href=""
+                <Link
+                  to="/Home"
+                  onMouseEnter={handleHover}
+                  onMouseLeave={handleLeave}
+                  className="focus:outline-none text-lg border-transparent font-medium cursor-pointer h-full flex items-center hover:text-[#e10000]  text-black tracking-normal border-b-2 "
+                >
+                  Offers
+                </Link>
+                {showDialog && (
+                  <div className="absolute flex mt-5 justify-evenly text-lg px-10 py-7 w-[500px] bg-white p-4 rounded-3xl shadow-lg">
+                    <div className="-mt-10 text-black  -ml-10">
+                      <IoMdArrowDropup size={30} />
+                    </div>
+                    <p className="flex items-center gap-3">
+                      <BsRouterFill /> Delhi
+                    </p>
+                    <p>|</p>
+                    <p className="flex items-center gap-3">
+                      {" "}
+                      <BsRouterFill />
+                      Rest Of India
+                    </p>
+                  </div>
+                )}
+              </li>
+
+              <li>
+                <Link
+                  to="/Business"
                   onMouseEnter={handleHover2}
                   onMouseLeave={handleLeave2}
-                  className="focus:outline-none border-b-2 border-transparent font-medium cursor-pointer h-full flex items-center hover:text-[#e10000] text-lg text-white mr-6 tracking-normal"
+                  className="focus:outline-none border-b-2 border-transparent font-medium cursor-pointer h-full flex items-center hover:text-[#e10000] text-lg text-black mr-6 tracking-normal"
                 >
                   Business
-                </a>
+                </Link>
                 {showDialog2 && (
                   <div className="absolute flex mt-5 justify-evenly text-lg px-10 py-7 w-[500px] bg-white p-4 rounded-3xl shadow-lg">
-                    <div className="-mt-10 text-white  -ml-10">
+                    <div className="-mt-10 text-black  -ml-10">
                       <IoMdArrowDropup size={30} />
                     </div>
                     <p className="flex items-center gap-3">
@@ -179,28 +137,31 @@ const NavBar = () => {
                 )}
               </li>
               <li>
-                <a
-                  href=""
-                  className="focus:outline-none border-b-2 border-transparent font-medium cursor-pointer h-full flex items-center hover:text-[#e10000] text-lg text-white mr-6 tracking-normal"
+                <Link
+                  to="/FAQs"
+                  className="focus:outline-none border-b-2 border-transparent font-medium cursor-pointer h-full flex items-center hover:text-[#e10000] text-lg text-black mr-6 tracking-normal"
                 >
                   FAQ's
-                </a>
+                </Link>
               </li>
               <li>
-                <a
-                  href=""
-                  className="focus:outline-none border-b-2 border-transparent font-medium cursor-pointer h-full flex items-center hover:text-[#e10000] text-lg text-white mr-6 tracking-normal"
+                <Link
+                  to="/"
+                  className="focus:outline-none border-b-2 border-transparent font-medium cursor-pointer h-full flex items-center hover:text-[#e10000] text-lg text-black mr-6 tracking-normal"
                 >
                   How To UltraNet Work's
-                </a>
+                </Link>
               </li>
             </ul>
+            <button className="text-lg font-semibold bg-gradient-to-r from-red-500 via-yellow-500 to-red-500   px-10 py-4 text-center uppercase transition duration-500 ease-in-out bg-no-repeat bg-size-200% text-white hover:bg-gradient-to-r hover:from-red-300 hover:via-yellow-400 hover:to-red-500 shadow-lg rounded-lg">
+              Buy Now
+            </button>
           </nav>
           {/* for smaller devcies */}
           <div className="block md:hidden w-full mt-5 ">
             <div
               onClick={() => setDropDown(!dropDown)}
-              className="cursor-pointer px-4 py-3 text-white bg-[#e10000] rounded flex justify-between items-center w-full"
+              className="cursor-pointer px-4 py-3 text-black bg-[#e10000] rounded flex justify-between items-center w-full"
             >
               <div className="flex space-x-2">
                 <span

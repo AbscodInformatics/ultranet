@@ -2,10 +2,10 @@ import React from 'react'
 
 const Home = () => {
   return (
-    <div>
+    <div className='pt-[7%]'>
       <div
         className="bg-black  w-auto mx-auto h-[20vh] md:h-[30vh] lg:h-[85vh] bg-contain bg-no-repeat"
-        style={{ backgroundImage: `url("/HomeFttp.png")` }}
+        style={{ backgroundImage: `url("/HomeFttp.png")`}}
       ></div>
       <div className="py-[5%]">
         <div>
