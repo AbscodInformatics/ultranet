@@ -23,7 +23,7 @@ const Home = () => {
       }
     };
   return (
-    <div className=" pt-[10%]">
+    <div className=" pt-[3%]">
       <div>
         <Swiper
           loop={true}
@@ -58,21 +58,28 @@ const Home = () => {
         </Swiper>
       </div>
       <div>
-        <div className="bg-black py-7">
-          <h1 className='text-white text-5xl mt-5 text-center'>Home Broadband</h1>
+        <div className=" py-7">
+        
+          <div className="text-5xl font-bold text-center mx-1 md:mx-0 bg-gradient-to-r from-teal-500 via-blue-500 to-pink-500 text-transparent bg-clip-text ">
+            Home Broadband
+         
+          </div>
           <div className="flex w-[500px] my-5 mx-auto text-xl rounded-xl bg-white h-16 justify-center gap-10 items-center ">
             <button
-              className={`tab active:bg-[##af0d0d] p-4 hover:text-white  rounded-lg focus:bg-[#af0d0d]  hover:bg-[#af0d0d] ${
-                activeTab === "monthly" ? "active" : ""
+              className={`tab hover:bg-gradient-to-r bg-[#071343] px-8 text-lg py-3 hover:from-pink-500 hover:via-red-500 hover:to-yellow-500 text-white font-medium rounded transition duration-300 ${
+                activeTab === "monthly"
+                  ? "active bg-gradient-to-r from-[#ee9ca7] to-[#2980B9]"
+                  : ""
               }`}
               onClick={() => handleTabChange("monthly")}
             >
               Business BroadBand
             </button>
-            <span className="text-[30px]">|</span>
             <button
-              className={`tab active:bg-[##af0d0d] hover:text-white  rounded-lg p-4 focus:bg-[#af0d0d] hover:bg-[#af0d0d] ${
-                activeTab === "threemonth" ? "active" : ""
+              className={`tab hover:bg-gradient-to-r bg-[#071343] px-8 text-lg py-3 hover:from-pink-500 hover:via-red-500 hover:to-yellow-500 text-white font-medium rounded transition duration-300 ${
+                activeTab === "threemonth"
+                  ? "active bg-gradient-to-r from-[#ee9ca7] to-[#2980B9]"
+                  : ""
               }`}
               onClick={() => handleTabChange("threemonth")}
             >

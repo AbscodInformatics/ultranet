@@ -10,7 +10,7 @@ const HeroPage = () => {
     //   className="bg-black  w-auto mx-auto h-[20vh] md:h-[30vh] lg:h-[85vh] bg-contain bg-no-repeat"
     //   style={{ backgroundImage: `url("/banner2.png")` }}
     // ></div>
-    <div className="pt-[5%]">
+    <div className="pt-[3%]">
       <Swiper
         loop={true}
         autoplay={{

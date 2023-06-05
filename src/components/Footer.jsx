@@ -1,23 +1,31 @@
-import React from "react";
+import React, { useState, useEffect } from "react";
 import { FaInstagramSquare } from "react-icons/fa";
 import { Link } from "react-router-dom";
 import { ImLinkedin2, ImFacebook } from "react-icons/im";
-import { BsYoutube ,BsTwitter} from "react-icons/bs";
+import { BsYoutube, BsTwitter } from "react-icons/bs";
+
+import { motion } from "framer-motion";
+import AOS from "aos";
+import "aos/dist/aos.css";
+
+
 
 const Footer = () => {
+
+
   return (
-    <div className="">
+    <div id="contact" className="pt-[3%]">
       <div className=" px-4">
         <div className=" mx-auto py-12 lg:px-20  md:px-6 px-4 lg:max-w-[1440px] md:max-w-[744px] max-w-[375px] bg-white">
           <div className="flex lg:flex-row md:flex-col flex-col gap-8 w-full">
-            <div className="w-full">
+            <div data-aos="fade-up-right" className="w-full">
               <img
                 className=" w-full mt-5 object-cover "
                 src="/contactus1.png"
                 alt="map-lg"
               />
             </div>
-            <div className="lg:max-w-[624px] w-full">
+            <div data-aos="fade-up-left" className="lg:max-w-[624px] w-full">
               <div className="text-5xl font-bold text-center mx-1 md:mx-0 bg-gradient-to-r from-teal-500 via-blue-500 to-pink-500 text-transparent bg-clip-text ">
                 Contact Us
               </div>
@@ -77,9 +85,10 @@ const Footer = () => {
               </button>
             </div>
           </div>
-          <div className="hover:bg-gradient-to-r bg-[#071343] px-8 text-lg py-3 hover:from-pink-500 hover:via-red-500 hover:to-yellow-500  transition duration-0 ease-in hover:ease-in mt-10">
+
+          <div className="hover:bg-gradient-to-r bg-[black] px-8 text-lg py-3 hover:from-pink-900 hover:via-red-500 hover:to-yellow-500  transition duration-0 ease-in hover:ease-in mt-10">
             <div className="px-3 py-12">
-              <div className="lg:max-w-[1280px] md:max-w-[696px] w-full mx-auto bg-[#071343] lg:px-10 md:px-6 px-4 py-7">
+              <div className="lg:max-w-[1280px] md:max-w-[696px] w-full mx-auto hover:bg-gradient-to-r bg-[#071343] text-lg  hover:from-pink-500 hover:via-red-500 hover:to-yellow-500 text-white font-medium  transition duration-300  lg:px-10 md:px-6 px-4 py-7">
                 <div className="grid lg:grid-cols-4 md:grid-cols-3 grid-cols-1">
                   <div className="text-white ">
                     <p className="text-xl font-semibold e ">About us</p>

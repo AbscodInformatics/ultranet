@@ -11,8 +11,9 @@ import "aos/dist/aos.css";
 const Choose = () => {
 
   AOS.init({
-    duration:3000,
+    duration:2000,
     offset:0,
+     once: true 
     
   });
  
@@ -27,6 +28,23 @@ const Choose = () => {
           performance tweaks!
         </div>
       </div>
+      {/* <motion.div
+        className="text-5xl font-bold text-center mx-1 md:mx-0 bg-gradient-to-r from-teal-500 via-blue-500 to-pink-500 text-transparent bg-clip-text"
+        animate={{
+          backgroundImage: [
+            "linear-gradient(to right, #6EE7B7, #3B82F6, #EC4899)",
+            "linear-gradient(to right, #F59E0B, #10B981, #7C3AED)",
+            "linear-gradient(to right, #F472B6, #4F46E5, #EDE9FE)",
+          ],
+        }}
+        transition={{
+          duration: 5,
+          repeat: Infinity,
+          ease: "linear",
+        }}
+      >
+        INFINITE FIBRE BROADBAND PLANS
+      </motion.div> */}
       <div className="grid  md:grid-cols-3 mx-[8%] gap-10 py-12 px-4">
         <div
           data-aos="fade-up"
@@ -155,8 +173,8 @@ const Choose = () => {
           </div>
         </div>
       </div>
-      <div>
-        <img src="/ml.png" alt="" />
+      <div className="py-[3%] mx-[8%]">
+        <img src="/ml1.png" alt="" />
       </div>
     </div>
   );

@@ -3,14 +3,14 @@ import React,{useState} from 'react'
 const FAQs = () => {
      const [question, setquestion] = useState(0);
   return (
-    <div className="bg-black">
-      <div className="pt-[9%]">
+    <div className="">
+      <div className="pt-[4%]">
         <img src="/faq.jpg" alt="" className="object-fill h-[80vh] w-full" />
       </div>
       <div>
-        <div className="pt-16">
-          <div className="container mx-auto pt-16 bg-black">
-            <div className="text-center text-white mx-[7%] p-7 rounded-3xl bg-gradient-to-t from-[#e10000] via-[#cc3737] to-[#6c0505] pb-3 md:pb-10 xl:pb-20">
+        <div className="pt-[8%] mx-[7%]">
+          <div className=" container pb-[3%] pt-16 rounded-3xl bg-[#071343]">
+            <div className="text-center text-white  p-7  bg-gradient-to-tb from-[#071343] via-[#cc3737] to-[#6c0505] pb-3 md:pb-10 xl:pb-20">
               <p className="text-white py-3 text-lg lg:text-2xl font-bold uppercase leading-tight mb-4">
                 FAQs
               </p>
@@ -29,9 +29,9 @@ const FAQs = () => {
               </p>
             </div>
             <div className="w-10/12 mx-auto">
-              <ul>
-                <li className="py-6 border-gray-200 border-solid border-b">
-                  <div className="flex bg-gradient-to-l px-4 py-2 from-[#e10000] via-[#cc3737] to-[#6c0505] justify-between items-center">
+              <ul className="">
+                <li className="group py-6 border-gray-200 border-solid border-b">
+                  <div className="flex  px-4 py-2  group-hover:bg-gradient-to-l bg-[#071343] text-lg  group-hover:from-pink-500 group-hover:via-red-500 group-hover:to-yellow-500 text-white font-medium rounded transition duration-300   justify-between items-center">
                     <h3 className="text-white  text-base  md:text-xl  xl:text-2xl w-10/12">
                       Can I have more than one IP address ?
                     </h3>
@@ -80,7 +80,7 @@ const FAQs = () => {
                     </div>
                   </div>
                   {question === 0 && (
-                    <p className="pt-2 md:pt-3  lg:pt-5 text-white bg-gradient-to-br p-4 from-[#e81414] via-[#cc3737] to-[#6c0505] text-sm md:text-base  xl:text-lg rounded-b-lg">
+                    <p className="pt-2 md:pt-3  lg:pt-5 text-white  p-4 group-hover:bg-gradient-to-t bg-[#071343] px-8  py-3 group-hover:from-pink-500 group-hover:via-red-500 group-hover:to-yellow-500 font-medium rounded transition duration-300   text-sm md:text-base  xl:text-lg rounded-b-lg">
                       Due to the current shortage in IPv4 addresses, the company
                       that supply them are limiting the number of IP addresses
                       that can be allocated, to manage those remaining. That’s
@@ -91,8 +91,8 @@ const FAQs = () => {
                     </p>
                   )}
                 </li>
-                <li className="py-6 border-gray-200 border-solid border-b">
-                  <div className="flex bg-gradient-to-l px-4 py-2 from-[#e10000] via-[#cc3737] to-[#6c0505] justify-between items-center">
+                <li className="group py-6 border-gray-200 border-solid border-b">
+                  <div className="flex group-hover:bg-gradient-to-l bg-[#071343]  text-lg  group-hover:from-pink-500 group-hover:via-red-500 group-hover:to-yellow-500 text-white font-medium rounded transition duration-300   px-4 py-2  justify-between items-center">
                     <h3 className="text-white text-base  md:text-xl  xl:text-2xl w-10/12">
                       Do you Provide consistent speed ?
                     </h3>
@@ -141,7 +141,7 @@ const FAQs = () => {
                     </div>
                   </div>
                   {question === 1 && (
-                    <p className="pt-2 md:pt-3 bg-gradient-to-br p-4 from-[#e81414] via-[#cc3737] to-[#6c0505] lg:pt-5 text-white bg-gray-100 text-sm md:text-base  xl:text-lg rounded-b-lg">
+                    <p className="pt-2 md:pt-3  p-4 group-hover:bg-gradient-to-t bg-[#071343]  text-lg  group-hover:from-pink-500 group-hover:via-red-500 group-hover:to-yellow-500 text-white font-medium rounded transition duration-300   lg:pt-5  md:text-base  xl:text-lg rounded-b-lg">
                       We provide consistent and fast speeds to you irrespective
                       of bandwidth requirements in your building. We strive to
                       constantly upgrade our speeds based on the consumption
@@ -150,8 +150,8 @@ const FAQs = () => {
                     </p>
                   )}
                 </li>
-                <li className="py-6 border-gray-200 border-solid border-b">
-                  <div className="flex bg-gradient-to-l px-4 py-2 from-[#e10000] via-[#cc3737] to-[#6c0505] justify-between items-center">
+                <li className="group py-6 border-gray-200 border-solid border-b">
+                  <div className="flex group-hover:bg-gradient-to-l bg-[#071343]  text-lg  group-hover:from-pink-500 group-hover:via-red-500 group-hover:to-yellow-500 text-white font-medium rounded transition duration-300   px-4 py-2  justify-between items-center">
                     <h3 className="text-white text-base  md:text-xl  xl:text-2xl w-10/12">
                       Do you Provide more than one IP address for me ?
                     </h3>
@@ -200,7 +200,7 @@ const FAQs = () => {
                     </div>
                   </div>
                   {question === 2 && (
-                    <p className="pt-2 md:pt-3 bg-gradient-to-br p-4 from-[#e81414] via-[#cc3737] to-[#6c0505] lg:pt-5 text-white bg-gray-100 text-sm md:text-base  xl:text-lg rounded-b-lg">
+                    <p className="group-hover:bg-gradient-to-t bg-[#071343] px-8 text-lg py-3 group-hover:from-pink-500 group-hover:via-red-500 group-hover:to-yellow-500 text-white font-medium rounded transition duration-300   pt-2 md:pt-3 bg-gradient-to-br p-4 from-[#e81414] via-[#cc3737] to-[#6c0505] lg:pt-5  md:text-base  xl:text-lg rounded-b-lg">
                       IPV4 addresses are running short, hence there is a limit
                       to how many can be assigned per customer. If you have
                       specific needs or further queries, do contact our customer
@@ -208,8 +208,8 @@ const FAQs = () => {
                     </p>
                   )}
                 </li>
-                <li className="py-6 border-gray-200 border-solid border-b">
-                  <div className="flex bg-gradient-to-l px-4 py-2 from-[#e10000] via-[#cc3737] to-[#6c0505] justify-between items-center">
+                <li className="group py-6 border-gray-200 border-solid border-b">
+                  <div className="flex group-hover:bg-gradient-to-l bg-[#071343]  text-lg  group-hover:from-pink-500 group-hover:via-red-500 group-hover:to-yellow-500 text-white font-medium rounded transition duration-300   px-4 py-2  justify-between items-center">
                     <h3 className="text-white text-base  md:text-xl  xl:text-2xl w-10/12">
                       How do I cancel my connection ?
                     </h3>
@@ -258,7 +258,7 @@ const FAQs = () => {
                     </div>
                   </div>
                   {question === 3 && (
-                    <div className="pt-2 md:pt-3 bg-gradient-to-br p-4 from-[#e81414] via-[#cc3737] to-[#6c0505] lg:pt-5 text-white bg-gray-100 text-sm md:text-base  xl:text-lg rounded-b-lg">
+                    <div className="group-hover:bg-gradient-to-t bg-[#071343] px-8  py-3 group-hover:from-pink-500 group-hover:via-red-500 group-hover:to-yellow-500 text-white font-medium rounded transition duration-300   pt-2 md:pt-3 bg-gradient-to-br p-4 from-[#e81414] via-[#cc3737] to-[#6c0505] lg:pt-5  md:text-base  xl:text-lg rounded-b-lg">
                       <p>
                         {" "}
                         In case you decide to cancel your broadband connection
@@ -282,8 +282,8 @@ const FAQs = () => {
                     </div>
                   )}
                 </li>
-                <li className="py-6 border-gray-200 border-solid border-b">
-                  <div className="flex bg-gradient-to-l px-4 py-2 from-[#e10000] via-[#cc3737] to-[#6c0505] justify-between items-center">
+                <li className="group py-6 border-gray-200 border-solid border-b">
+                  <div className="group-hover:bg-gradient-to-l bg-[#071343]  text-lg  group-hover:from-pink-500 group-hover:via-red-500 group-hover:to-yellow-500 text-white font-medium rounded transition duration-300   flex  px-4 py-2  justify-between items-center">
                     <h3 className="text-white text-base  md:text-xl  xl:text-2xl w-10/12">
                       How speedily is my new connection installed ?
                     </h3>
@@ -332,7 +332,7 @@ const FAQs = () => {
                     </div>
                   </div>
                   {question === 4 && (
-                    <p className="pt-2 md:pt-3 bg-gradient-to-br p-4 from-[#e81414] via-[#cc3737] to-[#6c0505] lg:pt-5 text-white bg-gray-100 text-sm md:text-base  xl:text-lg rounded-b-lg">
+                    <p className="group-hover:bg-gradient-to-t bg-[#071343] px-8 text-lg py-3 group-hover:from-pink-500 group-hover:via-red-500 group-hover:to-yellow-500 text-white font-medium rounded transition duration-300   pt-2 md:pt-3 bg-gradient-to-br p-4 from-[#e81414] via-[#cc3737] to-[#6c0505] lg:pt-5  md:text-base  xl:text-lg rounded-b-lg">
                       If you are an individual homeowner and are looking forward
                       to a single connection, all it takes is an hour to get you
                       connected to our broadband network. If you are looking to

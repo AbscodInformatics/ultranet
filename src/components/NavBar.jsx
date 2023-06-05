@@ -53,7 +53,7 @@ const NavBar = () => {
         <div className="rounded bg-white shadow-lg py-2 px-7">
           <nav className="flex justify-around items-center ">
             <div className="flex items-center  lg:pr-16 pr-6">
-              <img src="/UltranetLogo.png" className="w-40 " />
+              <img src="ulranetlogo.png" className="w-40 " />
             </div>
             {/* For medium and plus sized devices */}
             <ul className="pr-12 md:flex items-center  gap-10 h-full hidden">
@@ -146,16 +146,30 @@ const NavBar = () => {
               </li>
               <li>
                 <Link
-                  to="/"
+                  activeClass="active"
+                  to="contact"
+                  // spy={true}
+                  // smooth={true}
+                  // offset={-200}
+                  duration={500}
                   className="focus:outline-none border-b-2 border-transparent font-medium cursor-pointer h-full flex items-center hover:text-[#e10000] text-lg text-black mr-6 tracking-normal"
                 >
                   How To UltraNet Work's
                 </Link>
               </li>
             </ul>
-            <button className="text-lg font-semibold bg-gradient-to-r from-red-500 via-yellow-500 to-red-500   px-10 py-4 text-center uppercase transition duration-500 ease-in-out bg-no-repeat bg-size-200% text-white hover:bg-gradient-to-r hover:from-red-300 hover:via-yellow-400 hover:to-red-500 shadow-lg rounded-lg">
-              Buy Now
-            </button>
+            <Link
+              activeClass="active"
+              spy={true}
+              smooth={true}
+              offset={150}
+              duration={500}
+              to="contact"
+            >
+              <button className="text-lg font-semibold bg-gradient-to-r from-red-500 via-yellow-500 to-red-500   px-10 py-2 text-center uppercase transition duration-500 ease-in-out bg-no-repeat bg-size-200% text-white hover:bg-gradient-to-r hover:from-red-300 hover:via-yellow-400 hover:to-red-500 shadow-lg rounded-lg">
+                Buy Now
+              </button>
+            </Link>
           </nav>
           {/* for smaller devcies */}
           <div className="block md:hidden w-full mt-5 ">

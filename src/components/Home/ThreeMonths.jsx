@@ -4,19 +4,19 @@ import { motion, useAnimation } from "framer-motion";
 
 const ThreeMonths = () => {
   return (
-    <div className="bg-black md:pb-5">
-      <div className="grid grid-cols-1 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 mx-[5%]  bg-[black]">
-        <motion.div
-          initial={{ scale: 0, duration: 0 }}
-          whileInView={{ scale: 1, duration: 75 }}
-          className="flex justify-center md:flex-row flex-col mx-auto gap-10 mt-3"
+    <div className=" md:pb-5">
+      <div className="grid grid-cols-1 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 mx-[5%]  ">
+        <div
+          data-aos="fade-up"
+          data-aos-delay="200"
+          className="group flex justify-center md:flex-row flex-col mx-auto gap-10 mt-3"
         >
           <div className="flex items-center  justify-center py-8 px-4">
             <div className="md:w-[400px] flex flex-col gap-7 shadow-lg  rounded-[20px] pb-10 dark:bg-gray-800 bg-white">
-              <h1 className=" text-[white] py-3 rounded-t-[20px] bg-gradient-to-r from-[#e10000] via-[#cc3737] to-[#6c0505] dark:text-gray-100  text-center font-bold text-xl  pl-3">
+              <h1 className="pl-[7%] group-hover:bg-gradient-to-r  group-hover:from-pink-500 group-hover:via-red-500 group-hover:to-yellow-500 text-[white] py-3 rounded-t-[20px] bg-[#071343] dark:text-gray-100  text-center font-bold text-xl">
                 100 Mbps
               </h1>
-              <button className="text-xl flex justify-evenly mx-2 text-white text-center bg-gradient-to-r px-5 py-2 rounded-3xl from-[#e10000] via-[#f03e3e] to-[#1c0303] ">
+              <button className="flex justify-evenly pl-[7%] group-hover:bg-gradient-to-r  group-hover:from-pink-500 group-hover:via-red-500 group-hover:to-yellow-500 text-[white] py-3 rounded-3xl bg-[#071343] dark:text-gray-100 mx-2 text-center font-bold text-xl">
                 <span>Basic</span>
                 <span>|</span>
                 <span>OTT</span>
@@ -41,24 +41,24 @@ const ThreeMonths = () => {
               </div>
 
               <div className="flex justify-center">
-                <button className="text-xl   text-white text-center bg-gradient-to-r px-7 py-2 rounded-3xl from-[#e10000] via-[#f03e3e] to-[#1c0303] ">
+                <button className="group-hover:bg-gradient-to-r bg-[#071343] px-8 text-lg py-3 group-hover:from-pink-500 group-hover:via-red-500 group-hover:to-yellow-500 text-white font-medium rounded transition duration-300  ">
                   Choose Plan
                 </button>
               </div>
             </div>
           </div>
-        </motion.div>
-        <motion.div
-          initial={{ scale: 0, duration: 0 }}
-          whileInView={{ scale: 1, duration: 75 }}
-          className="flex justify-center md:flex-row flex-col mx-auto gap-10 mt-3"
+        </div>
+        <div
+          data-aos="fade-up"
+          data-aos-delay="200"
+          className="group flex justify-center md:flex-row flex-col mx-auto gap-10 mt-3"
         >
           <div className="flex items-center  justify-center py-8 px-4">
             <div className="md:w-[400px] flex flex-col gap-7 shadow-lg  rounded-[20px] pb-10 dark:bg-gray-800 bg-white">
-              <h1 className=" text-[white] py-3 rounded-t-[20px] bg-gradient-to-r from-[#e10000] via-[#cc3737] to-[#6c0505] dark:text-gray-100  text-center font-bold text-xl  pl-3">
+              <h1 className="pl-[7%] group-hover:bg-gradient-to-r  group-hover:from-pink-500 group-hover:via-red-500 group-hover:to-yellow-500 text-[white] py-3 rounded-t-[20px] bg-[#071343] dark:text-gray-100  text-center font-bold text-xl">
                 200 Mbps
               </h1>
-              <button className="text-xl flex justify-evenly mx-2 text-white text-center bg-gradient-to-r px-5 py-2 rounded-3xl from-[#e10000] via-[#f03e3e] to-[#1c0303] ">
+              <button className="flex justify-evenly pl-[7%] group-hover:bg-gradient-to-r  group-hover:from-pink-500 group-hover:via-red-500 group-hover:to-yellow-500 text-[white] py-3 rounded-3xl bg-[#071343] dark:text-gray-100 mx-2 text-center font-bold text-xl">
                 <span>Basic</span>
                 <span>|</span>
                 <span>OTT</span>
@@ -83,24 +83,24 @@ const ThreeMonths = () => {
               </div>
 
               <div className="flex justify-center">
-                <button className="text-xl   text-white text-center bg-gradient-to-r px-7 py-2 rounded-3xl from-[#e10000] via-[#f03e3e] to-[#1c0303] ">
+                <button className="group-hover:bg-gradient-to-r bg-[#071343] px-8 text-lg py-3 group-hover:from-pink-500 group-hover:via-red-500 group-hover:to-yellow-500 text-white font-medium rounded transition duration-300 ">
                   Choose Plan
                 </button>
               </div>
             </div>
           </div>
-        </motion.div>
-        <motion.div
-          initial={{ scale: 0, duration: 0 }}
-          whileInView={{ scale: 1, duration: 75 }}
-          className="flex justify-center md:flex-row flex-col mx-auto gap-10 mt-3"
+        </div>
+        <div
+          data-aos="fade-up"
+          data-aos-delay="200"
+          className="group flex justify-center md:flex-row flex-col mx-auto gap-10 mt-3"
         >
           <div className="flex items-center  justify-center py-8 px-4">
             <div className="md:w-[400px] flex flex-col gap-7 shadow-lg  rounded-[20px] pb-10 dark:bg-gray-800 bg-white">
-              <h1 className=" text-[white] py-3 rounded-t-[20px] bg-gradient-to-r from-[#e10000] via-[#cc3737] to-[#6c0505] dark:text-gray-100  text-center font-bold text-xl  pl-3">
+              <h1 className="pl-[7%] group-hover:bg-gradient-to-r  group-hover:from-pink-500 group-hover:via-red-500 group-hover:to-yellow-500 text-[white] py-3 rounded-t-[20px] bg-[#071343] dark:text-gray-100  text-center font-bold text-xl">
                 300 Mbps
               </h1>
-              <button className="text-xl flex justify-evenly mx-2 text-white text-center bg-gradient-to-r px-5 py-2 rounded-3xl from-[#e10000] via-[#f03e3e] to-[#1c0303] ">
+              <button className="flex justify-evenly pl-[7%] group-hover:bg-gradient-to-r  group-hover:from-pink-500 group-hover:via-red-500 group-hover:to-yellow-500 text-[white] py-3 rounded-3xl bg-[#071343] dark:text-gray-100 mx-2 text-center font-bold text-xl ">
                 <span>Basic</span>
                 <span>|</span>
                 <span>OTT</span>
@@ -125,24 +125,24 @@ const ThreeMonths = () => {
               </div>
 
               <div className="flex justify-center">
-                <button className="text-xl   text-white text-center bg-gradient-to-r px-7 py-2 rounded-3xl from-[#e10000] via-[#f03e3e] to-[#1c0303] ">
+                <button className="group-hover:bg-gradient-to-r bg-[#071343] px-8 text-lg py-3 group-hover:from-pink-500 group-hover:via-red-500 group-hover:to-yellow-500 text-white font-medium rounded transition duration-300 ">
                   Choose Plan
                 </button>
               </div>
             </div>
           </div>
-        </motion.div>
-        <motion.div
-          initial={{ scale: 0, duration: 0 }}
-          whileInView={{ scale: 1, duration: 75 }}
-          className="flex justify-center md:flex-row flex-col mx-auto gap-10 mt-3"
+        </div>
+        <div
+          data-aos="fade-up"
+          data-aos-delay="200"
+          className="group flex justify-center md:flex-row flex-col mx-auto gap-10 mt-3"
         >
           <div className="flex items-center  justify-center py-8 px-4">
             <div className="md:w-[400px] flex flex-col gap-7 shadow-lg  rounded-[20px] pb-10 dark:bg-gray-800 bg-white">
-              <h1 className=" text-[white] py-3 rounded-t-[20px] bg-gradient-to-r from-[#e10000] via-[#cc3737] to-[#6c0505] dark:text-gray-100  text-center font-bold text-xl  pl-3">
+              <h1 className="pl-[7%] group-hover:bg-gradient-to-r  group-hover:from-pink-500 group-hover:via-red-500 group-hover:to-yellow-500 text-[white] py-3 rounded-t-[20px] bg-[#071343] dark:text-gray-100  text-center font-bold text-xl">
                 500 Mbps
               </h1>
-              <button className="text-xl flex justify-evenly mx-2 text-white text-center bg-gradient-to-r px-5 py-2 rounded-3xl from-[#e10000] via-[#f03e3e] to-[#1c0303] ">
+              <button className="flex justify-evenly pl-[7%] group-hover:bg-gradient-to-r  group-hover:from-pink-500 group-hover:via-red-500 group-hover:to-yellow-500 text-[white] py-3 rounded-3xl bg-[#071343] dark:text-gray-100 mx-2 text-center font-bold text-xl ">
                 <span>Basic</span>
                 <span>|</span>
                 <span>OTT</span>
@@ -167,70 +167,13 @@ const ThreeMonths = () => {
               </div>
 
               <div className="flex justify-center">
-                <button className="text-xl   text-white text-center bg-gradient-to-r px-7 py-2 rounded-3xl from-[#e10000] via-[#f03e3e] to-[#1c0303] ">
+                <button className="group-hover:bg-gradient-to-r bg-[#071343] px-8 text-lg py-3 group-hover:from-pink-500 group-hover:via-red-500 group-hover:to-yellow-500 text-white font-medium rounded transition duration-300 ">
                   Choose Plan
                 </button>
               </div>
             </div>
           </div>
-        </motion.div>
-        <style>
-          {`
-    * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-  }
-  .center {
-    padding-top: 100px;
-    padding-left: 100px;
-    transform: translate(-50%, -50%);
-  }
-  .center .stars {
-    width: 325px;
-  }
-  .stars input {
-    display: none;
-  }
-  .stars label {
-    font-size: 50px;
-    color: lightgrey;
-
-    text-shadow: 1px 1px #bbb;
-  }
-  .stars label:before {
-    content: "🟊";
-  }
-  .stars input:checked ~ label {
-    color: gold;
-    text-shadow: 1px 1px #c60;
-  }
-  .stars:not(:checked) > label:hover,
-  .stars:not(:checked) > label:hover ~ label {
-    color: gold;
-    cursor: pointer;
-  }
-  .stars input:checked > label:hover,
-  .stars input:checked > label:hover ~ label {
-    color: #fbbf24;
-    text-shadow: 1px 1px goldenrod;
-  }
-  .stars .result:before {
-    position: absolute;
-    content: "";
-    right: 0;
-    left: 0;
-    bottom: 111px;
-
-    font-size: 30px;
-    font-weight: 500;
-    color: #1f2937;
-    font-family: "Poppins", sans-serif;
-
-    font-weight: 900;
-  }
-    `}
-        </style>
+        </div>
       </div>
     </div>
   );

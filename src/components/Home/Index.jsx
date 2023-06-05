@@ -9,12 +9,12 @@ import Footer from '../Footer';
 const Index = () => {
   return (
     <div>
-      <NavBar/>
+      {/* <NavBar/> */}
       <Home />
       <PlanFilter />
       <Feature/>
       <Testimonials />
-      <Footer/>
+      {/* <Footer/> */}
     </div>
   );
 }

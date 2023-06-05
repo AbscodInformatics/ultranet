@@ -7,8 +7,10 @@ import "swiper/css";
 
 const Testimonials = () => {
   return (
-    <div className="py-10 bg-black">
-      <div className='text-3xl text-white text-center font-semibold py-5'>Testimonials</div>
+    <div className="py-10  hover:bg-gradient-to-r bg-[#071343] px-8 text-lg  hover:from-pink-500 hover:via-red-500 hover:to-yellow-500 text-white font-medium rounded transition duration-300">
+      <div className="text-3xl text-white text-center font-semibold py-5">
+        Testimonials
+      </div>
 
       <div className="">
         <Swiper
@@ -28,8 +30,8 @@ const Testimonials = () => {
           className="mySwiper"
         >
           <SwiperSlide>
-            <div className="lg:max-w-[784px] mt-20 py-10 md:max-w-[716px] max-w-[475px] mx-auto bg-[#e10000] text-white lg:px-10 md:px-6 px-4  rounded-xl">
-              <div className="flex justify-center  text-3xl text-[#e10000]  -mt-[12%] items-center">
+            <div className="lg:max-w-[784px] mt-20 py-10 md:max-w-[716px] max-w-[475px] mx-auto  hover:bg-gradient-to-r bg-[#071343] text-lg  hover:from-pink-500 hover:via-red-500 hover:to-yellow-500 text-white font-medium  transition duration-300  lg:px-10 md:px-6 px-4  rounded-xl">
+              <div className="flex justify-center  text-3xl text-[#071343]  -mt-[12%] items-center">
                 <div className="w-28 h-28 rounded-full  text-center pt-[5%] font-bold bg-white">
                   S G
                 </div>
@@ -52,17 +54,17 @@ const Testimonials = () => {
                 Shivangi Gupta
               </div>
               <div className="text-center">
-                <button className="bg-white text-sm py-3 text-[#e10000] hover:text-[] lg:max-w-[175px] mx-auto w-full text-center rounded font-medium mt-6 hover:bg-[white] transition duration-300 ease-in-out">
+                <button className="bg-white text-base py-3 text-[#071343] hover:text-[] lg:max-w-[175px] mx-auto w-full text-center rounded font-medium mt-6 hover:bg-[white] transition duration-300 ease-in-out">
                   Back to Homepage
                 </button>
               </div>
             </div>
           </SwiperSlide>
           <SwiperSlide>
-            <div className="lg:max-w-[784px] mt-20 py-10 md:max-w-[716px] max-w-[475px] mx-auto bg-[#e10000] text-white lg:px-10 md:px-6 px-4  rounded-xl">
-              <div className="flex justify-center  text-3xl text-[#e10000]  -mt-[12%] items-center">
+            <div className="lg:max-w-[784px] mt-20 py-10 md:max-w-[716px] max-w-[475px] mx-auto  hover:bg-gradient-to-r bg-[#071343] text-lg  hover:from-pink-500 hover:via-red-500 hover:to-yellow-500 text-white font-medium  transition duration-300  lg:px-10 md:px-6 px-4  rounded-xl">
+              <div className="flex justify-center  text-3xl text-[#071343]  -mt-[12%] items-center">
                 <div className="w-28 h-28 rounded-full  text-center pt-[5%] font-bold bg-white">
-                 N B
+                  N B
                 </div>
               </div>
               <div className=" px-4 py-12">
@@ -84,17 +86,17 @@ const Testimonials = () => {
                 Neeraj Bhajwa
               </div>
               <div className="text-center">
-                <button className="bg-white text-sm py-3 text-[#e10000] hover:text-[] lg:max-w-[175px] mx-auto w-full text-center rounded font-medium mt-6 hover:bg-[white] transition duration-300 ease-in-out">
+                <button className="bg-white text-base py-3 text-[#071343] hover:text-[] lg:max-w-[175px] mx-auto w-full text-center rounded font-medium mt-6 hover:bg-[white] transition duration-300 ease-in-out">
                   Back to Homepage
                 </button>
               </div>
             </div>
           </SwiperSlide>
           <SwiperSlide>
-            <div className="lg:max-w-[784px] mt-20 py-10 md:max-w-[716px] max-w-[475px] mx-auto bg-[#e10000] text-white lg:px-10 md:px-6 px-4  rounded-xl">
-              <div className="flex justify-center  text-3xl text-[#e10000]  -mt-[12%] items-center">
+            <div className="lg:max-w-[784px] mt-20 py-10 md:max-w-[716px] max-w-[475px] mx-auto  hover:bg-gradient-to-r bg-[#071343] text-lg  hover:from-pink-500 hover:via-red-500 hover:to-yellow-500 text-white font-medium  transition duration-300  lg:px-10 md:px-6 px-4  rounded-xl">
+              <div className="flex justify-center  text-3xl text-[#071343]  -mt-[12%] items-center">
                 <div className="w-28 h-28 rounded-full  text-center pt-[5%] font-bold bg-white">
-                 R R
+                  R R
                 </div>
               </div>
               <div className=" px-4 py-12">
@@ -116,17 +118,17 @@ const Testimonials = () => {
                 Rahul Rai
               </div>
               <div className="text-center">
-                <button className="bg-white text-sm py-3 text-[#e10000] hover:text-[] lg:max-w-[175px] mx-auto w-full text-center rounded font-medium mt-6 hover:bg-[white] transition duration-300 ease-in-out">
+                <button className="bg-white text-base py-3 text-[#071343] hover:text-[] lg:max-w-[175px] mx-auto w-full text-center rounded font-medium mt-6 hover:bg-[white] transition duration-300 ease-in-out">
                   Back to Homepage
                 </button>
               </div>
             </div>
           </SwiperSlide>
           <SwiperSlide>
-            <div className="lg:max-w-[784px] mt-20 py-10 md:max-w-[716px] max-w-[475px] mx-auto bg-[#e10000] text-white lg:px-10 md:px-6 px-4  rounded-xl">
-              <div className="flex justify-center  text-3xl text-[#e10000]  -mt-[12%] items-center">
+            <div className="lg:max-w-[784px] mt-20 py-10 md:max-w-[716px] max-w-[475px] mx-auto  hover:bg-gradient-to-r bg-[#071343] text-lg  hover:from-pink-500 hover:via-red-500 hover:to-yellow-500 text-white font-medium  transition duration-300  lg:px-10 md:px-6 px-4  rounded-xl">
+              <div className="flex justify-center  text-3xl text-[#071343]  -mt-[12%] items-center">
                 <div className="w-28 h-28 rounded-full  text-center pt-[5%] font-bold bg-white">
-                 R S
+                  R S
                 </div>
               </div>
               <div className=" px-4 py-12">
@@ -148,17 +150,17 @@ const Testimonials = () => {
                 Ravi Sain
               </div>
               <div className="text-center">
-                <button className="bg-white text-sm py-3 text-[#e10000] hover:text-[] lg:max-w-[175px] mx-auto w-full text-center rounded font-medium mt-6 hover:bg-[white] transition duration-300 ease-in-out">
+                <button className="bg-white text-base py-3 text-[#071343] hover:text-[] lg:max-w-[175px] mx-auto w-full text-center rounded font-medium mt-6 hover:bg-[white] transition duration-300 ease-in-out">
                   Back to Homepage
                 </button>
               </div>
             </div>
           </SwiperSlide>
           <SwiperSlide>
-            <div className="lg:max-w-[784px] mt-20 py-10 md:max-w-[716px] max-w-[475px] mx-auto bg-[#e10000] text-white lg:px-10 md:px-6 px-4  rounded-xl">
-              <div className="flex justify-center  text-3xl text-[#e10000]  -mt-[12%] items-center">
+            <div className="lg:max-w-[784px] mt-20 py-10 md:max-w-[716px] max-w-[475px] mx-auto  hover:bg-gradient-to-r bg-[#071343] text-lg  hover:from-pink-500 hover:via-red-500 hover:to-yellow-500 text-white font-medium  transition duration-300  lg:px-10 md:px-6 px-4  rounded-xl">
+              <div className="flex justify-center  text-3xl text-[#071343]  -mt-[12%] items-center">
                 <div className="w-28 h-28 rounded-full  text-center pt-[5%] font-bold bg-white">
-                S V
+                  S V
                 </div>
               </div>
               <div className=" px-4 py-12">
@@ -181,17 +183,17 @@ const Testimonials = () => {
                 Sanjeev Vasu
               </div>
               <div className="text-center">
-                <button className="bg-white text-sm py-3 text-[#e10000] hover:text-[] lg:max-w-[175px] mx-auto w-full text-center rounded font-medium mt-6 hover:bg-[white] transition duration-300 ease-in-out">
+                <button className="bg-white text-base py-3 text-[#071343] hover:text-[] lg:max-w-[175px] mx-auto w-full text-center rounded font-medium mt-6 hover:bg-[white] transition duration-300 ease-in-out">
                   Back to Homepage
                 </button>
               </div>
             </div>
           </SwiperSlide>
           <SwiperSlide>
-            <div className="lg:max-w-[784px] mt-20 py-10 md:max-w-[716px] max-w-[475px] mx-auto bg-[#e10000] text-white lg:px-10 md:px-6 px-4  rounded-xl">
-              <div className="flex justify-center  text-3xl text-[#e10000]  -mt-[12%] items-center">
+            <div className="lg:max-w-[784px] mt-20 py-10 md:max-w-[716px] max-w-[475px] mx-auto  hover:bg-gradient-to-r bg-[#071343] text-lg  hover:from-pink-500 hover:via-red-500 hover:to-yellow-500 text-white font-medium  transition duration-300  lg:px-10 md:px-6 px-4  rounded-xl">
+              <div className="flex justify-center  text-3xl text-[#071343]  -mt-[12%] items-center">
                 <div className="w-28 h-28 rounded-full  text-center pt-[5%] font-bold bg-white">
-                T J
+                  T J
                 </div>
               </div>
               <div className=" px-4 py-12">
@@ -211,7 +213,7 @@ const Testimonials = () => {
                 Tanisha Jain
               </div>
               <div className="text-center">
-                <button className="bg-white text-sm py-3 text-[#e10000] hover:text-[] lg:max-w-[175px] mx-auto w-full text-center rounded font-medium mt-6 hover:bg-[white] transition duration-300 ease-in-out">
+                <button className="bg-white text-base py-3 text-[#071343] hover:text-[] lg:max-w-[175px] mx-auto w-full text-center rounded font-medium mt-6 hover:bg-[white] transition duration-300 ease-in-out">
                   Back to Homepage
                 </button>
               </div>
