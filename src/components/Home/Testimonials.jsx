@@ -1,19 +1,31 @@
-import React from 'react'
+import React,{useEffect} from 'react'
 import { FaQuoteLeft, FaQuoteRight } from "react-icons/fa";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Autoplay } from "swiper";
+import AOS from "aos";
+import "aos/dist/aos.css";
 
 import "swiper/css";
 
 const Testimonials = () => {
+      useEffect(() => {
+        AOS.init({
+          duration: 3000,
+          offset: 0,
+        });
+      });
   return (
-    <div className="py-10  hover:bg-gradient-to-r bg-[#071343] px-8 text-lg  hover:from-pink-500 hover:via-red-500 hover:to-yellow-500 text-white font-medium rounded transition duration-300">
+    <div
+      data-aos="fade-up"
+      className="py-10  hover:bg-gradient-to-r bg-[#071343] px-8 text-lg  hover:from-pink-500 hover:via-red-500 hover:to-yellow-500 text-white font-medium rounded transition duration-300"
+    >
       <div className="text-3xl text-white text-center font-semibold py-5">
         Testimonials
       </div>
 
-      <div className="">
+      <div data-aos="flip-down" className="">
         <Swiper
+          data-aos="flip-down"
           loop={true}
           autoplay={{
             delay: 3000,
@@ -101,7 +113,7 @@ const Testimonials = () => {
           <SwiperSlide>
             <div
               data-aos="flip-down"
-              data-aos-delay="800"
+              // data-aos-delay="800"
               className="lg:max-w-[784px] border-[2px] mt-20 py-10 md:max-w-[716px] max-w-[475px] mx-auto  hover:bg-gradient-to-r bg-[#071343] text-lg  hover:from-pink-500 hover:via-red-500 hover:to-yellow-500 text-white font-medium  transition duration-300  lg:px-10 md:px-6 px-4  rounded-xl"
             >
               <div className="flex justify-center  text-3xl text-[#071343]  -mt-[35%] md:-mt-[14%] items-center">
@@ -137,7 +149,7 @@ const Testimonials = () => {
           <SwiperSlide>
             <div
               data-aos="flip-down"
-              data-aos-delay="1000"
+              // data-aos-delay="1000"
               className="lg:max-w-[784px] border-[2px] mt-20 py-10 md:max-w-[716px] max-w-[475px] mx-auto  hover:bg-gradient-to-r bg-[#071343] text-lg  hover:from-pink-500 hover:via-red-500 hover:to-yellow-500 text-white font-medium  transition duration-300  lg:px-10 md:px-6 px-4  rounded-xl"
             >
               <div className="flex justify-center  text-3xl text-[#071343]  -mt-[35%] md:-mt-[14%] items-center">
@@ -173,7 +185,7 @@ const Testimonials = () => {
           <SwiperSlide>
             <div
               data-aos="flip-down"
-              data-aos-delay="1500"
+              // data-aos-delay="1500"
               className="lg:max-w-[784px] border-[2px] mt-20 py-10 md:max-w-[716px] max-w-[475px] mx-auto  hover:bg-gradient-to-r bg-[#071343] text-lg  hover:from-pink-500 hover:via-red-500 hover:to-yellow-500 text-white font-medium  transition duration-300  lg:px-10 md:px-6 px-4  rounded-xl"
             >
               <div className="flex justify-center  text-3xl text-[#071343] -mt-[35%] md:-mt-[14%] items-center">
@@ -210,7 +222,7 @@ const Testimonials = () => {
           <SwiperSlide>
             <div
               data-aos="flip-down"
-              data-aos-delay="2000"
+              // data-aos-delay="2000"
               className="lg:max-w-[784px] border-[2px] mt-20 py-10 md:max-w-[716px] max-w-[475px] mx-auto  hover:bg-gradient-to-r bg-[#071343] text-lg  hover:from-pink-500 hover:via-red-500 hover:to-yellow-500 text-white font-medium  transition duration-300  lg:px-10 md:px-6 px-4  rounded-xl"
             >
               <div className="flex justify-center  text-3xl text-[#071343] -mt-[35%] md:-mt-[15%] items-center">
