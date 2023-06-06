@@ -23,7 +23,7 @@ const Home = () => {
       }
     };
   return (
-    <div className=" pt-[3%]">
+    <div className="pt-[30%] md:pt-[3%]">
       <div>
         <Swiper
           loop={true}
@@ -45,14 +45,14 @@ const Home = () => {
             <img
               src="/businesshome1.jpg"
               alt=""
-              className="object-fill h-[80vh] w-full"
+              className="object-fill h-[30vh] md:h-[80vh] w-full"
             />
           </SwiperSlide>
           <SwiperSlide>
             <img
               src="/businesshome2.jpg"
               alt=""
-              className="object-fill h-[80vh] w-full"
+              className="object-fill h-[30vh] md:h-[80vh] w-full"
             />
           </SwiperSlide>
         </Swiper>
@@ -64,9 +64,9 @@ const Home = () => {
             Home Broadband
          
           </div>
-          <div className="flex w-[500px] my-5 mx-auto text-xl rounded-xl bg-white h-16 justify-center gap-10 items-center ">
+          <div className="flex md:w-[500px] my-5 mx-[2%] md:mx-auto text-xl rounded-xl bg-white h-14 md:h-16 justify-center gap-5 md:gap-10 items-center ">
             <button
-              className={`tab hover:bg-gradient-to-r bg-[#071343] px-8 text-lg py-3 hover:from-pink-500 hover:via-red-500 hover:to-yellow-500 text-white font-medium rounded transition duration-300 ${
+              className={`tab hover:bg-gradient-to-r bg-[#071343] px-4 md:px-8 text-lg py-3 hover:from-pink-500 hover:via-red-500 hover:to-yellow-500 text-white font-medium rounded transition duration-300 ${
                 activeTab === "monthly"
                   ? "active bg-gradient-to-r from-[#ee9ca7] to-[#2980B9]"
                   : ""
@@ -76,7 +76,7 @@ const Home = () => {
               Business BroadBand
             </button>
             <button
-              className={`tab hover:bg-gradient-to-r bg-[#071343] px-8 text-lg py-3 hover:from-pink-500 hover:via-red-500 hover:to-yellow-500 text-white font-medium rounded transition duration-300 ${
+              className={`tab hover:bg-gradient-to-r bg-[#071343] px-4 md:px-8 text-lg py-3 hover:from-pink-500 hover:via-red-500 hover:to-yellow-500 text-white font-medium rounded transition duration-300 ${
                 activeTab === "threemonth"
                   ? "active bg-gradient-to-r from-[#ee9ca7] to-[#2980B9]"
                   : ""

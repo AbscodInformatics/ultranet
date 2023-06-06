@@ -4,8 +4,12 @@ const FAQs = () => {
      const [question, setquestion] = useState(0);
   return (
     <div className="">
-      <div className="pt-[4%]">
-        <img src="/faq.jpg" alt="" className="object-fill h-[80vh] w-full" />
+      <div className="pt-[33%] md:pt-[4%]">
+        <img
+          src="/faq.jpg"
+          alt=""
+          className="object-fill h-[30vh] md:h-[80vh] w-full"
+        />
       </div>
       <div>
         <div className="pt-[8%] mx-[7%]">

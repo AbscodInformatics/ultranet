@@ -15,22 +15,22 @@ const Features = () => {
     <>
       <div className="mx-auto  mb-[5%] shadow rounded w-full">
         <div className=" rounded-3xl  hover:bg-gradient-to-r bg-[#071343] px-8 text-lg  hover:from-pink-500 hover:via-red-500 hover:to-yellow-500 text-white font-medium  transition duration-300  mx-[7%] p-[5%]">
-          <div className="py-6 xl:px-8 text-center lg:px-8 md:px-8 px-4 flex flex-col justify-between items-center">
+          <div className="py-6 xl:px-8 text-center lg:px-8 md:px-8  flex flex-col justify-between items-center">
             <p className="font-bold text-center text-lg xl:text-xl lg:text-xl md:text-xl text-white dark:text-gray-100">
               Future-proof your business needs
             </p>
-            <p className="text-white text-lg mt-3">
+            <p className="text-white text-base md:text-lg mt-3 text-justify md:text-center">
               Make your business more productive with UltraNet business
               broadband. Backed by stringent Service Level Agreements, we’ll
               guarantee your connection stays on, and stays fast
             </p>
           </div>
 
-          <div className="p-5 grid grid-cols-2 gap-8 rounded mb-6  dark:bg-gray-700">
+          <div className="p-5 grid grid-cols-1 md:grid-cols-2 gap-8 rounded mb-6  dark:bg-gray-700">
             <div className="">
               <ul className="flex flex-col justify-center items-center gap-5">
                 <HiUserGroup size={80} color="white" />
-                <li className="mb-2 text-lg text-white dark:text-gray-400">
+                <li className="mb-2 text-base md:text-lg text-justify md:text-center text-white dark:text-gray-400">
                   Effortlessly keep multiple users connected
                 </li>
               </ul>
@@ -38,7 +38,7 @@ const Features = () => {
             <div className="">
               <ul className="flex flex-col justify-center items-center gap-5">
                 <AiOutlinePercentage size={80} color="white" />
-                <li className="mb-2 text-lg text-white dark:text-gray-400">
+                <li className="mb-2 text-base md:text-lg text-justify md:text-center text-white dark:text-gray-400">
                   Effortlessly keep multiple users connected
                 </li>
               </ul>
@@ -46,7 +46,7 @@ const Features = () => {
             <div className="">
               <ul className="flex flex-col justify-center items-center gap-5">
                 <RiArrowUpDownFill size={80} color="white" />
-                <li className="mb-2 text-lg text-white dark:text-gray-400">
+                <li className="mb-2 text-base md:text-lg text-white text-justify md:text-center dark:text-gray-400">
                   No throttling & no contention
                 </li>
               </ul>
@@ -54,7 +54,7 @@ const Features = () => {
             <div className="">
               <ul className="flex flex-col justify-center items-center gap-5">
                 <BiPhoneCall size={80} color="white" />
-                <li className="mb-2 text-lg text-white dark:text-gray-400">
+                <li className="mb-2 text-base md:text-lg text-white text-justify md:text-center dark:text-gray-400">
                   No throttling & no contention
                 </li>
               </ul>
@@ -62,7 +62,7 @@ const Features = () => {
             <div className="">
               <ul className="flex flex-col justify-center items-center gap-5">
                 <SiTimescale size={80} color="white" />
-                <li className="mb-2 text-lg text-white dark:text-gray-400">
+                <li className="mb-2 text-sm md:text-lg text-white text-justify md:text-center dark:text-gray-400">
                   24/7 real-time network monitoring and business support
                 </li>
               </ul>
@@ -70,7 +70,7 @@ const Features = () => {
             <div className="">
               <ul className="flex flex-col justify-center items-center gap-5">
                 <SlBadge size={80} color="white" />
-                <li className="mb-2 text-lg text-white dark:text-gray-400">
+                <li className="mb-2 text-sm md:text-lg  text-justify md:text-center text-white md:dark:text-gray-400">
                   24/7 real-time network monitoring and business support
                 </li>
               </ul>

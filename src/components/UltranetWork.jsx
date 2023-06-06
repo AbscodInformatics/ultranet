@@ -2,8 +2,8 @@ import React from 'react'
 
 const UltranetWork = () => {
   return (
-    <div id="work">
-      <img src="/BroadbandBg1.png" alt="" className="mt-[5%]" />
+    <div id="work" className="mx-[8%] md:mx-0">
+      <img src="/BroadbandBg1.png" alt="" className="mt-[5%] " />
     </div>
   );
 }

@@ -86,8 +86,8 @@ const Footer = () => {
             </div>
           </div>
 
-          <div className="hover:bg-gradient-to-r bg-[black] px-8 text-lg py-3 hover:from-pink-900 hover:via-red-500 hover:to-yellow-500  transition duration-0 ease-in hover:ease-in mt-10">
-            <div className="px-3 py-12">
+          <div className="">
+            <div className=" py-12">
               <div className="lg:max-w-[1280px] md:max-w-[696px] w-full mx-auto hover:bg-gradient-to-r bg-[#071343] text-lg  hover:from-pink-500 hover:via-red-500 hover:to-yellow-500 text-white font-medium  transition duration-300  lg:px-10 md:px-6 px-4 py-7">
                 <div className="grid lg:grid-cols-4 md:grid-cols-3 grid-cols-1">
                   <div className="text-white ">

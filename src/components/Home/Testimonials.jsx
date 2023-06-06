@@ -30,9 +30,12 @@ const Testimonials = () => {
           className="mySwiper"
         >
           <SwiperSlide>
-            <div className="lg:max-w-[784px] mt-20 py-10 md:max-w-[716px] max-w-[475px] mx-auto  hover:bg-gradient-to-r bg-[#071343] text-lg  hover:from-pink-500 hover:via-red-500 hover:to-yellow-500 text-white font-medium  transition duration-300  lg:px-10 md:px-6 px-4  rounded-xl">
-              <div className="flex justify-center  text-3xl text-[#071343]  -mt-[12%] items-center">
-                <div className="w-28 h-28 rounded-full  text-center pt-[5%] font-bold bg-white">
+            <div
+              data-aos="flip-right"
+              className="lg:max-w-[784px] border-[2px] mt-20 py-10 md:max-w-[716px] max-w-[475px] mx-auto  hover:bg-gradient-to-r bg-[#071343] text-lg  hover:from-pink-500 hover:via-red-500 hover:to-yellow-500 text-white font-medium  transition duration-300  lg:px-10 md:px-6 px-4  rounded-xl"
+            >
+              <div className="flex justify-center  text-3xl text-[#071343] -mt-[35%] md:-mt-[14%] items-center">
+                <div className="w-28 h-28 rounded-full  text-center pt-[10%] md:pt-[5%] font-bold bg-white">
                   S G
                 </div>
               </div>
@@ -61,9 +64,12 @@ const Testimonials = () => {
             </div>
           </SwiperSlide>
           <SwiperSlide>
-            <div className="lg:max-w-[784px] mt-20 py-10 md:max-w-[716px] max-w-[475px] mx-auto  hover:bg-gradient-to-r bg-[#071343] text-lg  hover:from-pink-500 hover:via-red-500 hover:to-yellow-500 text-white font-medium  transition duration-300  lg:px-10 md:px-6 px-4  rounded-xl">
-              <div className="flex justify-center  text-3xl text-[#071343]  -mt-[12%] items-center">
-                <div className="w-28 h-28 rounded-full  text-center pt-[5%] font-bold bg-white">
+            <div
+              data-aos="flip-right"
+              className="lg:max-w-[784px] border-[2px] mt-20 py-10 md:max-w-[716px] max-w-[475px] mx-auto  hover:bg-gradient-to-r bg-[#071343] text-lg  hover:from-pink-500 hover:via-red-500 hover:to-yellow-500 text-white font-medium  transition duration-300  lg:px-10 md:px-6 px-4  rounded-xl"
+            >
+              <div className="flex justify-center  text-3xl text-[#071343] -mt-[35%] md:-mt-[14%] items-center">
+                <div className="w-28 h-28 rounded-full  text-center pt-[10%] md:pt-[5%] font-bold bg-white">
                   N B
                 </div>
               </div>
@@ -93,9 +99,13 @@ const Testimonials = () => {
             </div>
           </SwiperSlide>
           <SwiperSlide>
-            <div className="lg:max-w-[784px] mt-20 py-10 md:max-w-[716px] max-w-[475px] mx-auto  hover:bg-gradient-to-r bg-[#071343] text-lg  hover:from-pink-500 hover:via-red-500 hover:to-yellow-500 text-white font-medium  transition duration-300  lg:px-10 md:px-6 px-4  rounded-xl">
-              <div className="flex justify-center  text-3xl text-[#071343]  -mt-[12%] items-center">
-                <div className="w-28 h-28 rounded-full  text-center pt-[5%] font-bold bg-white">
+            <div
+              data-aos="flip-right"
+              data-aos-delay="800"
+              className="lg:max-w-[784px] border-[2px] mt-20 py-10 md:max-w-[716px] max-w-[475px] mx-auto  hover:bg-gradient-to-r bg-[#071343] text-lg  hover:from-pink-500 hover:via-red-500 hover:to-yellow-500 text-white font-medium  transition duration-300  lg:px-10 md:px-6 px-4  rounded-xl"
+            >
+              <div className="flex justify-center  text-3xl text-[#071343]  -mt-[35%] md:-mt-[14%] items-center">
+                <div className="w-28 h-28 rounded-full  text-center pt-[10%] md:pt-[5%] font-bold bg-white">
                   R R
                 </div>
               </div>
@@ -125,9 +135,13 @@ const Testimonials = () => {
             </div>
           </SwiperSlide>
           <SwiperSlide>
-            <div className="lg:max-w-[784px] mt-20 py-10 md:max-w-[716px] max-w-[475px] mx-auto  hover:bg-gradient-to-r bg-[#071343] text-lg  hover:from-pink-500 hover:via-red-500 hover:to-yellow-500 text-white font-medium  transition duration-300  lg:px-10 md:px-6 px-4  rounded-xl">
-              <div className="flex justify-center  text-3xl text-[#071343]  -mt-[12%] items-center">
-                <div className="w-28 h-28 rounded-full  text-center pt-[5%] font-bold bg-white">
+            <div
+              data-aos="flip-right"
+              data-aos-delay="1000"
+              className="lg:max-w-[784px] border-[2px] mt-20 py-10 md:max-w-[716px] max-w-[475px] mx-auto  hover:bg-gradient-to-r bg-[#071343] text-lg  hover:from-pink-500 hover:via-red-500 hover:to-yellow-500 text-white font-medium  transition duration-300  lg:px-10 md:px-6 px-4  rounded-xl"
+            >
+              <div className="flex justify-center  text-3xl text-[#071343]  -mt-[35%] md:-mt-[14%] items-center">
+                <div className="w-28 h-28 rounded-full  text-center pt-[10%] md:pt-[5%] font-bold bg-white">
                   R S
                 </div>
               </div>
@@ -157,9 +171,13 @@ const Testimonials = () => {
             </div>
           </SwiperSlide>
           <SwiperSlide>
-            <div className="lg:max-w-[784px] mt-20 py-10 md:max-w-[716px] max-w-[475px] mx-auto  hover:bg-gradient-to-r bg-[#071343] text-lg  hover:from-pink-500 hover:via-red-500 hover:to-yellow-500 text-white font-medium  transition duration-300  lg:px-10 md:px-6 px-4  rounded-xl">
-              <div className="flex justify-center  text-3xl text-[#071343]  -mt-[12%] items-center">
-                <div className="w-28 h-28 rounded-full  text-center pt-[5%] font-bold bg-white">
+            <div
+              data-aos="flip-right"
+              data-aos-delay="1500"
+              className="lg:max-w-[784px] border-[2px] mt-20 py-10 md:max-w-[716px] max-w-[475px] mx-auto  hover:bg-gradient-to-r bg-[#071343] text-lg  hover:from-pink-500 hover:via-red-500 hover:to-yellow-500 text-white font-medium  transition duration-300  lg:px-10 md:px-6 px-4  rounded-xl"
+            >
+              <div className="flex justify-center  text-3xl text-[#071343] -mt-[35%] md:-mt-[14%] items-center">
+                <div className="w-28 h-28 rounded-full  text-center pt-[10%] md:pt-[5%] font-bold bg-white">
                   S V
                 </div>
               </div>
@@ -190,9 +208,13 @@ const Testimonials = () => {
             </div>
           </SwiperSlide>
           <SwiperSlide>
-            <div className="lg:max-w-[784px] mt-20 py-10 md:max-w-[716px] max-w-[475px] mx-auto  hover:bg-gradient-to-r bg-[#071343] text-lg  hover:from-pink-500 hover:via-red-500 hover:to-yellow-500 text-white font-medium  transition duration-300  lg:px-10 md:px-6 px-4  rounded-xl">
-              <div className="flex justify-center  text-3xl text-[#071343]  -mt-[12%] items-center">
-                <div className="w-28 h-28 rounded-full  text-center pt-[5%] font-bold bg-white">
+            <div
+              data-aos="flip-right"
+              data-aos-delay="2000"
+              className="lg:max-w-[784px] border-[2px] mt-20 py-10 md:max-w-[716px] max-w-[475px] mx-auto  hover:bg-gradient-to-r bg-[#071343] text-lg  hover:from-pink-500 hover:via-red-500 hover:to-yellow-500 text-white font-medium  transition duration-300  lg:px-10 md:px-6 px-4  rounded-xl"
+            >
+              <div className="flex justify-center  text-3xl text-[#071343] -mt-[35%] md:-mt-[15%] items-center">
+                <div className="w-28 h-28 rounded-full  text-center pt-[10%] md:pt-[5%] font-bold bg-white">
                   T J
                 </div>
               </div>

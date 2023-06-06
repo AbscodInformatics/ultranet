@@ -17,11 +17,14 @@ const Feature = () => {
             </p>
           </div>
 
-          <div className="p-5 grid grid-cols-2 gap-8 rounded mb-6  dark:bg-gray-700">
+          <div className="p-5 grid grid-cols-1 gap-8 rounded mb-6  dark:bg-gray-700">
             <div className="">
-              <ul className="flex gap-5">
-                <MdOutlineSpeed size={60} color="white" />
-                <li className="mb-2 text-lg text-white dark:text-gray-400">
+              <ul className="flex  gap-5">
+                <MdOutlineSpeed
+                  color="white"
+                  className="text-[80px] md:text-[50px]"
+                />
+                <li className="mb-2 text-lg text-justify text-white dark:text-gray-400">
                   The fastest speeds – this ensures that your upload and
                   download speeds will not suffer no matter how much the load.
                 </li>
@@ -29,8 +32,8 @@ const Feature = () => {
             </div>
             <div className="">
               <ul className="flex gap-5">
-                <BsFiles size={80} color="white" />
-                <li className="mb-2 text-lg text-white dark:text-gray-400">
+                <BsFiles className="text-[80px] md:text-[80px]" color="white" />
+                <li className="mb-2 md:ml-1 text-lg text-justify text-white dark:text-gray-400">
                   The data load capacity is the highest when you use full fiber
                   networks, because fiber optic lines have much more load
                   capacity compared to any other type of cabling. Also, the
@@ -40,8 +43,11 @@ const Feature = () => {
             </div>
             <div className="">
               <ul className="flex gap-5">
-                <CgArrowsExchangeAlt size={80} color="white" />
-                <li className="mb-2 text-lg text-white dark:text-gray-400">
+                <CgArrowsExchangeAlt
+                  className="text-[80px] md:text-[80px]"
+                  color="white"
+                />
+                <li className="mb-2 md:-ml-2 text-lg text-justify text-white dark:text-gray-400">
                   Our broadband is not just fiber till the exchange, but fiber
                   to your premises- home or office. Now you can sit back and
                   relax as the network will never fail you.
@@ -50,8 +56,11 @@ const Feature = () => {
             </div>
             <div className="">
               <ul className="flex gap-5">
-                <BsSpeedometer size={80} color="white" />
-                <li className="mb-2 text-lg text-white dark:text-gray-400">
+                <BsSpeedometer
+                  className="text-[80px] md:text-[80px]"
+                  color="white"
+                />
+                <li className="mb-2 md:ml-3 text-lg text-justify text-white dark:text-gray-400">
                   Our promise is the same for uploads and downloads – unmatched
                   speeds of 1GB at affordable prices. So now you can choose our
                   plans of up to 100 Mbps per connection and enjoy Internet
@@ -62,7 +71,7 @@ const Feature = () => {
           </div>
           <div className="">
             <ul className="">
-              <li className="mb-2 text-xl text-center text-white dark:text-gray-400">
+              <li className="mb-2 text-xl text-justify md:text-center text-white dark:text-gray-400">
                 Our speeds and connectivity are not affected no matter how many
                 connections are made to the network and how many active users
                 are on the network using up the bandwidth.

@@ -9,7 +9,7 @@ const BusinessBroadband = () => {
        offset: 0,
      });
   return (
-    <div className="flex">
+    <div className="flex md:flex-row flex-col">
       <div
         data-aos="fade-up"
         data-aos-delay="200"

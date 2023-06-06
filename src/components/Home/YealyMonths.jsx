@@ -133,8 +133,8 @@ const YealyMonths = () => {
           </div>
         </div>
         <div
-          initial={{ scale: 0, duration: 0 }}
-          whileInView={{ scale: 1, duration: 75 }}
+          data-aos="fade-up"
+          data-aos-delay="400"
           className="group flex justify-center md:flex-row flex-col mx-auto gap-10 mt-3"
         >
           <div className="flex items-center  justify-center py-8 px-4">

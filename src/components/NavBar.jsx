@@ -166,7 +166,7 @@ const NavBar = () => {
               duration={500}
               to="contact"
             >
-              <button className="text-lg font-semibold bg-gradient-to-r from-red-500 via-yellow-500 to-red-500   px-10 py-2 text-center uppercase transition duration-500 ease-in-out bg-no-repeat bg-size-200% text-white hover:bg-gradient-to-r hover:from-red-300 hover:via-yellow-400 hover:to-red-500 shadow-lg rounded-lg">
+              <button className="text-lg font-semibold bg-gradient-to-r from-red-500 via-yellow-500 to-red-500 px-5 py-1  md:px-10 md:py-2 text-center uppercase transition duration-500 ease-in-out bg-no-repeat bg-size-200% text-white hover:bg-gradient-to-r hover:from-red-300 hover:via-yellow-400 hover:to-red-500 shadow-lg rounded-lg">
                 Buy Now
               </button>
             </Link>
