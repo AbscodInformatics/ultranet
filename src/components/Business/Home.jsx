@@ -1,10 +1,13 @@
-import React ,{useState} from 'react'
+import React ,{useState ,useEffect} from 'react'
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Autoplay } from "swiper";
 import Businessbroadband from './Businessbroadband';
 import LeasedLinres from './LeasedLinres';
 
 const Home = () => {
+    useEffect(() => {
+      // AOS.init();
+    });
     const [activeTab, setActiveTab] = useState("monthly");
 
     const handleTabChange = (tab) => {

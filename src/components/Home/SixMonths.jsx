@@ -1,8 +1,13 @@
-import React from "react";
+import React,{useEffect} from "react";
 import { BiRupee } from "react-icons/bi";
 import { motion, useAnimation } from "framer-motion";
+import AOS from "aos";
+import "aos/dist/aos.css";
 
 const SixMonths = () => {
+  useEffect(() => {
+    AOS.init();
+  });
   return (
     <div className=" md:pb-5">
       <div className="grid grid-cols-1 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 mx-[5%]  ">
@@ -12,11 +17,11 @@ const SixMonths = () => {
           className="group flex justify-center md:flex-row flex-col mx-auto gap-10 mt-3"
         >
           <div className="flex items-center  justify-center py-8 px-4">
-            <div className="md:w-[400px] flex flex-col gap-7 shadow-lg  rounded-[20px] pb-10 dark:bg-gray-800 bg-white">
-              <h1 className="pl-[7%] group-hover:bg-gradient-to-r  group-hover:from-pink-500 group-hover:via-red-500 group-hover:to-yellow-500 text-[white] py-3 rounded-t-[20px] bg-[#071343] dark:text-gray-100  text-center font-bold text-xl">
+            <div className="md:w-[400px] flex flex-col gap-7 shadow-lg  rounded-[20px] pb-10  bg-white">
+              <h1 className="pl-[7%] group-hover:bg-gradient-to-r  group-hover:from-pink-500 group-hover:via-red-500 group-hover:to-yellow-500 text-[white] py-3 rounded-t-[20px] bg-[#071343]   text-center font-bold text-xl">
                 100 Mbps
               </h1>
-              <button className="flex justify-evenly pl-[7%] group-hover:bg-gradient-to-r  group-hover:from-pink-500 group-hover:via-red-500 group-hover:to-yellow-500 text-[white] py-3 rounded-3xl bg-[#071343] dark:text-gray-100 mx-2 text-center font-bold text-xl ">
+              <button className="flex justify-evenly pl-[7%] group-hover:bg-gradient-to-r  group-hover:from-pink-500 group-hover:via-red-500 group-hover:to-yellow-500 text-[white] py-3 rounded-3xl bg-[#071343]  mx-2 text-center font-bold text-xl ">
                 <span>Basic</span>
                 <span>|</span>
                 <span>OTT</span>
@@ -54,11 +59,11 @@ const SixMonths = () => {
           className="group flex justify-center md:flex-row flex-col mx-auto gap-10 mt-3"
         >
           <div className="flex items-center  justify-center py-8 px-4">
-            <div className="md:w-[400px] flex flex-col gap-7 shadow-lg  rounded-[20px] pb-10 dark:bg-gray-800 bg-white">
-              <h1 className="pl-[7%] group-hover:bg-gradient-to-r  group-hover:from-pink-500 group-hover:via-red-500 group-hover:to-yellow-500 text-[white] py-3 rounded-t-[20px] bg-[#071343] dark:text-gray-100  text-center font-bold text-xl">
+            <div className="md:w-[400px] flex flex-col gap-7 shadow-lg  rounded-[20px] pb-10  bg-white">
+              <h1 className="pl-[7%] group-hover:bg-gradient-to-r  group-hover:from-pink-500 group-hover:via-red-500 group-hover:to-yellow-500 text-[white] py-3 rounded-t-[20px] bg-[#071343]   text-center font-bold text-xl">
                 200 Mbps
               </h1>
-              <button className="flex justify-evenly pl-[7%] group-hover:bg-gradient-to-r  group-hover:from-pink-500 group-hover:via-red-500 group-hover:to-yellow-500 text-[white] py-3 rounded-3xl bg-[#071343] dark:text-gray-100 mx-2 text-center font-bold text-xl ">
+              <button className="flex justify-evenly pl-[7%] group-hover:bg-gradient-to-r  group-hover:from-pink-500 group-hover:via-red-500 group-hover:to-yellow-500 text-[white] py-3 rounded-3xl bg-[#071343]  mx-2 text-center font-bold text-xl ">
                 <span>Basic</span>
                 <span>|</span>
                 <span>OTT</span>
@@ -96,11 +101,11 @@ const SixMonths = () => {
           className="group flex justify-center md:flex-row flex-col mx-auto gap-10 mt-3"
         >
           <div className="flex items-center  justify-center py-8 px-4">
-            <div className="md:w-[400px] flex flex-col gap-7 shadow-lg  rounded-[20px] pb-10 dark:bg-gray-800 bg-white">
-              <h1 className="pl-[7%] group-hover:bg-gradient-to-r  group-hover:from-pink-500 group-hover:via-red-500 group-hover:to-yellow-500 text-[white] py-3 rounded-t-[20px] bg-[#071343] dark:text-gray-100  text-center font-bold text-xl">
+            <div className="md:w-[400px] flex flex-col gap-7 shadow-lg  rounded-[20px] pb-10  bg-white">
+              <h1 className="pl-[7%] group-hover:bg-gradient-to-r  group-hover:from-pink-500 group-hover:via-red-500 group-hover:to-yellow-500 text-[white] py-3 rounded-t-[20px] bg-[#071343]   text-center font-bold text-xl">
                 300 Mbps
               </h1>
-              <button className="flex justify-evenly pl-[7%] group-hover:bg-gradient-to-r  group-hover:from-pink-500 group-hover:via-red-500 group-hover:to-yellow-500 text-[white] py-3 rounded-3xl bg-[#071343] dark:text-gray-100 mx-2 text-center font-bold text-xl ">
+              <button className="flex justify-evenly pl-[7%] group-hover:bg-gradient-to-r  group-hover:from-pink-500 group-hover:via-red-500 group-hover:to-yellow-500 text-[white] py-3 rounded-3xl bg-[#071343]  mx-2 text-center font-bold text-xl ">
                 <span>Basic</span>
                 <span>|</span>
                 <span>OTT</span>
@@ -138,11 +143,11 @@ const SixMonths = () => {
           className="group flex justify-center md:flex-row flex-col mx-auto gap-10 mt-3"
         >
           <div className="flex items-center  justify-center py-8 px-4">
-            <div className="md:w-[400px] flex flex-col gap-7 shadow-lg  rounded-[20px] pb-10 dark:bg-gray-800 bg-white">
-              <h1 className="pl-[7%] group-hover:bg-gradient-to-r  group-hover:from-pink-500 group-hover:via-red-500 group-hover:to-yellow-500 text-[white] py-3 rounded-t-[20px] bg-[#071343] dark:text-gray-100  text-center font-bold text-xl">
+            <div className="md:w-[400px] flex flex-col gap-7 shadow-lg  rounded-[20px] pb-10  bg-white">
+              <h1 className="pl-[7%] group-hover:bg-gradient-to-r  group-hover:from-pink-500 group-hover:via-red-500 group-hover:to-yellow-500 text-[white] py-3 rounded-t-[20px] bg-[#071343]   text-center font-bold text-xl">
                 500 Mbps
               </h1>
-              <button className="flex justify-evenly pl-[7%] group-hover:bg-gradient-to-r  group-hover:from-pink-500 group-hover:via-red-500 group-hover:to-yellow-500 text-[white] py-3 rounded-3xl bg-[#071343] dark:text-gray-100 mx-2 text-center font-bold text-xl ">
+              <button className="flex justify-evenly pl-[7%] group-hover:bg-gradient-to-r  group-hover:from-pink-500 group-hover:via-red-500 group-hover:to-yellow-500 text-[white] py-3 rounded-3xl bg-[#071343]  mx-2 text-center font-bold text-xl ">
                 <span>Basic</span>
                 <span>|</span>
                 <span>OTT</span>

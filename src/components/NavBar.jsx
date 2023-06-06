@@ -66,7 +66,7 @@ const NavBar = () => {
                 >
                   Home
                 </Link>
-                {showDialog1 && (
+                {/* {showDialog1 && (
                   <div className="absolute flex mt-5 justify-evenly text-lg px-10 py-7 w-[500px] bg-white p-4 rounded-3xl shadow-lg">
                     <div className="-mt-10 text-black  -ml-10">
                       <IoMdArrowDropup size={30} />
@@ -81,7 +81,7 @@ const NavBar = () => {
                       Rest Of India
                     </p>
                   </div>
-                )}
+                )} */}
               </li>
               <li>
                 <Link
@@ -92,7 +92,7 @@ const NavBar = () => {
                 >
                   Offers
                 </Link>
-                {showDialog && (
+                {/* {showDialog && (
                   <div className="absolute flex mt-5 justify-evenly text-lg px-10 py-7 w-[500px] bg-white p-4 rounded-3xl shadow-lg">
                     <div className="-mt-10 text-black  -ml-10">
                       <IoMdArrowDropup size={30} />
@@ -107,7 +107,7 @@ const NavBar = () => {
                       Rest Of India
                     </p>
                   </div>
-                )}
+                )} */}
               </li>
 
               <li>
@@ -119,7 +119,7 @@ const NavBar = () => {
                 >
                   Business
                 </Link>
-                {showDialog2 && (
+                {/* {showDialog2 && (
                   <div className="absolute flex mt-5 justify-evenly text-lg px-10 py-7 w-[500px] bg-white p-4 rounded-3xl shadow-lg">
                     <div className="-mt-10 text-black  -ml-10">
                       <IoMdArrowDropup size={30} />
@@ -134,7 +134,7 @@ const NavBar = () => {
                       Leased Line's Plans
                     </p>
                   </div>
-                )}
+                )} */}
               </li>
               <li>
                 <Link
@@ -166,7 +166,7 @@ const NavBar = () => {
               duration={500}
               to="contact"
             >
-              <button className="text-lg font-semibold bg-gradient-to-r from-red-500 via-yellow-500 to-red-500 px-5 py-1  md:px-10 md:py-2 text-center uppercase transition duration-500 ease-in-out bg-no-repeat bg-size-200% text-white hover:bg-gradient-to-r hover:from-red-300 hover:via-yellow-400 hover:to-red-500 shadow-lg rounded-lg">
+              <button className="text-lg font-semibold bg-[#071343] hover:to-yellow-500  hover:via-red-500 hover:bg-gradient-to-r hover:from-pink-500  px-5 py-1  md:px-10 md:py-2 text-center uppercase transition duration-500 ease-in-out bg-no-repeat bg-size-200% text-white  shadow-lg rounded-lg">
                 Buy Now
               </button>
             </Link>
@@ -221,17 +221,16 @@ const NavBar = () => {
                 } font-normal text-base leading-4 absolute top-2  w-full rounded shadow-md`}
               >
                 <li
-                  // onClick={() => setSelectedText("Offers")}
-                  className="px-4 py-3 text-gray-600 bg-gray-50 border border-gray-50 focus:outline-none focus:bg-gray-100 hover:bg-gray-100 duration-100 cursor-pointer text-xs leading-3 font-normal"
-                >
-                  <Link to="/Offers">Offers</Link>
-                </li>
-
-                <li
                   // onClick={() => setSelectedText("Business")}
                   className="px-4 py-3 text-gray-600 bg-gray-50 border border-gray-50 focus:outline-none focus:bg-gray-100 hover:bg-gray-100 duration-100 cursor-pointer text-xs leading-3 font-normal"
                 >
                   <Link to="/Business">Business</Link>
+                </li>
+                <li
+                  // onClick={() => setSelectedText("Offers")}
+                  className="px-4 py-3 text-gray-600 bg-gray-50 border border-gray-50 focus:outline-none focus:bg-gray-100 hover:bg-gray-100 duration-100 cursor-pointer text-xs leading-3 font-normal"
+                >
+                  <Link to="/Offers">Offers</Link>
                 </li>
                 <li
                   // onClick={() => setSelectedText(" FAQ's")}

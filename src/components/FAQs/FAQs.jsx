@@ -1,6 +1,11 @@
-import React,{useState} from 'react'
+import React,{useState,useEffect} from 'react'
+import AOS from "aos";
+import "aos/dist/aos.css";
 
 const FAQs = () => {
+    useEffect(() => {
+      AOS.init();
+ });
      const [question, setquestion] = useState(0);
   return (
     <div className="">
@@ -11,7 +16,7 @@ const FAQs = () => {
           className="object-fill h-[30vh] md:h-[80vh] w-full"
         />
       </div>
-      <div>
+      <div data-aos="zoom-out">
         <div className="pt-[8%] mx-[7%]">
           <div className=" container pb-[3%] pt-16 rounded-3xl bg-[#071343]">
             <div className="text-center text-white  p-7  bg-gradient-to-tb from-[#071343] via-[#cc3737] to-[#6c0505] pb-3 md:pb-10 xl:pb-20">
@@ -34,7 +39,11 @@ const FAQs = () => {
             </div>
             <div className="w-10/12 mx-auto">
               <ul className="">
-                <li className="group py-6 border-gray-200 border-solid border-b">
+                <li
+                  data-aos="fade-up"
+                  data-aos-duration="3000"
+                  className="group py-6 border-gray-200 border-solid border-b"
+                >
                   <div className="flex  px-4 py-2  group-hover:bg-gradient-to-l bg-[#071343] text-lg  group-hover:from-pink-500 group-hover:via-red-500 group-hover:to-yellow-500 text-white font-medium rounded transition duration-300   justify-between items-center">
                     <h3 className="text-white  text-base  md:text-xl  xl:text-2xl w-10/12">
                       Can I have more than one IP address ?
@@ -95,7 +104,11 @@ const FAQs = () => {
                     </p>
                   )}
                 </li>
-                <li className="group py-6 border-gray-200 border-solid border-b">
+                <li
+                  data-aos="fade-up"
+                  data-aos-duration="3000"
+                  className="group py-6 border-gray-200 border-solid border-b"
+                >
                   <div className="flex group-hover:bg-gradient-to-l bg-[#071343]  text-lg  group-hover:from-pink-500 group-hover:via-red-500 group-hover:to-yellow-500 text-white font-medium rounded transition duration-300   px-4 py-2  justify-between items-center">
                     <h3 className="text-white text-base  md:text-xl  xl:text-2xl w-10/12">
                       Do you Provide consistent speed ?
@@ -154,7 +167,11 @@ const FAQs = () => {
                     </p>
                   )}
                 </li>
-                <li className="group py-6 border-gray-200 border-solid border-b">
+                <li
+                  data-aos="fade-up"
+                  data-aos-duration="3000"
+                  className="group py-6 border-gray-200 border-solid border-b"
+                >
                   <div className="flex group-hover:bg-gradient-to-l bg-[#071343]  text-lg  group-hover:from-pink-500 group-hover:via-red-500 group-hover:to-yellow-500 text-white font-medium rounded transition duration-300   px-4 py-2  justify-between items-center">
                     <h3 className="text-white text-base  md:text-xl  xl:text-2xl w-10/12">
                       Do you Provide more than one IP address for me ?
@@ -212,7 +229,11 @@ const FAQs = () => {
                     </p>
                   )}
                 </li>
-                <li className="group py-6 border-gray-200 border-solid border-b">
+                <li
+                  data-aos="fade-up"
+                  data-aos-duration="3000"
+                  className="group py-6 border-gray-200 border-solid border-b"
+                >
                   <div className="flex group-hover:bg-gradient-to-l bg-[#071343]  text-lg  group-hover:from-pink-500 group-hover:via-red-500 group-hover:to-yellow-500 text-white font-medium rounded transition duration-300   px-4 py-2  justify-between items-center">
                     <h3 className="text-white text-base  md:text-xl  xl:text-2xl w-10/12">
                       How do I cancel my connection ?
@@ -286,7 +307,11 @@ const FAQs = () => {
                     </div>
                   )}
                 </li>
-                <li className="group py-6 border-gray-200 border-solid border-b">
+                <li
+                  data-aos="fade-up"
+                  data-aos-duration="3000"
+                  className="group py-6 border-gray-200 border-solid border-b"
+                >
                   <div className="group-hover:bg-gradient-to-l bg-[#071343]  text-lg  group-hover:from-pink-500 group-hover:via-red-500 group-hover:to-yellow-500 text-white font-medium rounded transition duration-300   flex  px-4 py-2  justify-between items-center">
                     <h3 className="text-white text-base  md:text-xl  xl:text-2xl w-10/12">
                       How speedily is my new connection installed ?

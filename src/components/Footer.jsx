@@ -12,14 +12,16 @@ import "aos/dist/aos.css";
 
 const Footer = () => {
 
-
+  useEffect(() => {
+    AOS.init();
+  });
   return (
     <div id="contact" className="pt-[3%] ">
       <div className=" px-4">
         <div className=" mx-auto py-12 lg:px-20  md:px-6 px-4  bg-white">
           {/* {  lg:max-w-[1440px] md:max-w-[744px] max-w-[375px]} */}
           <div className="flex lg:flex-row md:flex-col flex-col gap-8 w-full">
-            <div data-aos="zoom-in-right" className="w-full">
+            <div data-aos="zoom-in-up" className="w-full">
               <img
                 className=" w-full mt-5 object-cover "
                 src="/contactus1.png"
@@ -89,9 +91,9 @@ const Footer = () => {
 
           <div className="">
             <div className=" py-12">
-              <div className="lg:max-w-[1280px] md:max-w-[696px] w-full mx-auto hover:bg-gradient-to-r bg-[#071343] text-lg  hover:from-pink-500 hover:via-red-500 hover:to-yellow-500 text-white font-medium  transition duration-300  lg:px-10 md:px-6 px-4 py-7">
+              <div className=" w-full mx-auto hover:bg-gradient-to-r bg-[#071343] text-lg  hover:from-pink-500 hover:via-red-500 hover:to-yellow-500 text-white font-medium  transition duration-300  lg:px-10 md:px-6 px-4 py-7">
                 <div className="grid lg:grid-cols-4 md:grid-cols-3 grid-cols-1">
-                  <div className="text-white ">
+                  <div data-aos="zoom-in-up" className="text-white ">
                     <p className="text-xl font-semibold e ">About us</p>
                     <p className="text-2xl">ULTRANET</p>
                     <p className="text-lg">
@@ -99,7 +101,12 @@ const Footer = () => {
                       SHYAM PARK, East Delhi, Delhi, 110051.
                     </p>
                   </div>
-                  <div className="lg:pt-0 text-white md:pt-0 pt-8">
+                  <div
+                    data-aos="fade-down"
+                    data-aos-easing="linear"
+                    data-aos-duration="1500"
+                    className="lg:pt-0 text-white md:pt-0 pt-8"
+                  >
                     <p className="text-lg font-semibold e ">Support</p>
                     <ul className="pt-3">
                       <li className="pt-4">
@@ -154,7 +161,12 @@ const Footer = () => {
                       </li>
                     </ul>
                   </div>
-                  <div className="lg:pt-0 md:pt-0 pt-8">
+                  <div
+                    data-aos="fade-down"
+                    data-aos-easing="linear"
+                    data-aos-duration="1500"
+                    className="lg:pt-0 md:pt-0 pt-8"
+                  >
                     <p className="text-lg font-semibold e text-white ">Legal</p>
                     <ul className="pt-3">
                       <li className="pt-4">
@@ -200,7 +212,7 @@ const Footer = () => {
                     </ul>
                   </div>
                   <div className="lg:pt-0 md:pt-16 pt-8 lg:flex-col md:flex block lgLw-0 md:w-96 lg:justify-start md:justify-between">
-                    <div className>
+                    <div data-aos="zoom-in-down">
                       <p className="text-lg font-semibold e text-white">
                         Features
                       </p>
@@ -271,7 +283,10 @@ const Footer = () => {
                         </p>
                       </div>
                     </div>
-                    <div className="lg:pt-10 md:pt-0 pt-8 cursor-pointer">
+                    <div
+                      data-aos="zoom-out-up"
+                      className="lg:pt-10 md:pt-0 pt-8 cursor-pointer"
+                    >
                       <p className="text-lg font-semibold e text-white">
                         Follow Us
                       </p>
@@ -316,14 +331,20 @@ const Footer = () => {
                   </div>
                 </div>
                 <div className="flex items-center lg:justify-between md:justify-center lg:gap-0 md:gap-10 gap-3 flex-wrap lg:pt-32 md:pt-16 pt-16">
-                  <div className="flex md:flex-row flex-col gap-6">
+                  <div
+                    data-aos="fade-down"
+                    className="flex md:flex-row flex-col gap-6"
+                  >
                     <p className="text-sm  text-white ">+91-7065000280</p>
                     <p className="text-sm  text-white ">+91-7065000960</p>
                     <p className="text-sm  text-white">
                       Corp.support@Ultranet.co.in
                     </p>
                   </div>
-                  <div className="flex lg:gap-4  gap-2 lg:pt-0 md:pt-0  lg:pr-20">
+                  <div
+                    data-aos="fade-down"
+                    className="flex lg:gap-4  gap-2 lg:pt-0 md:pt-0  lg:pr-20"
+                  >
                     <img
                       src="https://tuk-cdn.s3.amazonaws.com/can-uploader/la_copyright-solid.png"
                       alt="copywrite"

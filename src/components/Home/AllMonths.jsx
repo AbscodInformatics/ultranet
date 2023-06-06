@@ -1,8 +1,13 @@
-import React from "react";
+import React,{useEffect} from "react";
 import { BiRupee } from "react-icons/bi";
 import { motion, useAnimation } from "framer-motion";
+import AOS from "aos";
+import "aos/dist/aos.css";
 
 const AllMonths = () => {
+    useEffect(() => {
+      AOS.init();
+    });
   return (
     <div className="bg-black md:pb-5">
       <div className=" flex py-5 text-white justify-center gap-5 flex-col items-center">
@@ -26,8 +31,8 @@ const AllMonths = () => {
           className="flex justify-center md:flex-row flex-col mx-auto gap-10 mt-3"
         >
           <div className="flex items-center  justify-center py-8 px-4">
-            <div className="md:w-[400px] flex flex-col gap-7 shadow-lg  rounded-[20px] pb-10 dark:bg-gray-800 bg-white">
-              <h1 className=" text-[white] py-3 rounded-t-[20px] bg-gradient-to-r from-[#e10000] via-[#cc3737] to-[#6c0505] dark:text-gray-100  text-center font-bold text-xl  pl-3">
+            <div className="md:w-[400px] flex flex-col gap-7 shadow-lg  rounded-[20px] pb-10  bg-white">
+              <h1 className=" text-[white] py-3 rounded-t-[20px] bg-gradient-to-r from-[#e10000] via-[#cc3737] to-[#6c0505]   text-center font-bold text-xl  pl-3">
                 200 Mbps
               </h1>
               <div className="flex mx-3 gap-3">
@@ -54,8 +59,8 @@ const AllMonths = () => {
           className="flex justify-center md:flex-row flex-col mx-auto gap-10 mt-3"
         >
           <div className="flex items-center  justify-center py-8 px-4">
-            <div className="md:w-[400px] flex flex-col gap-7 shadow-lg  rounded-[20px] pb-10 dark:bg-gray-800 bg-white">
-              <h1 className=" text-[white] py-3 rounded-t-[20px] bg-gradient-to-r from-[#e10000] via-[#cc3737] to-[#6c0505] dark:text-gray-100  text-center font-bold text-xl  pl-3">
+            <div className="md:w-[400px] flex flex-col gap-7 shadow-lg  rounded-[20px] pb-10  bg-white">
+              <h1 className=" text-[white] py-3 rounded-t-[20px] bg-gradient-to-r from-[#e10000] via-[#cc3737] to-[#6c0505]   text-center font-bold text-xl  pl-3">
                 500 Mbps
               </h1>
               <div className="flex mx-3 gap-3">
@@ -83,8 +88,8 @@ const AllMonths = () => {
           className="flex justify-center md:flex-row flex-col mx-auto gap-10 mt-3"
         >
           <div className="flex items-center  justify-center py-8 px-4">
-            <div className="md:w-[400px] flex flex-col gap-7 shadow-lg  rounded-[20px] pb-10 dark:bg-gray-800 bg-white">
-              <h1 className=" text-[white] py-3 rounded-t-[20px] bg-gradient-to-r from-[#e10000] via-[#cc3737] to-[#6c0505] dark:text-gray-100  text-center font-bold text-xl  pl-3">
+            <div className="md:w-[400px] flex flex-col gap-7 shadow-lg  rounded-[20px] pb-10  bg-white">
+              <h1 className=" text-[white] py-3 rounded-t-[20px] bg-gradient-to-r from-[#e10000] via-[#cc3737] to-[#6c0505]   text-center font-bold text-xl  pl-3">
                 750 Mbps
               </h1>
               <div className="flex mx-3 gap-3">

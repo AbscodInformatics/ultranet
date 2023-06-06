@@ -1,14 +1,13 @@
-import React from 'react'
+import React,{useEffect } from 'react'
 import { BiRupee } from "react-icons/bi";
 import { motion, useAnimation } from "framer-motion";
 import AOS from "aos";
 import "aos/dist/aos.css";
 
 const LeasedLinres = () => {
-   AOS.init({
-     duration: 3000,
-     offset: 0,
-   });
+  useEffect(() => {
+    AOS.init();
+  });
   return (
     <div className=" md:pb-5">
       <div className="flex flex-wrap mx-[5%]  ">
@@ -18,8 +17,8 @@ const LeasedLinres = () => {
           className="group flex justify-center md:flex-row flex-col mx-auto gap-10 mt-3"
         >
           <div className="flex items-center  justify-center py-8 px-4">
-            <div className="md:w-[300px] flex  flex-col gap-5 shadow-lg  rounded-[20px] pb-10 dark:bg-gray-800 bg-white">
-              <h1 className="pl-[7%] group-hover:bg-gradient-to-r  group-hover:from-pink-500 group-hover:via-red-500 group-hover:to-yellow-500 text-[white] py-3 rounded-t-[20px] bg-[#071343] dark:text-gray-100  text-center font-bold text-xl">
+            <div className="md:w-[300px] flex  flex-col gap-5 shadow-lg  rounded-[20px] pb-10  bg-white">
+              <h1 className="pl-[7%] group-hover:bg-gradient-to-r  group-hover:from-pink-500 group-hover:via-red-500 group-hover:to-yellow-500 text-[white] py-3 rounded-t-[20px] bg-[#071343]   text-center font-bold text-xl">
                 10 Mbps
               </h1>
               <div className="pl-4 text-lg">Fibre Broadband</div>
@@ -49,8 +48,8 @@ const LeasedLinres = () => {
           className="group flex justify-center md:flex-row flex-col mx-auto gap-10 mt-3"
         >
           <div className="flex items-center  justify-center py-8 px-4">
-            <div className="md:w-[300px] flex  flex-col gap-5 shadow-lg  rounded-[20px] pb-10 dark:bg-gray-800 bg-white">
-              <h1 className="pl-[7%] group-hover:bg-gradient-to-r  group-hover:from-pink-500 group-hover:via-red-500 group-hover:to-yellow-500 text-[white] py-3 rounded-t-[20px] bg-[#071343] dark:text-gray-100  text-center font-bold text-xl">
+            <div className="md:w-[300px] flex  flex-col gap-5 shadow-lg  rounded-[20px] pb-10  bg-white">
+              <h1 className="pl-[7%] group-hover:bg-gradient-to-r  group-hover:from-pink-500 group-hover:via-red-500 group-hover:to-yellow-500 text-[white] py-3 rounded-t-[20px] bg-[#071343]   text-center font-bold text-xl">
                 20 Mbps
               </h1>
               <div className="pl-4 text-lg">Fibre Broadband</div>
@@ -80,8 +79,8 @@ const LeasedLinres = () => {
           className="group flex justify-center md:flex-row flex-col mx-auto gap-10 mt-3"
         >
           <div className="flex items-center  justify-center py-8 px-4">
-            <div className="md:w-[300px] flex  flex-col gap-5 shadow-lg  rounded-[20px] pb-10 dark:bg-gray-800 bg-white">
-              <h1 className="pl-[7%] group-hover:bg-gradient-to-r  group-hover:from-pink-500 group-hover:via-red-500 group-hover:to-yellow-500 text-[white] py-3 rounded-t-[20px] bg-[#071343] dark:text-gray-100  text-center font-bold text-xl">
+            <div className="md:w-[300px] flex  flex-col gap-5 shadow-lg  rounded-[20px] pb-10  bg-white">
+              <h1 className="pl-[7%] group-hover:bg-gradient-to-r  group-hover:from-pink-500 group-hover:via-red-500 group-hover:to-yellow-500 text-[white] py-3 rounded-t-[20px] bg-[#071343]   text-center font-bold text-xl">
                 30 Mbps
               </h1>
               <div className="pl-4 text-lg">Fibre Broadband</div>
@@ -111,8 +110,8 @@ const LeasedLinres = () => {
           className="group flex justify-center md:flex-row flex-col mx-auto gap-10 mt-3"
         >
           <div className="flex items-center  justify-center py-8 px-4">
-            <div className="md:w-[300px] flex  flex-col gap-5 shadow-lg  rounded-[20px] pb-10 dark:bg-gray-800 bg-white">
-              <h1 className="pl-[7%] group-hover:bg-gradient-to-r  group-hover:from-pink-500 group-hover:via-red-500 group-hover:to-yellow-500 text-[white] py-3 rounded-t-[20px] bg-[#071343] dark:text-gray-100  text-center font-bold text-xl">
+            <div className="md:w-[300px] flex  flex-col gap-5 shadow-lg  rounded-[20px] pb-10  bg-white">
+              <h1 className="pl-[7%] group-hover:bg-gradient-to-r  group-hover:from-pink-500 group-hover:via-red-500 group-hover:to-yellow-500 text-[white] py-3 rounded-t-[20px] bg-[#071343]   text-center font-bold text-xl">
                 50 Mbps
               </h1>
               <div className="pl-4 text-lg">Fibre Broadband</div>

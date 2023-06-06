@@ -9,17 +9,23 @@ import AOS from "aos";
 import "aos/dist/aos.css";
 
 const Choose = () => {
-
-  AOS.init({
-    duration:2000,
-    offset:0,
-     once: true 
-    
+  useEffect(() => {
+    AOS.init({
+      duration: 2000,
+      offset: 0,
+      once: true,
+    });
   });
+
+ 
  
   return (
-    <div className="">
-      <div className=" flex py-5  justify-center gap-5 flex-col items-center">
+    <div data-aos="zoom-in-up" className="">
+      <div
+        data-aos="zoom-in-up"
+        // data-aos-delay="500"
+        className=" flex py-5  justify-center gap-5 flex-col items-center"
+      >
         <div className="text-5xl font-bold text-center mx-1 md:mx-0 bg-gradient-to-r from-teal-500 via-blue-500 to-pink-500 text-transparent bg-clip-text ">
           WHY CHOOSE ULTRANET
         </div>
@@ -48,10 +54,11 @@ const Choose = () => {
       <div className="grid  md:grid-cols-3 mx-[8%] gap-10 py-12 px-4">
         <div
           data-aos="fade-up"
-          data-aos-delay="200"
-          className="md:w-[400px] group flex flex-col gap-7 shadow-lg  rounded-[20px] pb-10 dark:bg-gray-800 bg-white"
+          data-aos-delay="500"
+
+          className="md:w-[400px] group flex flex-col gap-7 shadow-lg  rounded-[20px] pb-10  bg-white"
         >
-          <h1 className="pl-[7%] group-hover:bg-gradient-to-r  group-hover:from-pink-500 group-hover:via-red-500 group-hover:to-yellow-500 text-[white] py-3 rounded-t-[20px] bg-[#071343] dark:text-gray-100  text-center font-bold text-xl  ">
+          <h1 className="pl-[7%] group-hover:bg-gradient-to-r  group-hover:from-pink-500 group-hover:via-red-500 group-hover:to-yellow-500 text-[white] py-3 rounded-t-[20px] bg-[#071343]   text-center font-bold text-xl  ">
             <FaDownload size={40} />
           </h1>
           <div className="text-xl font-semibold mx-[7%] mt-2 ">
@@ -68,11 +75,11 @@ const Choose = () => {
           </div>
         </div>
         <div
-          data-aos-delay="200"
+          data-aos-delay="500"
           data-aos="fade-up"
-          className="md:w-[400px] group flex flex-col gap-7 shadow-lg  rounded-[20px] pb-10 dark:bg-gray-800 bg-white"
+          className="md:w-[400px] group flex flex-col gap-7 shadow-lg  rounded-[20px] pb-10  bg-white"
         >
-          <h1 className="pl-[7%] group-hover:bg-gradient-to-r  group-hover:from-pink-500 group-hover:via-red-500 group-hover:to-yellow-500 text-[white] py-3 rounded-t-[20px] bg-[#071343] dark:text-gray-100  text-center font-bold text-xl  ">
+          <h1 className="pl-[7%] group-hover:bg-gradient-to-r  group-hover:from-pink-500 group-hover:via-red-500 group-hover:to-yellow-500 text-[white] py-3 rounded-t-[20px] bg-[#071343]   text-center font-bold text-xl  ">
             <MdRocketLaunch size={40} />
           </h1>
           <div className="text-xl font-semibold mx-[7%] mt-2 ">
@@ -90,10 +97,10 @@ const Choose = () => {
         </div>
         <div
           data-aos="fade-up"
-          data-aos-delay="200"
-          className="md:w-[400px] group flex flex-col gap-7 shadow-lg  rounded-[20px] pb-10 dark:bg-gray-800 bg-white"
+          data-aos-delay="500"
+          className="md:w-[400px] group flex flex-col gap-7 shadow-lg  rounded-[20px] pb-10  bg-white"
         >
-          <h1 className="pl-[7%] group-hover:bg-gradient-to-r  group-hover:from-pink-500 group-hover:via-red-500 group-hover:to-yellow-500 text-[white] py-3 rounded-t-[20px] bg-[#071343] dark:text-gray-100  text-center font-bold text-xl  ">
+          <h1 className="pl-[7%] group-hover:bg-gradient-to-r  group-hover:from-pink-500 group-hover:via-red-500 group-hover:to-yellow-500 text-[white] py-3 rounded-t-[20px] bg-[#071343]   text-center font-bold text-xl  ">
             <RiSecurePaymentFill size={40} />
           </h1>
           <div className="text-xl font-semibold mx-[7%] mt-2 ">
@@ -111,10 +118,10 @@ const Choose = () => {
         </div>
         <div
           data-aos="fade-up"
-          data-aos-delay="400"
-          className="md:w-[400px] group flex flex-col gap-7 shadow-lg  rounded-[20px] pb-10 dark:bg-gray-800 bg-white"
+          data-aos-delay="800"
+          className="md:w-[400px] group flex flex-col gap-7 shadow-lg  rounded-[20px] pb-10  bg-white"
         >
-          <h1 className="pl-[7%] group-hover:bg-gradient-to-r  group-hover:from-pink-500 group-hover:via-red-500 group-hover:to-yellow-500 text-[white] py-3 rounded-t-[20px] bg-[#071343] dark:text-gray-100  text-center font-bold text-xl  ">
+          <h1 className="pl-[7%] group-hover:bg-gradient-to-r  group-hover:from-pink-500 group-hover:via-red-500 group-hover:to-yellow-500 text-[white] py-3 rounded-t-[20px] bg-[#071343]   text-center font-bold text-xl  ">
             <FaRupeeSign size={40} />
           </h1>
           <div className="text-xl font-semibold mx-[7%] mt-2 ">
@@ -132,10 +139,10 @@ const Choose = () => {
         </div>
         <div
           data-aos="fade-up"
-          data-aos-delay="400"
-          className="md:w-[400px] group flex flex-col gap-7 shadow-lg  rounded-[20px] pb-10 dark:bg-gray-800 bg-white"
+          data-aos-delay="800"
+          className="md:w-[400px] group flex flex-col gap-7 shadow-lg  rounded-[20px] pb-10  bg-white"
         >
-          <h1 className="pl-[7%] group-hover:bg-gradient-to-r  group-hover:from-pink-500 group-hover:via-red-500 group-hover:to-yellow-500 text-[white] py-3 rounded-t-[20px] bg-[#071343] dark:text-gray-100  text-center font-bold text-xl  ">
+          <h1 className="pl-[7%] group-hover:bg-gradient-to-r  group-hover:from-pink-500 group-hover:via-red-500 group-hover:to-yellow-500 text-[white] py-3 rounded-t-[20px] bg-[#071343]   text-center font-bold text-xl  ">
             <MdThumbUp size={40} />
           </h1>
           <div className="text-xl font-semibold mx-[7%] mt-2 ">
@@ -153,10 +160,10 @@ const Choose = () => {
         </div>
         <div
           data-aos="fade-up"
-          data-aos-delay="400"
-          className="md:w-[400px] group flex flex-col gap-7 shadow-lg  rounded-[20px] pb-10 dark:bg-gray-800 bg-white"
+          data-aos-delay="800"
+          className="md:w-[400px] group flex flex-col gap-7 shadow-lg  rounded-[20px] pb-10  bg-white"
         >
-          <h1 className="pl-[7%] group-hover:bg-gradient-to-r  group-hover:from-pink-500 group-hover:via-red-500 group-hover:to-yellow-500 text-[white] py-3 rounded-t-[20px] bg-[#071343] dark:text-gray-100  text-center font-bold text-xl  ">
+          <h1 className="pl-[7%] group-hover:bg-gradient-to-r  group-hover:from-pink-500 group-hover:via-red-500 group-hover:to-yellow-500 text-[white] py-3 rounded-t-[20px] bg-[#071343]   text-center font-bold text-xl  ">
             <FaHome size={40} />
           </h1>
           <div className="text-xl font-semibold mx-[7%] mt-2 ">
@@ -173,9 +180,14 @@ const Choose = () => {
           </div>
         </div>
       </div>
-      <div className="py-[3%] mx-[8%]">
+      <div
+        className="py-[3%] mx-[8%]"
+        data-aos="fade-up"
+        data-aos-anchor-placement="bottom-center"
+      >
         <img src="/ml1.png" alt="" />
       </div>
+      {/* <div className="py-[3%] mx-[8%]"></div> */}
     </div>
   );
 };
