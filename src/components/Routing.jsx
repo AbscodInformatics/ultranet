@@ -6,9 +6,11 @@ import Business from "./Business/Index";
 import FAQs from "./FAQs/Index";
 import NavBar from "./NavBar";
 import Footer from "./Footer";
+import ScrollToTop from "./ScrollToTop";
 const Routing = () => {
   return (
     <div>
+      <ScrollToTop/>
       <NavBar />
       <Routes>
         <Route exact path="/" element={<LandingPage />} />
