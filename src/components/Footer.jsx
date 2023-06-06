@@ -14,18 +14,19 @@ const Footer = () => {
 
 
   return (
-    <div id="contact" className="pt-[3%]">
+    <div id="contact" className="pt-[3%] ">
       <div className=" px-4">
-        <div className=" mx-auto py-12 lg:px-20  md:px-6 px-4 lg:max-w-[1440px] md:max-w-[744px] max-w-[375px] bg-white">
+        <div className=" mx-auto py-12 lg:px-20  md:px-6 px-4  bg-white">
+          {/* {  lg:max-w-[1440px] md:max-w-[744px] max-w-[375px]} */}
           <div className="flex lg:flex-row md:flex-col flex-col gap-8 w-full">
-            <div data-aos="fade-up-right" className="w-full">
+            <div data-aos="zoom-in-right" className="w-full">
               <img
                 className=" w-full mt-5 object-cover "
                 src="/contactus1.png"
                 alt="map-lg"
               />
             </div>
-            <div data-aos="fade-up-left" className="lg:max-w-[624px] w-full">
+            <div data-aos="zoom-in-up" className="lg:max-w-[624px] w-full">
               <div className="text-5xl font-bold text-center mx-1 md:mx-0 bg-gradient-to-r from-teal-500 via-blue-500 to-pink-500 text-transparent bg-clip-text ">
                 Contact Us
               </div>

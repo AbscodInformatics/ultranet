@@ -51,9 +51,9 @@ const NavBar = () => {
     <div className="fixed w-full z-10">
       <div className="2xl:container bg-white 2xl:mx-auto">
         <div className="rounded bg-white shadow-lg py-2 px-7">
-          <nav className="flex justify-around items-center ">
+          <nav className="flex justify-between   md:justify-around items-center ">
             <div className="flex items-center  lg:pr-16 pr-6">
-              <img src="ulranetlogo.png" className="w-40 " />
+              <img src="ulranetlogo.png" className="w-36 md:w-40 " />
             </div>
             {/* For medium and plus sized devices */}
             <ul className="pr-12 md:flex items-center  gap-10 h-full hidden">
@@ -85,7 +85,7 @@ const NavBar = () => {
               </li>
               <li>
                 <Link
-                  to="/Home"
+                  to="/Offers"
                   onMouseEnter={handleHover}
                   onMouseLeave={handleLeave}
                   className="focus:outline-none text-lg border-transparent font-medium cursor-pointer h-full flex items-center hover:text-[#e10000]  text-black tracking-normal border-b-2 "
@@ -172,7 +172,7 @@ const NavBar = () => {
             </Link>
           </nav>
           {/* for smaller devcies */}
-          <div className="block md:hidden w-full mt-5 ">
+          <div className="block md:hidden  mt-5 ">
             <div
               onClick={() => setDropDown(!dropDown)}
               className="cursor-pointer px-4 py-3 text-black bg-[#e10000] rounded flex justify-between items-center w-full"
@@ -184,13 +184,13 @@ const NavBar = () => {
                     text.length != 0 ? "" : "hidden"
                   } font-semibold text-lg leading-3`}
                 >
-                  Ultranet:{" "}
+                  Ultranet
                 </span>
                 <p
                   id="textClicked"
                   className="font-normal text-lg leading-3 focus:outline-none hover:bg-gray-800 duration-100 cursor-pointer "
                 >
-                  {text ? text : "Ultranet"}
+                  {text ? text : "Home"}
                 </p>
               </div>
               <svg
@@ -221,34 +221,37 @@ const NavBar = () => {
                 } font-normal text-base leading-4 absolute top-2  w-full rounded shadow-md`}
               >
                 <li
-                  onClick={() => setSelectedText("Offers")}
+                  // onClick={() => setSelectedText("Offers")}
                   className="px-4 py-3 text-gray-600 bg-gray-50 border border-gray-50 focus:outline-none focus:bg-gray-100 hover:bg-gray-100 duration-100 cursor-pointer text-xs leading-3 font-normal"
                 >
-                  Offers
+                  <Link to="/Offers">Offers</Link>
+                </li>
+
+                <li
+                  // onClick={() => setSelectedText("Business")}
+                  className="px-4 py-3 text-gray-600 bg-gray-50 border border-gray-50 focus:outline-none focus:bg-gray-100 hover:bg-gray-100 duration-100 cursor-pointer text-xs leading-3 font-normal"
+                >
+                  <Link to="/Business">Business</Link>
                 </li>
                 <li
-                  onClick={() => setSelectedText("Home")}
+                  // onClick={() => setSelectedText(" FAQ's")}
                   className="px-4 py-3 text-gray-600 bg-gray-50 border border-gray-50 focus:outline-none focus:bg-gray-100 hover:bg-gray-100 duration-100 cursor-pointer text-xs leading-3 font-normal"
                 >
-                  Home
+                  <Link to="/FAQs">FAQ's</Link>
                 </li>
                 <li
-                  onClick={() => setSelectedText("Business")}
+                  // onClick={() => setSelectedText(" How To UltraNet Work's")}
                   className="px-4 py-3 text-gray-600 bg-gray-50 border border-gray-50 focus:outline-none focus:bg-gray-100 hover:bg-gray-100 duration-100 cursor-pointer text-xs leading-3 font-normal"
                 >
-                  Business
-                </li>
-                <li
-                  onClick={() => setSelectedText(" FAQ's")}
-                  className="px-4 py-3 text-gray-600 bg-gray-50 border border-gray-50 focus:outline-none focus:bg-gray-100 hover:bg-gray-100 duration-100 cursor-pointer text-xs leading-3 font-normal"
-                >
-                  FAQ's
-                </li>
-                <li
-                  onClick={() => setSelectedText(" How To UltraNet Work's")}
-                  className="px-4 py-3 text-gray-600 bg-gray-50 border border-gray-50 focus:outline-none focus:bg-gray-100 hover:bg-gray-100 duration-100 cursor-pointer text-xs leading-3 font-normal"
-                >
-                  How To UltraNet Work's
+                  <Link
+                    activeClass="active"
+                    to="contact"
+                    offset={-200}
+                    duration={500}
+                  >
+                    {" "}
+                    How To UltraNet Work's
+                  </Link>
                 </li>
               </ul>
             </div>
