@@ -9,14 +9,14 @@ const FAQs = () => {
      const [question, setquestion] = useState(0);
   return (
     <div className="">
-      <div className="pt-[33%] md:pt-[4%]">
+      <div data-aos="zoom-in-up" className="pt-[33%] md:pt-[4%]">
         <img
           src="/faq.jpg"
           alt=""
           className="object-fill h-[30vh] md:h-[80vh] w-full"
         />
       </div>
-      <div data-aos="zoom-out">
+      <div data-aos="zoom-in-up">
         <div className="pt-[8%] mx-[7%]">
           <div className=" container pb-[3%] pt-16 rounded-3xl bg-[#071343]">
             <div className="text-center text-white  p-7  bg-gradient-to-tb from-[#071343] via-[#cc3737] to-[#6c0505] pb-3 md:pb-10 xl:pb-20">

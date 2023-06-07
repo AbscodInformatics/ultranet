@@ -7,10 +7,10 @@ const Home = () => {
       AOS.init();
     });
   return (
-    <div className="pt-[30%] md:pt-[3%]">
+    <div  className="pt-[30%] md:pt-[3%]">
       <div
         className="bg-black  max-w-[100vw] md:mx-auto h-[20vh] md:h-[30vh] lg:h-[85vh] bg-contain bg-no-repeat"
-        style={{ backgroundImage: `url("/HomeFttp.png")` }}
+        style={{ backgroundImage: `url("/HomeFttp.png")`, backgroundSize: "cover", }}
       ></div>
       <div className="py-[5%]">
         <div>

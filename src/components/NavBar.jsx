@@ -53,7 +53,9 @@ const NavBar = () => {
         <div className="rounded bg-white shadow-lg py-2 px-7">
           <nav className="flex justify-between   md:justify-around items-center ">
             <div className="flex items-center  lg:pr-16 pr-6">
-              <img src="ulranetlogo.png" className="w-36 md:w-40 " />
+              <Link to="/">
+                <img src="ulranetlogo.png" className="w-36 md:w-40 " />
+              </Link>
             </div>
             {/* For medium and plus sized devices */}
             <ul className="pr-12 md:flex items-center  gap-10 h-full hidden">

@@ -284,7 +284,7 @@ const Footer = () => {
                       </div>
                     </div>
                     <div
-                      data-aos="zoom-out-up"
+                      data-aos="zoom-out"
                       className="lg:pt-10 md:pt-0 pt-8 cursor-pointer"
                     >
                       <p className="text-lg font-semibold e text-white">
