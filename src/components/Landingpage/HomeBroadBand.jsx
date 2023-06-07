@@ -16,7 +16,7 @@ const HomeBroadBand = () => {
         className="  flex md:flex-row justify-around  flex-col  gap-10 mt-3"
       >
         <div className="group flex items-center  justify-center py-8 px-4">
-          <div className="md:w-[400px] flex flex-col gap-7 shadow-lg  rounded-[20px] pb-10  bg-white">
+          <div className="md:w-[350px] flex flex-col gap-7 shadow-lg  rounded-[20px] pb-10  bg-white">
             <h1 className=" pl-[7%] group-hover:bg-gradient-to-r  group-hover:from-pink-500 group-hover:via-red-500 group-hover:to-yellow-500 text-[white] py-3 rounded-t-[20px] bg-[#071343]   text-center font-bold text-xl ">
               200 Mbps
             </h1>
@@ -45,7 +45,7 @@ const HomeBroadBand = () => {
         className="group flex justify-center md:flex-row flex-col mx-auto gap-10 mt-3"
       >
         <div className="flex items-center  justify-center py-8 px-4">
-          <div className="md:w-[400px] flex flex-col gap-7 shadow-lg  rounded-[20px] pb-10  bg-white">
+          <div className="md:w-[350px] flex flex-col gap-7 shadow-lg  rounded-[20px] pb-10  bg-white">
             <h1 className=" pl-[7%] group-hover:bg-gradient-to-r  group-hover:from-pink-500 group-hover:via-red-500 group-hover:to-yellow-500 text-[white] py-3 rounded-t-[20px] bg-[#071343]   text-center font-bold text-xl ">
               500 Mbps
             </h1>
@@ -74,7 +74,7 @@ const HomeBroadBand = () => {
         className="group flex justify-center md:flex-row flex-col mx-auto gap-10 mt-3"
       >
         <div className="flex items-center  justify-center py-8 px-4">
-          <div className="md:w-[400px] flex flex-col gap-7 shadow-lg  rounded-[20px] pb-10  bg-white">
+          <div className="md:w-[350px] flex flex-col gap-7 shadow-lg  rounded-[20px] pb-10  bg-white">
             <h1 className=" pl-[7%] group-hover:bg-gradient-to-r  group-hover:from-pink-500 group-hover:via-red-500 group-hover:to-yellow-500 text-[white] py-3 rounded-t-[20px] bg-[#071343]   text-center font-bold text-xl ">
               750 Mbps
             </h1>

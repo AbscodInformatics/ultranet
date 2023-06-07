@@ -56,7 +56,7 @@ const Choose = () => {
           data-aos="fade-up"
           data-aos-delay="500"
 
-          className="md:w-[400px] group flex flex-col gap-7 shadow-lg  rounded-[20px] pb-10  bg-white"
+          className="md:w-[350px] group flex flex-col gap-7 shadow-lg  rounded-[20px] pb-10  bg-white"
         >
           <h1 className="pl-[7%] group-hover:bg-gradient-to-r  group-hover:from-pink-500 group-hover:via-red-500 group-hover:to-yellow-500 text-[white] py-3 rounded-t-[20px] bg-[#071343]   text-center font-bold text-xl  ">
             <FaDownload size={40} />
@@ -77,7 +77,7 @@ const Choose = () => {
         <div
           data-aos-delay="500"
           data-aos="fade-up"
-          className="md:w-[400px] group flex flex-col gap-7 shadow-lg  rounded-[20px] pb-10  bg-white"
+          className="md:w-[350px] group flex flex-col gap-7 shadow-lg  rounded-[20px] pb-10  bg-white"
         >
           <h1 className="pl-[7%] group-hover:bg-gradient-to-r  group-hover:from-pink-500 group-hover:via-red-500 group-hover:to-yellow-500 text-[white] py-3 rounded-t-[20px] bg-[#071343]   text-center font-bold text-xl  ">
             <MdRocketLaunch size={40} />
@@ -98,7 +98,7 @@ const Choose = () => {
         <div
           data-aos="fade-up"
           data-aos-delay="500"
-          className="md:w-[400px] group flex flex-col gap-7 shadow-lg  rounded-[20px] pb-10  bg-white"
+          className="md:w-[350px] group flex flex-col gap-7 shadow-lg  rounded-[20px] pb-10  bg-white"
         >
           <h1 className="pl-[7%] group-hover:bg-gradient-to-r  group-hover:from-pink-500 group-hover:via-red-500 group-hover:to-yellow-500 text-[white] py-3 rounded-t-[20px] bg-[#071343]   text-center font-bold text-xl  ">
             <RiSecurePaymentFill size={40} />
@@ -119,7 +119,7 @@ const Choose = () => {
         <div
           data-aos="fade-up"
           data-aos-delay="800"
-          className="md:w-[400px] group flex flex-col gap-7 shadow-lg  rounded-[20px] pb-10  bg-white"
+          className="md:w-[350px] group flex flex-col gap-7 shadow-lg  rounded-[20px] pb-10  bg-white"
         >
           <h1 className="pl-[7%] group-hover:bg-gradient-to-r  group-hover:from-pink-500 group-hover:via-red-500 group-hover:to-yellow-500 text-[white] py-3 rounded-t-[20px] bg-[#071343]   text-center font-bold text-xl  ">
             <FaRupeeSign size={40} />
@@ -140,7 +140,7 @@ const Choose = () => {
         <div
           data-aos="fade-up"
           data-aos-delay="800"
-          className="md:w-[400px] group flex flex-col gap-7 shadow-lg  rounded-[20px] pb-10  bg-white"
+          className="md:w-[350px] group flex flex-col gap-7 shadow-lg  rounded-[20px] pb-10  bg-white"
         >
           <h1 className="pl-[7%] group-hover:bg-gradient-to-r  group-hover:from-pink-500 group-hover:via-red-500 group-hover:to-yellow-500 text-[white] py-3 rounded-t-[20px] bg-[#071343]   text-center font-bold text-xl  ">
             <MdThumbUp size={40} />
@@ -161,7 +161,7 @@ const Choose = () => {
         <div
           data-aos="fade-up"
           data-aos-delay="800"
-          className="md:w-[400px] group flex flex-col gap-7 shadow-lg  rounded-[20px] pb-10  bg-white"
+          className="md:w-[350px] group flex flex-col gap-7 shadow-lg  rounded-[20px] pb-10  bg-white"
         >
           <h1 className="pl-[7%] group-hover:bg-gradient-to-r  group-hover:from-pink-500 group-hover:via-red-500 group-hover:to-yellow-500 text-[white] py-3 rounded-t-[20px] bg-[#071343]   text-center font-bold text-xl  ">
             <FaHome size={40} />
