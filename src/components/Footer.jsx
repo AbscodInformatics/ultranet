@@ -32,9 +32,9 @@ const Footer = () => {
               <div className="text-5xl font-bold text-center mx-1 md:mx-0 bg-gradient-to-r from-teal-500 via-blue-500 to-pink-500 text-transparent bg-clip-text ">
                 Contact Us
               </div>
-              <p className="text-base leading-none text-white mb-8">
+              <div className="text-xl my-[2%] text-[#5b5b98] font-medium text-center">
                 We are always here to help in whatever way we can
-              </p>
+              </div>
               <input
                 className="w-full bg-transparent  p-2 pl-4 border border-gray-300 outline-none"
                 type="text"
@@ -91,7 +91,7 @@ const Footer = () => {
 
           <div className="">
             <div className=" py-12">
-              <div className=" w-full mx-auto hover:bg-gradient-to-r bg-[#071343] text-lg  hover:from-pink-500 hover:via-red-500 hover:to-yellow-500 text-white font-medium  transition duration-300  lg:px-10 md:px-6 px-4 py-7">
+              <div className=" w-full mx-auto  bg-[#071343] text-lg   text-white font-medium  transition duration-300  lg:px-10 md:px-6 px-4 py-7">
                 <div className="grid lg:grid-cols-4 md:grid-cols-3 grid-cols-1">
                   <div data-aos="zoom-in-up" className="text-white ">
                     <p className="text-xl font-semibold e ">About us</p>

@@ -51,7 +51,7 @@ const Choose = () => {
       >
         INFINITE FIBRE BROADBAND PLANS
       </motion.div> */}
-      <div className="grid  md:grid-cols-3 mx-[8%] gap-10 py-12 px-4">
+      <div className="grid  md:grid-cols-3 mx-[3%] lg:mx-[8%] gap-10 py-12 px-4">
         <div
           data-aos="fade-up"
           data-aos-delay="500"

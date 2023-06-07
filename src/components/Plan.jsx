@@ -64,7 +64,7 @@ const Plan = () => {
       <div
         data-aos="fade-up"
         data-aos-anchor-placement="top-center"
-        className="mt-4  mx-[8%]"
+        className="mt-4 mx-[3%] lg:mx-[8%]"
       >
         {renderTabContent()}
       </div>
