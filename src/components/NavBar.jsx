@@ -58,13 +58,13 @@ const NavBar = () => {
               </Link>
             </div>
             {/* For medium and plus sized devices */}
-            <ul className="pr-12 md:flex items-center  gap-10 h-full hidden">
+            <ul className="pr-12 md:flex items-center justify-evenly gap-10 h-full hidden">
               <li>
                 <Link
                   to="/"
                   onMouseEnter={handleHover1}
                   onMouseLeave={handleLeave1}
-                  className="focus:outline-none border-b-2 border-transparent font-medium cursor-pointer h-full flex items-center hover:text-[#e10000] text-lg text-black mx-6 tracking-normal"
+                  className="focus:outline-none text-lg border-transparent font-medium cursor-pointer h-full flex items-center hover:text-[#e10000]  text-black tracking-normal border-b-2"
                 >
                   Home
                 </Link>
@@ -117,7 +117,7 @@ const NavBar = () => {
                   to="/Business"
                   onMouseEnter={handleHover2}
                   onMouseLeave={handleLeave2}
-                  className="focus:outline-none border-b-2 border-transparent font-medium cursor-pointer h-full flex items-center hover:text-[#e10000] text-lg text-black mr-6 tracking-normal"
+                  className="focus:outline-none text-lg border-transparent font-medium cursor-pointer h-full flex items-center hover:text-[#e10000]  text-black tracking-normal border-b-2"
                 >
                   Business
                 </Link>
@@ -141,7 +141,7 @@ const NavBar = () => {
               <li>
                 <Link
                   to="/FAQs"
-                  className="focus:outline-none border-b-2 border-transparent font-medium cursor-pointer h-full flex items-center hover:text-[#e10000] text-lg text-black mr-6 tracking-normal"
+                  className="focus:outline-none text-lg border-transparent font-medium cursor-pointer h-full flex items-center hover:text-[#e10000]  text-black tracking-normal border-b-2"
                 >
                   FAQ's
                 </Link>
@@ -154,9 +154,9 @@ const NavBar = () => {
                   // smooth={true}
                   // offset={-200}
                   duration={500}
-                  className="focus:outline-none border-b-2 border-transparent font-medium cursor-pointer h-full flex items-center hover:text-[#e10000] text-lg text-black mr-6 tracking-normal"
+                  className="focus:outline-none text-lg border-transparent font-medium cursor-pointer h-full flex items-center hover:text-[#e10000]  text-black tracking-normal border-b-2"
                 >
-                  How To UltraNet Work's
+                  How UltraNet Works
                 </Link>
               </li>
             </ul>
@@ -169,7 +169,7 @@ const NavBar = () => {
               to="contact"
             >
               <button className="text-lg font-semibold bg-[#071343] hover:to-yellow-500  hover:via-red-500 hover:bg-gradient-to-r hover:from-pink-500  px-5 py-1  md:px-10 md:py-2 text-center uppercase transition duration-500 ease-in-out bg-no-repeat bg-size-200% text-white  shadow-lg rounded-lg">
-                Buy Now
+                Contact Us
               </button>
             </Link>
           </nav>
@@ -251,7 +251,7 @@ const NavBar = () => {
                     duration={500}
                   >
                     {" "}
-                    How To UltraNet Work's
+                    How UltraNet Works
                   </Link>
                 </li>
               </ul>

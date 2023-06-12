@@ -3,6 +3,7 @@ import { FaInstagramSquare } from "react-icons/fa";
 import { Link } from "react-router-dom";
 import { ImLinkedin2, ImFacebook } from "react-icons/im";
 import { BsYoutube, BsTwitter } from "react-icons/bs";
+import {FaRegCopyright} from "react-icons/fa"
 
 import { motion } from "framer-motion";
 import AOS from "aos";
@@ -21,14 +22,22 @@ const Footer = () => {
         <div className=" mx-auto py-12 lg:px-20  md:px-6 px-4  bg-white">
           {/* {  lg:max-w-[1440px] md:max-w-[744px] max-w-[375px]} */}
           <div className="flex lg:flex-row md:flex-col flex-col gap-8 w-full">
-            <div data-aos="zoom-in-up" className="w-full">
+            <div
+              data-aos="zoom-in-up"
+              data-aos-duration="3000"
+              className="w-full"
+            >
               <img
                 className=" w-full mt-5 object-cover "
                 src="/contactus1.png"
                 alt="map-lg"
               />
             </div>
-            <div data-aos="zoom-in-up" className="lg:max-w-[624px] w-full">
+            <div
+              data-aos="zoom-in-up"
+              data-aos-duration="5000"
+              className="lg:max-w-[624px] w-full"
+            >
               <div className="text-5xl font-bold text-center mx-1 md:mx-0 bg-gradient-to-r from-teal-500 via-blue-500 to-pink-500 text-transparent bg-clip-text ">
                 Contact Us
               </div>
@@ -94,9 +103,9 @@ const Footer = () => {
               <div className=" w-full mx-auto  bg-[#071343] text-lg   text-white font-medium  transition duration-300  lg:px-10 md:px-6 px-4 py-7">
                 <div className="grid lg:grid-cols-4 md:grid-cols-3 grid-cols-1">
                   <div data-aos="zoom-in-up" className="text-white ">
-                    <p className="text-xl font-semibold e ">About us</p>
-                    <p className="text-2xl">ULTRANET</p>
-                    <p className="text-lg">
+                    <p className="text-lg font-semibold e ">About us</p>
+                    <p className="text-xl pt-2 mt-4">ULTRANET</p>
+                    <p className="text-base pt-4 pr-4">
                       GROUND FLOOR, H NO-58-A, KH NO 28/19, GALI NO 4, RADHEY
                       SHYAM PARK, East Delhi, Delhi, 110051.
                     </p>
@@ -343,13 +352,9 @@ const Footer = () => {
                   </div>
                   <div
                     data-aos="fade-down"
-                    className="flex lg:gap-4  gap-2 lg:pt-0 md:pt-0  lg:pr-20"
+                    className="flex lg:gap-4 gap-2 lg:pt-0 md:pt-0  lg:pr-20"
                   >
-                    <img
-                      src="https://tuk-cdn.s3.amazonaws.com/can-uploader/la_copyright-solid.png"
-                      alt="copywrite"
-                      className="text-white"
-                    />
+                  <FaRegCopyright/>
                     <p className="text-sm e text-white">
                       Copyright : 2021, UltraNet. All Rights Reserved.
                     </p>

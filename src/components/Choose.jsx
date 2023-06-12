@@ -20,7 +20,7 @@ const Choose = () => {
  
  
   return (
-    <div data-aos="zoom-in-up" className="">
+    <div data-aos="zoom-in-up" className="mt-5">
       <div
         data-aos="zoom-in-up"
         // data-aos-delay="500"
@@ -54,15 +54,12 @@ const Choose = () => {
       <div className="grid  md:grid-cols-3 mx-[3%] lg:mx-[8%] gap-10 py-12 px-4">
         <div
           data-aos="fade-up"
-          data-aos-delay="500"
-
+          data-aos-delay="1000"
           className="md:w-[350px] group flex flex-col gap-7 shadow-lg  rounded-[20px] pb-10  bg-white"
         >
-          <h1 className="pl-[7%] group-hover:bg-gradient-to-r  group-hover:from-pink-500 group-hover:via-red-500 group-hover:to-yellow-500 text-[white] py-3 rounded-t-[20px] bg-[#071343]   text-center font-bold text-xl  ">
+          <div className="pl-[7%] flex gap-5 items-center group-hover:bg-gradient-to-r  group-hover:from-pink-500 group-hover:via-red-500 group-hover:to-yellow-500 text-[white] py-3 rounded-t-[20px] bg-[#071343]   text-center font-semibold text-xl  ">
             <FaDownload size={40} />
-          </h1>
-          <div className="text-xl font-semibold mx-[7%] mt-2 ">
-            Now No More GB Count
+            <span> Now No More GB Count</span>
           </div>
           <div className="text-lg  h-28  py-3 text-justify mx-[7%] text-black   font-normal flex items-center  ">
             Enjoy truly unlimited high- speed access to Internet with all
@@ -75,19 +72,16 @@ const Choose = () => {
           </div>
         </div>
         <div
-          data-aos-delay="500"
+          data-aos-delay="1200"
           data-aos="fade-up"
           className="md:w-[350px] group flex flex-col gap-7 shadow-lg  rounded-[20px] pb-10  bg-white"
         >
-          <h1 className="pl-[7%] group-hover:bg-gradient-to-r  group-hover:from-pink-500 group-hover:via-red-500 group-hover:to-yellow-500 text-[white] py-3 rounded-t-[20px] bg-[#071343]   text-center font-bold text-xl  ">
-            <MdRocketLaunch size={40} />
-          </h1>
-          <div className="text-xl font-semibold mx-[7%] mt-2 ">
-            Ultra Fast Connection
+          <div className="pl-[7%] flex gap-5 items-center group-hover:bg-gradient-to-r  group-hover:from-pink-500 group-hover:via-red-500 group-hover:to-yellow-500 text-[white] py-3 rounded-t-[20px] bg-[#071343]   text-center font-semibold text-xl  ">
+            <MdRocketLaunch size={40} /> <span> Ultra Fast Connection</span>
           </div>
           <div className="text-lg  h-28  py-3 text-justify mx-[7%] text-black   font-normal flex items-center  ">
-            Ultra Fast Connection We always Provide the fastest speed available
-            in the market so that you can be on top of the world.
+            We always Provide the fastest speed available in the market so that
+            you can be on top of the world.
           </div>{" "}
           <div className="flex justify-center">
             <button className="group-hover:bg-gradient-to-r bg-[#071343] px-8 text-lg py-3 group-hover:from-pink-500 group-hover:via-red-500 group-hover:to-yellow-500 text-white font-medium rounded transition duration-300">
@@ -97,14 +91,11 @@ const Choose = () => {
         </div>
         <div
           data-aos="fade-up"
-          data-aos-delay="500"
+          data-aos-delay="1300"
           className="md:w-[350px] group flex flex-col gap-7 shadow-lg  rounded-[20px] pb-10  bg-white"
         >
-          <h1 className="pl-[7%] group-hover:bg-gradient-to-r  group-hover:from-pink-500 group-hover:via-red-500 group-hover:to-yellow-500 text-[white] py-3 rounded-t-[20px] bg-[#071343]   text-center font-bold text-xl  ">
-            <RiSecurePaymentFill size={40} />
-          </h1>
-          <div className="text-xl font-semibold mx-[7%] mt-2 ">
-            Online Payments
+          <div className="pl-[7%] flex gap-5 items-center group-hover:bg-gradient-to-r  group-hover:from-pink-500 group-hover:via-red-500 group-hover:to-yellow-500 text-[white] py-3 rounded-t-[20px] bg-[#071343]   text-center font-semibold text-xl  ">
+            <RiSecurePaymentFill size={40} /> <span> Online Payments</span>
           </div>
           <div className="text-lg py-3   h-28 text-justify mx-[7%] text-black   font-normal flex items-center  ">
             Go cashless Pay Online on MyNet.UltraNet.co.in to save time and
@@ -118,14 +109,12 @@ const Choose = () => {
         </div>
         <div
           data-aos="fade-up"
-          data-aos-delay="800"
+          data-aos-delay="1600"
           className="md:w-[350px] group flex flex-col gap-7 shadow-lg  rounded-[20px] pb-10  bg-white"
         >
-          <h1 className="pl-[7%] group-hover:bg-gradient-to-r  group-hover:from-pink-500 group-hover:via-red-500 group-hover:to-yellow-500 text-[white] py-3 rounded-t-[20px] bg-[#071343]   text-center font-bold text-xl  ">
+          <div className="pl-[7%] flex gap-5 items-center group-hover:bg-gradient-to-r  group-hover:from-pink-500 group-hover:via-red-500 group-hover:to-yellow-500 text-[white] py-3 rounded-t-[20px] bg-[#071343]   text-center font-semibold text-xl  ">
             <FaRupeeSign size={40} />
-          </h1>
-          <div className="text-xl font-semibold mx-[7%] mt-2 ">
-            Affordable Packages
+            <span> Affordable Packages</span>
           </div>
           <div className="text-lg py-3  h-28  text-justify mx-[7%] text-black   font-normal flex items-center  ">
             Not only are our connections fast but we have a package to suit
@@ -139,14 +128,12 @@ const Choose = () => {
         </div>
         <div
           data-aos="fade-up"
-          data-aos-delay="800"
+          data-aos-delay="1800"
           className="md:w-[350px] group flex flex-col gap-7 shadow-lg  rounded-[20px] pb-10  bg-white"
         >
-          <h1 className="pl-[7%] group-hover:bg-gradient-to-r  group-hover:from-pink-500 group-hover:via-red-500 group-hover:to-yellow-500 text-[white] py-3 rounded-t-[20px] bg-[#071343]   text-center font-bold text-xl  ">
+          <div className="pl-[7%] flex gap-5 items-center group-hover:bg-gradient-to-r  group-hover:from-pink-500 group-hover:via-red-500 group-hover:to-yellow-500 text-[white] py-3 rounded-t-[20px] bg-[#071343]   text-center font-semibold text-xl  ">
             <MdThumbUp size={40} />
-          </h1>
-          <div className="text-xl font-semibold mx-[7%] mt-2 ">
-            99% Service Uptime
+            <span> 99% Service Uptime</span>
           </div>
           <div className="text-lg py-3  h-28  text-justify mx-[7%] text-black   font-normal flex items-center  ">
             Our infrastructure is stable. With our service you can look forward
@@ -160,14 +147,12 @@ const Choose = () => {
         </div>
         <div
           data-aos="fade-up"
-          data-aos-delay="800"
+          data-aos-delay="2000"
           className="md:w-[350px] group flex flex-col gap-7 shadow-lg  rounded-[20px] pb-10  bg-white"
         >
-          <h1 className="pl-[7%] group-hover:bg-gradient-to-r  group-hover:from-pink-500 group-hover:via-red-500 group-hover:to-yellow-500 text-[white] py-3 rounded-t-[20px] bg-[#071343]   text-center font-bold text-xl  ">
-            <FaHome size={40} />
-          </h1>
-          <div className="text-xl font-semibold mx-[7%] mt-2 ">
-            Unlimited for a Single Household
+          <div className="pl-[7%] flex gap-2 items-center group-hover:bg-gradient-to-r  group-hover:from-pink-500 group-hover:via-red-500 group-hover:to-yellow-500 text-[white] py-3 rounded-t-[20px] bg-[#071343]   text-center font-semibold text-lg  ">
+            <FaHome size={30} />
+            <span> Unlimited for a Single Household</span>
           </div>
           <div className="text-lg py-3  h-28  text-justify mx-[7%] text-black   font-normal flex items-center  ">
             Our service are truly unlimited for single household, connect with
@@ -183,7 +168,8 @@ const Choose = () => {
       <div
         className="py-[3%] mx-[8%]"
         data-aos="fade-up"
-        data-aos-anchor-placement="bottom-center"
+        data-aos-delay="8000"
+        // data-aos-anchor-placement="bottom-center"
       >
         <img src="/ml1.png" alt="" />
       </div>

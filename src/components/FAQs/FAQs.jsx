@@ -16,17 +16,21 @@ const FAQs = () => {
           className="object-fill h-[30vh] md:h-[80vh] w-full"
         />
       </div>
-      <div data-aos="zoom-in-up">
+      <div data-aos="zoom-in-down" data-aos-duration="3000">
         <div className="pt-[8%] mx-[7%]">
           <div className=" container pb-[3%] pt-16 rounded-3xl bg-[#071343]">
             <div className="text-center text-white  p-7  bg-gradient-to-tb from-[#071343] via-[#cc3737] to-[#6c0505] pb-3 md:pb-10 xl:pb-20">
               <p className="text-white py-3 text-lg lg:text-2xl font-bold uppercase leading-tight mb-4">
                 FAQs
               </p>
-              <h1 className="px-2 xl:px-0 xl:text-5xl md:text-3xl text-2xl font-extrabold text-white">
+              <h6 className="px-2 xl:px-0 xl:text-3xl md:text-3xl text-xl font-extrabold text-white">
                 Problem Resolution Help And Advice
-              </h1>
-              <p className="text-lg py-5">
+              </h6>
+              <p
+                data-aos="fade-up"
+                data-aos-duration="3000"
+                className="text-lg py-5"
+              >
                 We care about how our customers experience our services. This is
                 the reason why we are a responsive team who would like to listen
                 to your feedback and get back to you. Our “Code of Complaints”
@@ -44,7 +48,12 @@ const FAQs = () => {
                   data-aos-duration="3000"
                   className="group py-6 border-gray-200 border-solid border-b"
                 >
-                  <div className="flex  px-4 py-2  group-hover:bg-gradient-to-l bg-[#071343] text-lg  group-hover:from-pink-500 group-hover:via-red-500 group-hover:to-yellow-500 text-white font-medium rounded transition duration-300   justify-between items-center">
+                  <div
+                    onClick={() =>
+                      question === 0 ? setquestion(null) : setquestion(0)
+                    }
+                    className="flex  px-4 py-2  group-hover:bg-gradient-to-l bg-[#071343] text-lg  group-hover:from-pink-500 group-hover:via-red-500 group-hover:to-yellow-500 text-white font-medium rounded transition duration-300   justify-between items-center"
+                  >
                     <h3 className="text-white  text-base  md:text-xl  xl:text-2xl w-10/12">
                       Can I have more than one IP address ?
                     </h3>
@@ -109,7 +118,12 @@ const FAQs = () => {
                   data-aos-duration="3000"
                   className="group py-6 border-gray-200 border-solid border-b"
                 >
-                  <div className="flex group-hover:bg-gradient-to-l bg-[#071343]  text-lg  group-hover:from-pink-500 group-hover:via-red-500 group-hover:to-yellow-500 text-white font-medium rounded transition duration-300   px-4 py-2  justify-between items-center">
+                  <div
+                    onClick={() =>
+                      question === 1 ? setquestion(null) : setquestion(1)
+                    }
+                    className="flex group-hover:bg-gradient-to-l bg-[#071343]  text-lg  group-hover:from-pink-500 group-hover:via-red-500 group-hover:to-yellow-500 text-white font-medium rounded transition duration-300   px-4 py-2  justify-between items-center"
+                  >
                     <h3 className="text-white text-base  md:text-xl  xl:text-2xl w-10/12">
                       Do you Provide consistent speed ?
                     </h3>
@@ -172,7 +186,12 @@ const FAQs = () => {
                   data-aos-duration="3000"
                   className="group py-6 border-gray-200 border-solid border-b"
                 >
-                  <div className="flex group-hover:bg-gradient-to-l bg-[#071343]  text-lg  group-hover:from-pink-500 group-hover:via-red-500 group-hover:to-yellow-500 text-white font-medium rounded transition duration-300   px-4 py-2  justify-between items-center">
+                  <div
+                    onClick={() =>
+                      question === 2 ? setquestion(null) : setquestion(2)
+                    }
+                    className="flex group-hover:bg-gradient-to-l bg-[#071343]  text-lg  group-hover:from-pink-500 group-hover:via-red-500 group-hover:to-yellow-500 text-white font-medium rounded transition duration-300   px-4 py-2  justify-between items-center"
+                  >
                     <h3 className="text-white text-base  md:text-xl  xl:text-2xl w-10/12">
                       Do you Provide more than one IP address for me ?
                     </h3>
@@ -234,7 +253,12 @@ const FAQs = () => {
                   data-aos-duration="3000"
                   className="group py-6 border-gray-200 border-solid border-b"
                 >
-                  <div className="flex group-hover:bg-gradient-to-l bg-[#071343]  text-lg  group-hover:from-pink-500 group-hover:via-red-500 group-hover:to-yellow-500 text-white font-medium rounded transition duration-300   px-4 py-2  justify-between items-center">
+                  <div
+                    onClick={() =>
+                      question === 3 ? setquestion(null) : setquestion(3)
+                    }
+                    className="flex group-hover:bg-gradient-to-l bg-[#071343]  text-lg  group-hover:from-pink-500 group-hover:via-red-500 group-hover:to-yellow-500 text-white font-medium rounded transition duration-300   px-4 py-2  justify-between items-center"
+                  >
                     <h3 className="text-white text-base  md:text-xl  xl:text-2xl w-10/12">
                       How do I cancel my connection ?
                     </h3>
@@ -312,7 +336,12 @@ const FAQs = () => {
                   data-aos-duration="3000"
                   className="group py-6 border-gray-200 border-solid border-b"
                 >
-                  <div className="group-hover:bg-gradient-to-l bg-[#071343]  text-lg  group-hover:from-pink-500 group-hover:via-red-500 group-hover:to-yellow-500 text-white font-medium rounded transition duration-300   flex  px-4 py-2  justify-between items-center">
+                  <div
+                    onClick={() =>
+                      question === 4 ? setquestion(null) : setquestion(4)
+                    }
+                    className="group-hover:bg-gradient-to-l bg-[#071343]  text-lg  group-hover:from-pink-500 group-hover:via-red-500 group-hover:to-yellow-500 text-white font-medium rounded transition duration-300   flex  px-4 py-2  justify-between items-center"
+                  >
                     <h3 className="text-white text-base  md:text-xl  xl:text-2xl w-10/12">
                       How speedily is my new connection installed ?
                     </h3>

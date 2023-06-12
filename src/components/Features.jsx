@@ -21,15 +21,9 @@ const Features = () => {
           copper wiring. Our mission is to ensure that our customers enjoy high
           bandwidth HD quality video streaming line.
         </div>
-        <button className="text-lg bg-gradient-to-r font-semibold from-red-500 via-yellow-500 to-red-500   px-10 py-4 text-center uppercase transition duration-500 ease-in-out bg-no-repeat bg-size-200% text-white hover:bg-gradient-to-r hover:from-red-300 hover:via-yellow-400 hover:to-red-500 shadow-lg rounded-lg ">
+        <button className="text-lg mt-5 bg-gradient-to-r font-semibold from-red-500 via-yellow-500 to-red-500   px-10 py-4 text-center uppercase transition duration-500 ease-in-out bg-no-repeat bg-size-200% text-white hover:bg-gradient-to-r hover:from-red-300 hover:via-yellow-400 hover:to-red-500 shadow-lg rounded-lg ">
           Find Out More
-        </button>
-
-        {/* <button className="text-lg bg-gradient-to-r  mt-[5%] font-semibold from-red-500 via-yellow-500 to-red-500   px-10 py-4 text-center uppercase transition duration-500 ease-in-out bg-no-repeat bg-size-200% text-white hover:bg-gradient-to-r hover:from-red-300 hover:via-yellow-400 hover:to-red-500 shadow-lg rounded-lg ">
-          See Our Price Plans & Order Now
-        </button> */}
-      </div>
-      <div></div>
+        </button></div>
     </div>
   );
 }
