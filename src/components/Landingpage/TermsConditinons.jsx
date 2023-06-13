@@ -6,7 +6,7 @@ const TermsConditinons = () => {
          AOS.init();
        });
   return (
-    <div className="2xl:container 2xl:mx-auto lg:py-16 lg:px-20 md:py-12 md:px-6 py-9 px-4">
+    <div className="2xl:container pt-[40%] md:pt-[3%] 2xl:mx-auto lg:py-16 lg:px-20 md:py-12 md:px-6 py-9 px-4">
       <p
         data-aos="fade-down"
         className="font-normal mt-8 text-sm leading-3 text-indigo-700 hover:text-indigo-800 cursor-pointer pb-2"

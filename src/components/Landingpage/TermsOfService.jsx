@@ -8,7 +8,7 @@ const TermsOfService = () => {
   });
   return (
     <>
-      <div className="2xl:mx-auto  2xl:container xl:px-20 md:px-6 p-4 py-28 lg:flex items-stretch  justify-between">
+      <div className="2xl:mx-auto pt-[40%] md:pt-[3%] 2xl:container xl:px-20 md:px-6 p-4 py-28 lg:flex items-stretch  justify-between">
         <div className="lg:w-2/4  pr-4">
           <div data-aos="fade-up" className>
             <h1

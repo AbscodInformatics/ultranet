@@ -116,8 +116,8 @@ const Footer = () => {
                   <div data-aos="zoom-in-up" className="text-white ">
                     <p className="text-lg font-semibold e ">ULTRANET</p>
                     <p className="text-base pt-7 pr-4">
-                      GROUND FLOOR, H NO-58-A, KH NO 28/19, GALI NO 4, RADHEY
-                      SHYAM PARK, East Delhi, Delhi, 110051.
+                      Ground Floor, H No-58-A, KH No 28/19, Gali No- 4, Radhey
+                      Shyam Park, East Delhi, Delhi, 110051.
                     </p>
                   </div>
                   <div
@@ -234,35 +234,30 @@ const Footer = () => {
                       </p>
                       <div className="flex gap-4 pt-4">
                         <div className="my-auto ">
-                          <ul className="flex  ">
-                            <li className="w-10 hover:scale-[1.55]  duration-500 h-10 rounded-full bg-[#0077B5]  flex justify-center content-center items-center text-white m-2">
+                          <ul className="flex gap-4 ">
+                            <li className="w-10 hover:scale-[1.55]  duration-500 h-10 rounded-full bg-[#0077B5]  flex justify-center content-center items-center text-white ">
                               <Link to="" className="mx-5">
                                 <ImLinkedin2 className="" />
                               </Link>
                             </li>
-                            <li className="hover:scale-[1.55]  duration-500 w-10 h-10 rounded-full bg-[#3b5998]  flex justify-center items-center text-white m-2">
+                            <li className="hover:scale-[1.55]  duration-500 w-10 h-10 rounded-full bg-[#3b5998]  flex justify-center items-center text-white ">
                               <Link to="" className="mx-5">
                                 <ImFacebook className="" />
                               </Link>
                             </li>
-                            <li className="hover:scale-[1.55]  duration-500 w-10 h-10 rounded-full bg-[#00acee]  flex justify-center items-center text-white m-2">
-                              <Link to="" className="mx-5">
-                                <BsTwitter className="" />
-                              </Link>
-                            </li>
-                            <li className="hover:scale-[1.55]  duration-500 w-10 h-10 rounded-full bg-[#c4302b]  flex justify-center items-center text-white m-2">
+                            <li className="hover:scale-[1.55]  duration-500 w-10 h-10 rounded-full bg-[#c4302b]  flex justify-center items-center text-white ">
                               <Link to="" className="mx-5 ">
                                 <BsYoutube className="text-white" />
                               </Link>
                             </li>
                             <li
-                              className="hover:scale-[1.55]  duration-500 w-10 h-10 rounded-full   flex justify-center items-center text-white m-2"
+                              className="hover:scale-[1.55]  duration-500 w-10 h-10 rounded-full   flex justify-center items-center text-white"
                               style={{
                                 background:
                                   "radial-gradient(circle farthest-corner at 35% 90%, #fec564, transparent 50%), radial-gradient(circle farthest-corner at 0 140%, #fec564, transparent 50%), radial-gradient(ellipse farthest-corner at 0 -25%, #5258cf, transparent 50%), radial-gradient(ellipse farthest-corner at 20% -50%, #5258cf, transparent 50%), radial-gradient(ellipse farthest-corner at 100% 0, #893dc2, transparent 50%), radial-gradient(ellipse farthest-corner at 60% -20%, #893dc2, transparent 50%), radial-gradient(ellipse farthest-corner at 100% 100%, #d9317a, transparent), linear-gradient(#6559ca, #bc318f 30%, #e33f5f 50%, #f77638 70%, #fec66d 100%)",
                               }}
                             >
-                              <Link to="" className="mx-5 ">
+                              <Link to="" className=" ">
                                 <FaInstagramSquare className="text-white" />
                               </Link>
                             </li>
