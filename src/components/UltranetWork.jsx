@@ -13,7 +13,7 @@ const UltranetWork = () => {
    });
   return (
     <div data-aos="zoom-in-up" id="work" className="mx-[8%] md:mx-0">
-      <img src="/BroadbandBg.png" alt="" className="mt-[5%]" />
+      <img src="/BroadbandBg2.png" alt="" className="mt-[5%]" />
     </div>
   );
 };
