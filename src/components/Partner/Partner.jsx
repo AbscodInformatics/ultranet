@@ -13,7 +13,7 @@ const Partner = () => {
       <div
         data-aos="zoom-in-up"
         data-aos-delay="1200"
-        className="pt-[35%] md:pt-[7%] group hover:bg-gradient-to-r bg-[#071343]  text-lg  hover:from-pink-500 hover:via-red-500 hover:to-yellow-500 text-white font-medium  transition duration-300  p-[5%] xl:px-20 md:px-6 px-4 md:py-20 py-14 w-full flex flex-col items-center justify-center"
+        className="pt-[40%] md:pt-[7%] group hover:bg-gradient-to-r bg-[#071343]  text-lg  hover:from-pink-500 hover:via-red-500 hover:to-yellow-500 text-white font-medium  transition duration-300  p-[5%] xl:px-20 md:px-6 px-4 md:py-20 py-14 w-full flex flex-col items-center justify-center"
       >
         <h1
           data-aos="zoom-in"
