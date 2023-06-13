@@ -12,6 +12,7 @@ import TermsOfService from "./Landingpage/TermsOfService";
 import FairUsePolicy from "./Landingpage/FairUsePolicy";
 import FtthNetwork from "./Landingpage/FtthNetwork";
 import AboutUs from "./AboutUs/Index"
+import Partner from "./Partner/Partner";
 const Routing = () => {
   return (
     <div>
@@ -23,6 +24,7 @@ const Routing = () => {
         <Route exact path="/FAQs" element={<FAQs />} />
         <Route exact path="/Business" element={<Business />} />
         <Route exact path="/AboutUs" element={<AboutUs />} />
+        <Route exact path="/Partner" element={<Partner />} />
         <Route
           exact
           path="/TermsAndConditions"

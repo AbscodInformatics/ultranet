@@ -1,15 +1,9 @@
 import React from "react";
-import AOS from "aos";
-import "aos/dist/aos.css";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Autoplay } from "swiper";
 
 const HeroPage = () => {
   return (
-    // <div
-    //   className="bg-black  w-auto mx-auto h-[20vh] md:h-[30vh] lg:h-[85vh] bg-contain bg-no-repeat"
-    //   style={{ backgroundImage: `url("/banner2.png")` }}
-    // ></div>
     <div className="pt-[30%] md:pt-[3%]">
       <Swiper
         loop={true}

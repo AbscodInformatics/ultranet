@@ -1,20 +1,14 @@
-import React, { useRef } from "react";
-import Footer from "../Footer";
+import React from "react";
 import { ImCross } from "react-icons/im";
 
 const PrivacyPolicy = ({  closePopup }) => {
-  const menu_cookies_14 = useRef(null);
-  const showMenu_cookies_14 = (flag) => {
-    menu_cookies_14.current.classList.toggle("hidden");
-  };
+  
   return (
     <>
       <div className="px-4 shadow-2xl ">
         <div className="lg:max-w-[1440px] md:max-w-[744px] max-w-[375px] mx-auto bg-white relative">
           <div className="relative">
             <div
-              ref={menu_cookies_14}
-              id="menu_cookies_14"
               className="absolute  top-0 z-10 w-full px-4  "
             >
               <div className="lg:max-w-[842px] rounded-3xl bg-white mt-80 md:mt-14 lg:py-6 md:py-3 py-4 mx-auto  overflow-y-auto max-h-[700px] md:max-h-[500px] w-full">

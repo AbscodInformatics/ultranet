@@ -146,7 +146,7 @@ const TermsOfService = () => {
         >
           <img
             src="https://tuk-cdn.s3.amazonaws.com/assets/components/blog/b_3_0.png"
-            alt
+            alt=""
             className="h-full w-full object-cover overflow-hidden absolute rounded"
           />
         </div>

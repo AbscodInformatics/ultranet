@@ -1,15 +1,15 @@
 import React from 'react'
-import NavBar from "../NavBar";
 import HeroPage from "../HeroPage";
 import Features from "../Features";
 import Choose from "../Choose";
 import Plan from "../Plan";
-import Footer from "../Footer";
 import UltranetWork from '../UltranetWork';
+import Partner from '../Partner/Partner';
 const Index = () => {
   return (
     <div>
       <HeroPage />
+      <Partner/>
       <Features />
       <UltranetWork/>
       <Choose />
