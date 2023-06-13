@@ -6,17 +6,14 @@ import Choose from "../Choose";
 import Plan from "../Plan";
 import Footer from "../Footer";
 import UltranetWork from '../UltranetWork';
-
 const Index = () => {
   return (
     <div>
-      {/* <NavBar/> */}
       <HeroPage />
       <Features />
       <UltranetWork/>
       <Choose />
       <Plan />
-      {/* <Footer /> */}
     </div>
   );
 }

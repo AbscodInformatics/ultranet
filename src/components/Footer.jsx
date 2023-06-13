@@ -4,15 +4,23 @@ import { Link } from "react-router-dom";
 import { ImLinkedin2, ImFacebook } from "react-icons/im";
 import { BsYoutube, BsTwitter } from "react-icons/bs";
 import {FaRegCopyright} from "react-icons/fa"
-
+import PrivacyPolicy from "./Landingpage/PrivacyPolicy";
 import { motion } from "framer-motion";
+import {ImCross} from "react-icons/im"
 import AOS from "aos";
 import "aos/dist/aos.css";
+import { Button } from "react-scroll";
 
 
 
 const Footer = () => {
-
+  const [isOpen, setIsOpen] = useState(false);
+  const openPopup = () => {
+    setIsOpen(true);
+  };
+  const closePopup = () => {
+    setIsOpen(false);
+  };
   useEffect(() => {
     AOS.init();
   });
@@ -92,12 +100,13 @@ const Footer = () => {
                 placeholder="Type your message here."
                 defaultValue={""}
               />
+
               <button className="hover:bg-gradient-to-r bg-[#071343] px-8 text-lg py-3 hover:from-pink-500 hover:via-red-500 hover:to-yellow-500 text-white font-medium rounded transition duration-300 ">
                 Send
               </button>
             </div>
           </div>
-
+          {isOpen && <PrivacyPolicy closePopup={closePopup} />}
           <div className="">
             <div className=" py-12">
               <div className=" w-full mx-auto  bg-[#071343] text-lg   text-white font-medium  transition duration-300  lg:px-10 md:px-6 px-4 py-7">
@@ -119,54 +128,40 @@ const Footer = () => {
                     <p className="text-lg font-semibold e ">Support</p>
                     <ul className="pt-3">
                       <li className="pt-4">
-                        <a href="javascript:void(0)" className="text-base e ">
+                        <Link
+                          to="/"
+                          href="javascript:void(0)"
+                          className="text-base e "
+                        >
+                          Home
+                        </Link>
+                      </li>
+                      <li className="pt-4">
+                        <Link
+                          activeClass="active"
+                          to="contact"
+                          className="text-base e "
+                        >
                           Contact Us
-                        </a>
+                        </Link>
                       </li>
                       <li className="pt-4">
-                        <a href="javascript:void(0)" className="text-base e">
-                          Size guide
-                        </a>
+                        <Link to="/AboutUs" className="text-base e">
+                          About Us
+                        </Link>
                       </li>
                       <li className="pt-4">
-                        <a
-                          href="javascript:void(0)"
+                        <Link to="/FAQs" className="text-base e text-white">
+                          FAQs
+                        </Link>
+                      </li>
+                      <li className="pt-4">
+                        <Link
+                          to="/FtthNetwork"
                           className="text-base e text-white"
                         >
-                          Shipping
-                        </a>
-                      </li>
-                      <li className="pt-4">
-                        <a
-                          href="javascript:void(0)"
-                          className="text-base e text-white"
-                        >
-                          Payment Security
-                        </a>
-                      </li>
-                      <li className="pt-4">
-                        <a
-                          href="javascript:void(0)"
-                          className="text-base e text-white"
-                        >
-                          Our Services
-                        </a>
-                      </li>
-                      <li className="pt-4">
-                        <a
-                          href="javascript:void(0)"
-                          className="text-base e text-white"
-                        >
-                          Promotion Deals
-                        </a>
-                      </li>
-                      <li className="pt-4">
-                        <a
-                          href="javascript:void(0)"
-                          className="text-base e text-white"
-                        >
-                          Special Order
-                        </a>
+                          FTTH Network
+                        </Link>
                       </li>
                     </ul>
                   </div>
@@ -179,44 +174,36 @@ const Footer = () => {
                     <p className="text-lg font-semibold e text-white ">Legal</p>
                     <ul className="pt-3">
                       <li className="pt-4">
-                        <a
-                          href="javascript:void(0)"
+                        <Link
+                          onClick={openPopup}
                           className="text-base e text-white"
                         >
                           Privacy Policy
-                        </a>
+                        </Link>
                       </li>
                       <li className="pt-4">
-                        <a
-                          href="javascript:void(0)"
+                        <Link
+                          to="/TermsAndConditions"
                           className="text-base e text-white"
                         >
-                          Trade Mark
-                        </a>
+                          Terms & Conditions
+                        </Link>
                       </li>
                       <li className="pt-4">
-                        <a
-                          href="javascript:void(0)"
+                        <Link
+                          to="/TermsOfService"
                           className="text-base e text-white"
                         >
-                          Terms of use
-                        </a>
+                          Terms Of Service
+                        </Link>
                       </li>
                       <li className="pt-4">
-                        <a
-                          href="javascript:void(0)"
+                        <Link
+                          to="/FairUsePolicy"
                           className="text-base e text-white"
                         >
-                          Cookie Policy
-                        </a>
-                      </li>
-                      <li className="pt-4">
-                        <a
-                          href="javascript:void(0)"
-                          className="text-base e text-white"
-                        >
-                          Promotion Terms
-                        </a>
+                          Fair Use Policy
+                        </Link>
                       </li>
                     </ul>
                   </div>
@@ -267,9 +254,7 @@ const Footer = () => {
                             fill="currentColor"
                           />
                         </svg>
-                        <p className="text-base e text-white">
-                          Free &amp; Easy Return
-                        </p>
+                        <p className="text-base e text-white">Careers</p>
                       </div>
                       <div className="flex gap-3 pt-4 cursor-pointer">
                         <svg
@@ -283,13 +268,11 @@ const Footer = () => {
                           <path
                             fillRule="evenodd"
                             clipRule="evenodd"
-                            d="M2.25 12C2.25 6.61704 6.61704 2.25 12 2.25C17.383 2.25 21.75 6.61704 21.75 12C21.75 17.383 17.383 21.75 12 21.75C6.61704 21.75 2.25 17.383 2.25 12ZM12 3.75C7.44546 3.75 3.75 7.44546 3.75 12C3.75 16.5545 7.44546 20.25 12 20.25C16.5545 20.25 20.25 16.5545 20.25 12C20.25 7.44546 16.5545 3.75 12 3.75ZM8.46967 8.46967C8.76256 8.17678 9.23744 8.17678 9.53033 8.46967L12 10.9393L14.4697 8.46967C14.7626 8.17678 15.2374 8.17678 15.5303 8.46967C15.8232 8.76256 15.8232 9.23744 15.5303 9.53033L13.0607 12L15.5303 14.4697C15.8232 14.7626 15.8232 15.2374 15.5303 15.5303C15.2374 15.8232 14.7626 15.8232 14.4697 15.5303L12 13.0607L9.53033 15.5303C9.23744 15.8232 8.76256 15.8232 8.46967 15.5303C8.17678 15.2374 8.17678 14.7626 8.46967 14.4697L10.9393 12L8.46967 9.53033C8.17678 9.23744 8.17678 8.76256 8.46967 8.46967Z"
+                            d="M2.25 12C2.25 6.61704 6.61704 2.25 12 2.25C17.383 2.25 21.75 6.61704 21.75 12C21.75 17.383 17.383 21.75 12 21.75C6.61704 21.75 2.25 17.383 2.25 12ZM12 3.75C7.44546 3.75 3.75 7.44546 3.75 12C3.75 16.5545 7.44546 20.25 12 20.25C16.5545 20.25 20.25 16.5545 20.25 12C20.25 7.44546 16.5545 3.75 12 3.75ZM10.7454 6.90025C11.778 6.6498 12.8623 6.71813 13.8553 7.09626C14.8484 7.47439 15.7035 8.14456 16.308 9.01842C16.7964 9.7245 17.1027 10.5368 17.2042 11.3832C17.4965 11.1804 17.9008 11.2092 18.1613 11.4696C18.4543 11.7624 18.4544 12.2373 18.1615 12.5302L17.0558 13.6365C16.7675 13.9249 16.3015 13.9301 16.0069 13.6482L14.8505 12.542C14.5511 12.2556 14.5406 11.7809 14.827 11.4816C15.0527 11.2456 15.3955 11.1891 15.6771 11.316C15.5803 10.8001 15.3759 10.3076 15.0744 9.87177C14.6423 9.24725 14.0312 8.76831 13.3215 8.49807C12.6119 8.22783 11.837 8.17899 11.099 8.35799C10.361 8.53698 9.69458 8.93541 9.18757 9.50074C8.91102 9.80911 8.43684 9.8349 8.12847 9.55835C7.82011 9.2818 7.79431 8.80762 8.07087 8.49926C8.7803 7.70821 9.71279 7.15071 10.7454 6.90025ZM6.94425 10.3635C7.23254 10.0751 7.69846 10.0699 7.99313 10.3518L9.14954 11.458C9.44885 11.7444 9.45938 12.2191 9.17305 12.5184C8.94326 12.7587 8.59211 12.8129 8.30768 12.6769C8.40399 13.197 8.60944 13.6935 8.91337 14.1325C9.34616 14.7577 9.95829 15.237 10.669 15.5071C11.3798 15.7773 12.1557 15.8257 12.8945 15.6458C13.6333 15.466 14.3002 15.0664 14.8072 14.4998C15.0834 14.1912 15.5576 14.1649 15.8662 14.4411C16.1749 14.7173 16.2012 15.1915 15.925 15.5002C15.2157 16.2928 14.2827 16.8517 13.2492 17.1033C12.2158 17.3548 11.1303 17.2872 10.1361 16.9093C9.1418 16.5313 8.28549 15.8609 7.68007 14.9863C7.19205 14.2814 6.88554 13.4705 6.78307 12.6255C6.49187 12.8187 6.09542 12.7871 5.83869 12.5304C5.54573 12.2376 5.54563 11.7627 5.83846 11.4698L6.94425 10.3635Z"
                             fill="currentColor"
                           />
                         </svg>
-                        <p className="text-base e text-white">
-                          Online cancellations
-                        </p>
+                        <p className="text-base e text-white"> Partner</p>
                       </div>
                     </div>
                     <div
@@ -354,7 +337,7 @@ const Footer = () => {
                     data-aos="fade-down"
                     className="flex lg:gap-4 gap-2 lg:pt-0 md:pt-0  lg:pr-20"
                   >
-                  <FaRegCopyright/>
+                    <FaRegCopyright />
                     <p className="text-sm e text-white">
                       Copyright : 2021, UltraNet. All Rights Reserved.
                     </p>
