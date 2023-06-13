@@ -4,12 +4,10 @@ import Features from "../Features";
 import Choose from "../Choose";
 import Plan from "../Plan";
 import UltranetWork from '../UltranetWork';
-import Partner from '../Partner/Partner';
 const Index = () => {
   return (
     <div>
       <HeroPage />
-      <Partner/>
       <Features />
       <UltranetWork/>
       <Choose />
