@@ -30,7 +30,6 @@ const Footer = () => {
     <div id="contact" className="pt-[3%] ">
       <div className=" px-4">
         <div className=" mx-auto py-12 lg:px-20  md:px-6 px-4  bg-white">
-          {/* {  lg:max-w-[1440px] md:max-w-[744px] max-w-[375px]} */}
           <div className="flex lg:flex-row md:flex-col flex-col gap-8 w-full">
             <div
               data-aos="zoom-in-up"
