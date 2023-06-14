@@ -35,7 +35,6 @@ const Footer = () => {
             <div
               data-aos="zoom-in-up"
               data-aos-once="false"
-              data-aos-duration="3000"
               className="w-full"
             >
               <img
@@ -46,7 +45,6 @@ const Footer = () => {
             </div>
             <div
               data-aos="zoom-in-up"
-              data-aos-duration="5000"
               data-aos-once="false"
               className="lg:max-w-[624px] w-full"
             >
@@ -130,7 +128,6 @@ const Footer = () => {
                     data-aos="fade-down"
                     data-aos-easing="linear"
                     data-aos-once="false"
-                    data-aos-duration="1500"
                     className="lg:pt-0 text-white md:pt-0 pt-8"
                   >
                     <p className="text-lg font-semibold e ">Support</p>
@@ -177,7 +174,6 @@ const Footer = () => {
                     data-aos="fade-down"
                     data-aos-once="false"
                     data-aos-easing="linear"
-                    data-aos-duration="1500"
                     className="lg:pt-0 md:pt-0 pt-8"
                   >
                     <p className="text-lg font-semibold e text-white ">Legal</p>
