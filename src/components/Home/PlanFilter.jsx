@@ -3,7 +3,6 @@ import OneMonthsPlan from "./OneMonthsPlan";
 import ThreeMonths from "./ThreeMonths"
 import SixMonths from "./SixMonths"
 import YealyMonths from "./YealyMonths";
-import AllMonths from "./AllMonths";
 
 const PlanFilter = () => {
   const [activeTab, setActiveTab] = useState("monthly");

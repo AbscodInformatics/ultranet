@@ -49,7 +49,7 @@ const Businessbroadband = () => {
         <div
           data-aos="fade-up"
           data-aos-once="false"
-          data-aos-delay="200"
+          data-aos-delay="600"
           className="group flex justify-center md:flex-row flex-col mx-auto gap-10 mt-3"
         >
           <div className="flex items-center  justify-center py-8 px-4">
@@ -81,7 +81,7 @@ const Businessbroadband = () => {
         <div
           data-aos="fade-up"
           data-aos-once="false"
-          data-aos-delay="200"
+          data-aos-delay="900"
           className="group flex justify-center md:flex-row flex-col mx-auto gap-10 mt-3"
         >
           <div className="flex items-center  justify-center py-8 px-4">
@@ -113,7 +113,7 @@ const Businessbroadband = () => {
         <div
           data-aos="fade-up"
           data-aos-once="false"
-          data-aos-delay="200"
+          data-aos-delay="1200"
           className="group flex justify-center md:flex-row flex-col mx-auto gap-10 mt-3"
         >
           <div className="flex items-center  justify-center py-8 px-4">

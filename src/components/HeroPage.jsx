@@ -30,7 +30,7 @@ const HeroPage = () => {
         </SwiperSlide>
         <SwiperSlide>
           <img
-            src="/banner2.png"
+            src="/banner21.png"
             alt=""
             className="object-fill h-[30vh] md:h-[80vh] w-full"
           />
