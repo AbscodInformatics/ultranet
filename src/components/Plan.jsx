@@ -26,12 +26,14 @@ const Plan = () => {
   return (
     <div
       data-aos="fade-up"
+      data-aos-once="false"
       data-aos-anchor-placement="top-center"
       className="md:pb-5"
     >
       <div className="flex py-5 justify-center gap-5 flex-col items-center">
         <div
           data-aos="fade-up"
+          data-aos-once="false"
           data-aos-anchor-placement="center-center"
           className="text-5xl font-bold text-center mx-1 md:mx-0 bg-gradient-to-r from-teal-500 via-blue-500 to-pink-500 text-transparent bg-clip-text"
         >
@@ -63,6 +65,7 @@ const Plan = () => {
 
       <div
         data-aos="fade-up"
+        data-aos-once="false"
         data-aos-anchor-placement="top-center"
         className="mt-4  xl:mx-[8%]"
       >

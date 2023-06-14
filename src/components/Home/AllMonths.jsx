@@ -111,63 +111,6 @@ const AllMonths = () => {
             </div>
           </div>
         </motion.div>
-        <style>
-          {`
-    * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-  }
-  .center {
-    padding-top: 100px;
-    padding-left: 100px;
-    transform: translate(-50%, -50%);
-  }
-  .center .stars {
-    width: 325px;
-  }
-  .stars input {
-    display: none;
-  }
-  .stars label {
-    font-size: 50px;
-    color: lightgrey;
-
-    text-shadow: 1px 1px #bbb;
-  }
-  .stars label:before {
-    content: "🟊";
-  }
-  .stars input:checked ~ label {
-    color: gold;
-    text-shadow: 1px 1px #c60;
-  }
-  .stars:not(:checked) > label:hover,
-  .stars:not(:checked) > label:hover ~ label {
-    color: gold;
-    cursor: pointer;
-  }
-  .stars input:checked > label:hover,
-  .stars input:checked > label:hover ~ label {
-    color: #fbbf24;
-    text-shadow: 1px 1px goldenrod;
-  }
-  .stars .result:before {
-    position: absolute;
-    content: "";
-    right: 0;
-    left: 0;
-    bottom: 111px;
-
-    font-size: 30px;
-    font-weight: 500;
-    color: #1f2937;
-    font-family: "Poppins", sans-serif;
-
-    font-weight: 900;
-  }
-    `}
-        </style>
       </div>
     </div>
   );

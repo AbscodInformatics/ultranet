@@ -23,6 +23,7 @@ const Index = () => {
       <div>
         <div
           data-aos="zoom-in-up"
+          data-aos-once="false"
           data-aos-duration="3000"
           className="mx-auto my-[5%]  rounded w-full"
         >
@@ -59,6 +60,7 @@ const Index = () => {
       <div className="flex md:flex-row flex-col justify-center items-center md:items-stretch gap-14">
         <div
           data-aos="zoom-in-up"
+          data-aos-once="false"
           data-aos-duration="3000"
           className="w-[350px] md:w-[500px] group flex flex-col gap-7 shadow-lg  rounded-[20px] pb-10  bg-white"
         >
@@ -74,6 +76,7 @@ const Index = () => {
         </div>
         <div
           data-aos="zoom-in-up"
+          data-aos-once="false"
           data-aos-duration="3000"
           className="w-[350px] md:w-[500px] group flex flex-col gap-7 shadow-lg  rounded-[20px] pb-10  bg-white"
         >

@@ -17,15 +17,17 @@ const Testimonials = () => {
   return (
     <div
       data-aos="fade-up"
+      data-aos-once="false"
       className="py-10  hover:bg-gradient-to-r bg-[#071343] px-8 text-lg  hover:from-pink-500 hover:via-red-500 hover:to-yellow-500 text-white font-medium rounded transition duration-300"
     >
       <div className="text-3xl text-white text-center font-semibold py-5">
         Testimonials
       </div>
 
-      <div data-aos="flip-down" className="">
+      <div data-aos="flip-down" data-aos-once="false" className="">
         <Swiper
           data-aos="flip-down"
+          data-aos-once="false"
           loop={true}
           autoplay={{
             delay: 3000,
@@ -44,6 +46,7 @@ const Testimonials = () => {
           <SwiperSlide>
             <div
               data-aos="flip-down"
+              data-aos-once="false"
               className="lg:max-w-[784px] border-[2px] mt-20 py-10 md:max-w-[716px] max-w-[475px] mx-auto  hover:bg-gradient-to-r bg-[#071343] text-lg  hover:from-pink-500 hover:via-red-500 hover:to-yellow-500 text-white font-medium  transition duration-300  lg:px-10 md:px-6 px-4  rounded-xl"
             >
               <div className="flex justify-center  text-3xl text-[#071343] -mt-[35%] md:-mt-[14%] items-center">
@@ -78,6 +81,7 @@ const Testimonials = () => {
           <SwiperSlide>
             <div
               data-aos="flip-down"
+              data-aos-once="false"
               className="lg:max-w-[784px] border-[2px] mt-20 py-10 md:max-w-[716px] max-w-[475px] mx-auto  hover:bg-gradient-to-r bg-[#071343] text-lg  hover:from-pink-500 hover:via-red-500 hover:to-yellow-500 text-white font-medium  transition duration-300  lg:px-10 md:px-6 px-4  rounded-xl"
             >
               <div className="flex justify-center  text-3xl text-[#071343] -mt-[35%] md:-mt-[14%] items-center">
@@ -113,6 +117,7 @@ const Testimonials = () => {
           <SwiperSlide>
             <div
               data-aos="flip-down"
+              data-aos-once="false"
               // data-aos-delay="800"
               className="lg:max-w-[784px] border-[2px] mt-20 py-10 md:max-w-[716px] max-w-[475px] mx-auto  hover:bg-gradient-to-r bg-[#071343] text-lg  hover:from-pink-500 hover:via-red-500 hover:to-yellow-500 text-white font-medium  transition duration-300  lg:px-10 md:px-6 px-4  rounded-xl"
             >
@@ -149,6 +154,7 @@ const Testimonials = () => {
           <SwiperSlide>
             <div
               data-aos="flip-down"
+              data-aos-once="false"
               // data-aos-delay="1000"
               className="lg:max-w-[784px] border-[2px] mt-20 py-10 md:max-w-[716px] max-w-[475px] mx-auto  hover:bg-gradient-to-r bg-[#071343] text-lg  hover:from-pink-500 hover:via-red-500 hover:to-yellow-500 text-white font-medium  transition duration-300  lg:px-10 md:px-6 px-4  rounded-xl"
             >
@@ -185,6 +191,7 @@ const Testimonials = () => {
           <SwiperSlide>
             <div
               data-aos="flip-down"
+              data-aos-once="false"
               // data-aos-delay="1500"
               className="lg:max-w-[784px] border-[2px] mt-20 py-10 md:max-w-[716px] max-w-[475px] mx-auto  hover:bg-gradient-to-r bg-[#071343] text-lg  hover:from-pink-500 hover:via-red-500 hover:to-yellow-500 text-white font-medium  transition duration-300  lg:px-10 md:px-6 px-4  rounded-xl"
             >
@@ -222,6 +229,7 @@ const Testimonials = () => {
           <SwiperSlide>
             <div
               data-aos="flip-down"
+              data-aos-once="false"
               // data-aos-delay="2000"
               className="lg:max-w-[784px] border-[2px] mt-20 py-10 md:max-w-[716px] max-w-[475px] mx-auto  hover:bg-gradient-to-r bg-[#071343] text-lg  hover:from-pink-500 hover:via-red-500 hover:to-yellow-500 text-white font-medium  transition duration-300  lg:px-10 md:px-6 px-4  rounded-xl"
             >

@@ -6,9 +6,7 @@ import Footer from '../Footer'
 const Index = () => {
   return (
     <div>
-        {/* <NavBar/> */}
         <FAQs/>
-        {/* <Footer/> */}
     </div>
   )
 }

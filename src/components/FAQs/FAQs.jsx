@@ -9,14 +9,22 @@ const FAQs = () => {
      const [question, setquestion] = useState(0);
   return (
     <div className="">
-      <div data-aos="zoom-in-up" className="pt-[33%] md:pt-[4%]">
+      <div
+        data-aos="zoom-in-up"
+        data-aos-once="false"
+        className="pt-[33%] md:pt-[4%]"
+      >
         <img
           src="/faq.jpg"
           alt=""
           className="object-fill h-[30vh] md:h-[80vh] w-full"
         />
       </div>
-      <div data-aos="zoom-in-down" data-aos-duration="3000">
+      <div
+        data-aos="zoom-in-down"
+        data-aos-duration="3000"
+        data-aos-once="false"
+      >
         <div className="pt-[8%] mx-[7%]">
           <div className=" container pb-[3%] pt-16 rounded-3xl bg-[#071343]">
             <div className="text-center text-white  p-7  bg-gradient-to-tb from-[#071343] via-[#cc3737] to-[#6c0505] pb-3 md:pb-10 xl:pb-20">
@@ -28,6 +36,7 @@ const FAQs = () => {
               </h6>
               <p
                 data-aos="fade-up"
+                data-aos-once="false"
                 data-aos-duration="3000"
                 className="text-lg py-5"
               >
@@ -45,6 +54,7 @@ const FAQs = () => {
               <ul className="">
                 <li
                   data-aos="fade-up"
+                  data-aos-once="false"
                   data-aos-duration="3000"
                   className="group py-6 border-gray-200 border-solid border-b"
                 >
@@ -115,6 +125,7 @@ const FAQs = () => {
                 </li>
                 <li
                   data-aos="fade-up"
+                  data-aos-once="false"
                   data-aos-duration="3000"
                   className="group py-6 border-gray-200 border-solid border-b"
                 >
@@ -183,6 +194,7 @@ const FAQs = () => {
                 </li>
                 <li
                   data-aos="fade-up"
+                  data-aos-once="false"
                   data-aos-duration="3000"
                   className="group py-6 border-gray-200 border-solid border-b"
                 >
@@ -250,6 +262,7 @@ const FAQs = () => {
                 </li>
                 <li
                   data-aos="fade-up"
+                  data-aos-once="false"
                   data-aos-duration="3000"
                   className="group py-6 border-gray-200 border-solid border-b"
                 >
@@ -333,6 +346,7 @@ const FAQs = () => {
                 </li>
                 <li
                   data-aos="fade-up"
+                  data-aos-once="false"
                   data-aos-duration="3000"
                   className="group py-6 border-gray-200 border-solid border-b"
                 >

@@ -59,6 +59,7 @@ const FtthNetwork = () => {
             <div className="  w-full px-4 py-4 bg-[#071343] md:h-full md:px-6  ">
               <div
                 data-aos="zoom-in-up"
+                data-aos-once="false"
                 data-aos-duration="3000"
                 className="lg:max-w-[842px] bg-white py-6 mx-auto   my-10 w-full"
               >

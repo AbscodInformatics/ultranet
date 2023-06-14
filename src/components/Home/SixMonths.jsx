@@ -13,6 +13,7 @@ const SixMonths = () => {
       <div className="grid grid-cols-1 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 mx-[5%]  ">
         <div
           data-aos="fade-up"
+          data-aos-once="false"
           data-aos-delay="200"
           className="group flex justify-center md:flex-row flex-col mx-auto gap-10 mt-3"
         >
@@ -55,6 +56,7 @@ const SixMonths = () => {
         </div>
         <div
           data-aos="fade-up"
+          data-aos-once="false"
           data-aos-delay="200"
           className="group flex justify-center md:flex-row flex-col mx-auto gap-10 mt-3"
         >
@@ -97,6 +99,7 @@ const SixMonths = () => {
         </div>
         <div
           data-aos="fade-up"
+          data-aos-once="false"
           data-aos-delay="200"
           className="group flex justify-center md:flex-row flex-col mx-auto gap-10 mt-3"
         >
@@ -139,6 +142,7 @@ const SixMonths = () => {
         </div>
         <div
           data-aos="fade-up"
+          data-aos-once="false"
           data-aos-delay="200"
           className="group flex justify-center md:flex-row flex-col mx-auto gap-10 mt-3"
         >

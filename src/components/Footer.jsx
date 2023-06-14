@@ -34,6 +34,7 @@ const Footer = () => {
           <div className="flex lg:flex-row md:flex-col flex-col gap-8 w-full">
             <div
               data-aos="zoom-in-up"
+              data-aos-once="false"
               data-aos-duration="3000"
               className="w-full"
             >
@@ -46,6 +47,7 @@ const Footer = () => {
             <div
               data-aos="zoom-in-up"
               data-aos-duration="5000"
+              data-aos-once="false"
               className="lg:max-w-[624px] w-full"
             >
               <div className="text-5xl font-bold text-center mx-1 md:mx-0 bg-gradient-to-r from-teal-500 via-blue-500 to-pink-500 text-transparent bg-clip-text ">
@@ -113,7 +115,11 @@ const Footer = () => {
             <div className=" py-12">
               <div className=" w-full mx-auto  bg-[#071343] text-lg   text-white font-medium  transition duration-300  lg:px-10 md:px-6 px-4 py-7">
                 <div className="grid lg:grid-cols-4 md:grid-cols-3 grid-cols-1">
-                  <div data-aos="zoom-in-up" className="text-white ">
+                  <div
+                    data-aos="zoom-in-up"
+                    data-aos-once="false"
+                    className="text-white "
+                  >
                     <p className="text-lg font-semibold e ">ULTRANET</p>
                     <p className="text-base pt-7 pr-4">
                       Ground Floor, H No-58-A, KH No 28/19, Gali No- 4, Radhey
@@ -123,6 +129,7 @@ const Footer = () => {
                   <div
                     data-aos="fade-down"
                     data-aos-easing="linear"
+                    data-aos-once="false"
                     data-aos-duration="1500"
                     className="lg:pt-0 text-white md:pt-0 pt-8"
                   >
@@ -168,6 +175,7 @@ const Footer = () => {
                   </div>
                   <div
                     data-aos="fade-down"
+                    data-aos-once="false"
                     data-aos-easing="linear"
                     data-aos-duration="1500"
                     className="lg:pt-0 md:pt-0 pt-8"
@@ -209,7 +217,7 @@ const Footer = () => {
                     </ul>
                   </div>
                   <div className="lg:pt-0 md:pt-16 pt-8 lg:flex-col md:flex block lgLw-0 md:w-96 lg:justify-start md:justify-between">
-                    <div data-aos="zoom-in-down">
+                    <div data-aos="zoom-in-down" data-aos-once="false">
                       <p className="text-lg font-semibold e text-white">
                         Features
                       </p>
@@ -227,6 +235,7 @@ const Footer = () => {
                     </div>
                     <div
                       data-aos="zoom-out"
+                      data-aos-once="false"
                       className="lg:pt-10 md:pt-0 pt-8 cursor-pointer"
                     >
                       <p className="text-lg font-semibold e text-white">
@@ -270,6 +279,7 @@ const Footer = () => {
                 <div className="flex items-center lg:justify-between md:justify-center lg:gap-0 md:gap-10 gap-3 flex-wrap lg:pt-32 md:pt-16 pt-16">
                   <div
                     data-aos="fade-down"
+                    data-aos-once="false"
                     className="flex md:flex-row flex-col gap-6"
                   >
                     <p className="text-sm  text-white ">+91-7065000280</p>
@@ -280,6 +290,7 @@ const Footer = () => {
                   </div>
                   <div
                     data-aos="fade-down"
+                    data-aos-once="false"
                     className="flex lg:gap-4 gap-2 lg:pt-0 md:pt-0  lg:pr-20"
                   >
                     <FaRegCopyright />

@@ -8,10 +8,8 @@ import Features from './Features';
 const Index = () => {
   return (
     <div>
-        {/* <NavBar/> */}
         <Home/>
         <Features/>
-        {/* <Footer/> */}
     </div>
   )
 }

@@ -20,9 +20,10 @@ const Choose = () => {
  
  
   return (
-    <div data-aos="zoom-in-up" className="mt-5">
+    <div data-aos="zoom-in-up" data-aos-once="false" className="mt-5">
       <div
         data-aos="zoom-in-up"
+        data-aos-once="false"
         // data-aos-delay="500"
         className=" flex py-5  justify-center gap-5 flex-col items-center"
       >
@@ -34,26 +35,10 @@ const Choose = () => {
           performance tweaks!
         </div>
       </div>
-      {/* <motion.div
-        className="text-5xl font-bold text-center mx-1 md:mx-0 bg-gradient-to-r from-teal-500 via-blue-500 to-pink-500 text-transparent bg-clip-text"
-        animate={{
-          backgroundImage: [
-            "linear-gradient(to right, #6EE7B7, #3B82F6, #EC4899)",
-            "linear-gradient(to right, #F59E0B, #10B981, #7C3AED)",
-            "linear-gradient(to right, #F472B6, #4F46E5, #EDE9FE)",
-          ],
-        }}
-        transition={{
-          duration: 5,
-          repeat: Infinity,
-          ease: "linear",
-        }}
-      >
-        INFINITE FIBRE BROADBAND PLANS
-      </motion.div> */}
       <div className="grid  md:grid-cols-3 mx-[3%] lg:mx-[8%] gap-10 py-12 px-4">
         <div
           data-aos="fade-up"
+          data-aos-once="false"
           data-aos-delay="1000"
           className="md:w-[350px] group flex flex-col gap-7 shadow-lg  rounded-[20px] pb-10  bg-white"
         >
@@ -73,6 +58,7 @@ const Choose = () => {
         </div>
         <div
           data-aos-delay="1200"
+          data-aos-once="false"
           data-aos="fade-up"
           className="md:w-[350px] group flex flex-col gap-7 shadow-lg  rounded-[20px] pb-10  bg-white"
         >
@@ -91,6 +77,7 @@ const Choose = () => {
         </div>
         <div
           data-aos="fade-up"
+          data-aos-once="false"
           data-aos-delay="1300"
           className="md:w-[350px] group flex flex-col gap-7 shadow-lg  rounded-[20px] pb-10  bg-white"
         >
@@ -109,6 +96,7 @@ const Choose = () => {
         </div>
         <div
           data-aos="fade-up"
+          data-aos-once="false"
           data-aos-delay="1600"
           className="md:w-[350px] group flex flex-col gap-7 shadow-lg  rounded-[20px] pb-10  bg-white"
         >
@@ -128,6 +116,7 @@ const Choose = () => {
         </div>
         <div
           data-aos="fade-up"
+          data-aos-once="false"
           data-aos-delay="1800"
           className="md:w-[350px] group flex flex-col gap-7 shadow-lg  rounded-[20px] pb-10  bg-white"
         >
@@ -148,6 +137,7 @@ const Choose = () => {
         <div
           data-aos="fade-up"
           data-aos-delay="2000"
+          data-aos-once="false"
           className="md:w-[350px] group flex flex-col gap-7 shadow-lg  rounded-[20px] pb-10  bg-white"
         >
           <div className="pl-[7%] flex gap-2 items-center group-hover:bg-gradient-to-r  group-hover:from-pink-500 group-hover:via-red-500 group-hover:to-yellow-500 text-[white] py-3 rounded-t-[20px] bg-[#071343]   text-center font-semibold text-lg  ">
@@ -168,6 +158,7 @@ const Choose = () => {
       <div
         className="py-[3%] mx-[8%]"
         data-aos="fade-up"
+        data-aos-once="false"
         data-aos-delay="8000"
         // data-aos-anchor-placement="bottom-center"
       >

@@ -12,17 +12,20 @@ const Partner = () => {
     <>
       <div
         data-aos="zoom-in-up"
+        data-aos-once="false"
         data-aos-delay="1200"
         className="pt-[40%] md:pt-[7%] group hover:bg-gradient-to-r bg-[#071343]  text-lg  hover:from-pink-500 hover:via-red-500 hover:to-yellow-500 text-white font-medium  transition duration-300  p-[5%] xl:px-20 md:px-6 px-4 md:py-20 py-14 w-full flex flex-col items-center justify-center"
       >
         <h1
           data-aos="zoom-in"
+          data-aos-once="false"
           className="text-gray-100 lg:text-4xl md:text-2xl text-xl lg:leading-9 md:leading-6  font-semibold leading-10"
         >
           Partner
         </h1>
         <p
           data-aos="zoom-in-up"
+          data-aos-once="false"
           className="text-base leading-6 text-justify mt-4 md:text-center text-gray-200 "
         >
           Becoming a partner with UltraNet opens a world of opportunities. We
@@ -41,6 +44,7 @@ const Partner = () => {
         </p>
         <h1
           data-aos="zoom-in-up"
+          data-aos-once="false"
           className="text-white text-lg font-semibold my-5"
         >
           customer support helpline at 02262581800.
@@ -48,6 +52,7 @@ const Partner = () => {
         <div className="grid sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-3 gap-x-24 gap-y-11 mt-11">
           <div
             data-aos="zoom-in-up"
+            data-aos-once="false"
             className="flex flex-col md:items-start items-center md:justify-start justify-center"
           >
             <img
@@ -65,6 +70,7 @@ const Partner = () => {
           </div>
           <div
             data-aos="zoom-in-up"
+            data-aos-once="false"
             className="flex flex-col md:items-start items-center md:justify-start justify-center"
           >
             <img
@@ -84,6 +90,7 @@ const Partner = () => {
           </div>
           <div
             data-aos="zoom-in-up"
+            data-aos-once="false"
             className="flex flex-col md:items-start items-center md:justify-start justify-center"
           >
             <img
@@ -101,6 +108,7 @@ const Partner = () => {
           </div>
           <div
             data-aos="zoom-in-up"
+            data-aos-once="false"
             className="lg:hidden flex flex-col md:items-start items-center md:justify-start justify-center"
           >
             <div className="w-14 h-14 flex items-center justify-center">
@@ -121,6 +129,7 @@ const Partner = () => {
         </div>
         <div
           data-aos="zoom-in-up"
+          data-aos-once="false"
           className="grid sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-3 gap-x-24 gap-y-11 mt-11"
         >
           <div className="lg:block hidden">
@@ -141,6 +150,7 @@ const Partner = () => {
           </div>
           <div
             data-aos="zoom-in-up"
+            data-aos-once="false"
             className="flex flex-col md:items-start items-center md:justify-start justify-center"
           >
             <img
@@ -158,6 +168,7 @@ const Partner = () => {
           </div>
           <div
             data-aos="zoom-in-up"
+            data-aos-once="false"
             className="flex flex-col md:items-start items-center md:justify-start justify-center"
           >
             <div className="w-14 h-14 flex items-center justify-center">
@@ -178,6 +189,7 @@ const Partner = () => {
         </div>
         <Link
           data-aos="zoom-in-up"
+          data-aos-once="false"
           activeClass="active"
           to="contact"
           className="group-hover:bg-gradient-to-r mt-10 bg-[white] text-[#071343] px-8 text-lg py-3 group-hover:from-pink-500 group-hover:via-red-500 group-hover:to-yellow-500  font-medium rounded transition duration-300"

@@ -15,6 +15,7 @@ const BusinessBroadband = () => {
     <div className="flex md:flex-row md:flex-nowrap flex-wrap flex-col">
       <div
         data-aos="fade-up"
+        data-aos-once="false"
         data-aos-anchor-placement="top-center"
         className="group flex justify-center md:flex-row flex-col mx-auto gap-10 mt-3"
       >
@@ -42,6 +43,7 @@ const BusinessBroadband = () => {
       </div>
       <div
         data-aos="fade-up"
+        data-aos-once="false"
         data-aos-anchor-placement="top-center"
         className="group flex justify-center md:flex-row flex-col mx-auto gap-10 mt-3"
       >
@@ -69,6 +71,7 @@ const BusinessBroadband = () => {
       </div>
       <div
         data-aos="fade-up"
+        data-aos-once="false"
         data-aos-anchor-placement="top-center"
         className="group flex justify-center md:flex-row flex-col mx-auto gap-10 mt-3"
       >

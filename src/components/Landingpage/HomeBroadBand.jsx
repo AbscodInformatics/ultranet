@@ -12,6 +12,7 @@ const HomeBroadBand = () => {
     <div className="flex md:flex-row flex-col ">
       <div
         data-aos="fade-up"
+        data-aos-once="false"
         data-aos-delay="200"
         className="  flex md:flex-row justify-around  flex-col  gap-10 mt-3"
       >
@@ -41,6 +42,7 @@ const HomeBroadBand = () => {
       </div>
       <div
         data-aos="fade-up"
+        data-aos-once="false"
         data-aos-delay="200"
         className="group flex justify-center md:flex-row flex-col mx-auto gap-10 mt-3"
       >
@@ -70,6 +72,7 @@ const HomeBroadBand = () => {
       </div>
       <div
         data-aos="fade-up"
+        data-aos-once="false"
         data-aos-delay="200"
         className="group flex justify-center md:flex-row flex-col mx-auto gap-10 mt-3"
       >

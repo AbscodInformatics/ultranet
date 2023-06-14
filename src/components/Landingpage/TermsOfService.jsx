@@ -10,9 +10,10 @@ const TermsOfService = () => {
     <>
       <div className="2xl:mx-auto pt-[40%] md:pt-[3%] 2xl:container xl:px-20 md:px-6 p-4 py-28 lg:flex items-stretch  justify-between">
         <div className="lg:w-2/4  pr-4">
-          <div data-aos="fade-up" className>
+          <div data-aos="fade-up" data-aos-once="false" className>
             <h1
               data-aos="fade-up"
+              data-aos-once="false"
               data-aos-duration="2000"
               className="lg:text-5xl text-3xl font-bold text-gray-800"
             >
@@ -20,6 +21,7 @@ const TermsOfService = () => {
             </h1>
             <p
               data-aos="fade-up"
+              data-aos-once="false"
               data-aos-duration="2000"
               className="text-base leading-6 text-justify text-gray-600 mt-4"
             >
@@ -36,6 +38,7 @@ const TermsOfService = () => {
           <ul className="mt-12 text-justify list-decimal ml-5">
             <li
               data-aos="fade-up"
+              data-aos-once="false"
               data-aos-duration="2000"
               className="text-base leading-6 text-gray-600 mt-4"
             >
@@ -46,6 +49,7 @@ const TermsOfService = () => {
             </li>
             <li
               data-aos="fade-up"
+              data-aos-once="false"
               data-aos-duration="2000"
               className="text-base leading-6 text-gray-600 mt-4"
             >
@@ -56,6 +60,7 @@ const TermsOfService = () => {
             </li>
             <li
               data-aos="fade-up"
+              data-aos-once="false"
               data-aos-duration="2000"
               className="text-base leading-6 text-gray-600 mt-4"
             >
@@ -65,6 +70,7 @@ const TermsOfService = () => {
             </li>
             <li
               data-aos="fade-up"
+              data-aos-once="false"
               data-aos-duration="2000"
               className="text-base leading-6 text-gray-600 mt-4"
             >
@@ -74,6 +80,7 @@ const TermsOfService = () => {
             </li>
             <li
               data-aos="fade-up"
+              data-aos-once="false"
               data-aos-duration="2000"
               className="text-base leading-6 text-gray-600 mt-4"
             >
@@ -83,6 +90,7 @@ const TermsOfService = () => {
             </li>
             <li
               data-aos="fade-up"
+              data-aos-once="false"
               data-aos-duration="2000"
               className="text-base leading-6 text-gray-600 mt-4"
             >
@@ -95,6 +103,7 @@ const TermsOfService = () => {
         </div>
         <div
           data-aos="zoom-in-down"
+          data-aos-once="false"
           data-aos-duration="2000"
           className="xl:w-1/2  sm:w-8/12 relative lg:mt-0 mt-12 lg:flex hidden items-center lg:justify-end justify-center "
         >
@@ -128,6 +137,7 @@ const TermsOfService = () => {
         <div className="mb-12 ">
           <p
             data-aos="fade-down"
+            data-aos-once="false"
             className="text-xl text-gray-600 text-justify"
           >
             Payments by way of cheques, pay orders, or demand drafts will have
@@ -141,6 +151,7 @@ const TermsOfService = () => {
         </div>
         <div
           data-aos="zoom-in-down"
+          data-aos-once="false"
           data-aos-duration="2000"
           className="relative bg-center bg-cover bg-no-repeat mb-10  mx-auto  h-64"
         >
@@ -150,12 +161,17 @@ const TermsOfService = () => {
             className="h-full w-full object-cover overflow-hidden absolute rounded"
           />
         </div>
-        <div data-aos="zoom-in-down" className="  mx-auto ">
+        <div
+          data-aos="zoom-in-down"
+          data-aos-once="false"
+          className="  mx-auto "
+        >
           <p className="mb-4 font-bold text-gray-800 text-base">
             You can pay us by any of the following methods:
           </p>
           <ul
             data-aos="zoom-in-down"
+            data-aos-once="false"
             data-aos-duration="2000"
             className="list-decimal ml-5"
           >
