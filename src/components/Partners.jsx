@@ -130,7 +130,7 @@ const Partners = () => {
                     </div>
                   </SwiperSlide>
 
-                  <SwiperSlide>
+                  {/* <SwiperSlide>
                     <div
                       data-aos="zoom-in-left"
                       data-aos-once="false"
@@ -138,7 +138,7 @@ const Partners = () => {
                     >
                       <img src="bharat.png" alt="" className="object-cover  " />
                     </div>
-                  </SwiperSlide>
+                  </SwiperSlide> */}
 
                   <SwiperSlide>
                     <div
