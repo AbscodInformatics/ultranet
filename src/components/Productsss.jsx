@@ -23,7 +23,7 @@ const Productsss = () => {
       >
         Few Of Our Customers Showcase Client
       </div>
-      <div className="grid grid-cols-4  gap-5">
+      <div className="grid grid-cols-3 mx-[5%]  gap-5">
         {images.map((image, index) => (
           <div key={index} className="">
             <img
