@@ -37,7 +37,7 @@ const Partners = () => {
                     1024: { slidesPerView: 3 },
                     1224: { slidesPerView: 4 },
                     1324: { slidesPerView: 4 },
-                    1524: { slidesPerView: 6 },
+                    1524: { slidesPerView: 5 },
                   }}
                   modules={[Autoplay]}
                   className="mySwiper"
@@ -46,12 +46,14 @@ const Partners = () => {
                     <div
                       data-aos="zoom-in-left"
                       data-aos-once="false"
-                      className=" w-48 h-48"
+                      className=" "
                     >
                       <img
-                        src="kailash.png"
+                        // src="kailash.png"
+                        src="1.jpg"
                         alt=""
-                        className="object-fill -mt-3  "
+                        // className="object-fill -mt-3  "
+                          className="object-cover "
                       />
                     </div>
                   </SwiperSlide>
@@ -60,12 +62,14 @@ const Partners = () => {
                     <div
                       data-aos="zoom-in-left"
                       data-aos-once="false"
-                      className="w-48 h-48 "
+                      className=" "
                     >
                       <img
-                        src="aditya.png"
+                        // src="aditya.png"
+                        src="2.jpg"
                         alt=""
-                        className="object-cover   mt-5"
+                        // className="object-cover   mt-5"
+                        className="object-cover "
                       />
                     </div>
                   </SwiperSlide>
@@ -74,10 +78,11 @@ const Partners = () => {
                     <div
                       data-aos="zoom-in-left"
                       data-aos-once="false"
-                      className="w-48 h-48"
+                      className=""
                     >
                       <img
-                        src="siemens.jpeg"
+                        // src="siemens.jpeg"
+                        src="3.jpg"
                         alt=""
                         className="object-cover "
                       />
@@ -88,30 +93,42 @@ const Partners = () => {
                     <div
                       data-aos="zoom-in-left"
                       data-aos-once="false"
-                      className="w-48 h-48 "
-                    >
-                      <img src="hcl.png" alt="" className="object-cover " />
-                    </div>
-                  </SwiperSlide>
-                  <SwiperSlide>
-                    <div
-                      data-aos="zoom-in-left"
-                      data-aos-once="false"
-                      className="w-48 h-48 "
-                    >
-                      <img src="dixon.png" alt="" className="object-cover " />
-                    </div>
-                  </SwiperSlide>
-                  <SwiperSlide>
-                    <div
-                      data-aos="zoom-in-left"
-                      data-aos-once="false"
-                      className="w-48 h-48 "
+                      className=" "
                     >
                       <img
-                        src="car24.jpeg"
+                        // src="hcl.png"
+                        src="4.jpg"
                         alt=""
-                        className="object-cover -mt-5"
+                        className="object-cover "
+                      />
+                    </div>
+                  </SwiperSlide>
+                  <SwiperSlide>
+                    <div
+                      data-aos="zoom-in-left"
+                      data-aos-once="false"
+                      className=" "
+                    >
+                      <img
+                        //  src="dixon.png"
+                        src="5.jpg"
+                        alt=""
+                        className="object-cover "
+                      />
+                    </div>
+                  </SwiperSlide>
+                  <SwiperSlide>
+                    <div
+                      data-aos="zoom-in-left"
+                      data-aos-once="false"
+                      className=" "
+                    >
+                      <img
+                        // src="car24.jpeg"
+                        src="6.jpg"
+                        alt=""
+                        // className="object-cover -mt-5"
+                        className="object-cover "
                       />
                     </div>
                   </SwiperSlide>
@@ -120,44 +137,54 @@ const Partners = () => {
                     <div
                       data-aos="zoom-in-left"
                       data-aos-once="false"
-                      className="w-48 h-48 "
+                      className=" "
                     >
                       <img
-                        src="rotopump.jpeg"
+                        // src="rotopump.jpeg"
+                        src="7.jpg"
                         alt=""
-                        className="object-cover -mt-1"
+                        className="object-cover "
+                        // className="object-cover -mt-1"
                       />
                     </div>
                   </SwiperSlide>
 
+                  <SwiperSlide>
+                    <div
+                      data-aos="zoom-in-left"
+                      data-aos-once="false"
+                      // className=" "
+                      className="object-cover "
+                    >
+                      <img
+                        // src="bharat.png"
+                        src="8.jpg"
+                        alt=""
+                        className="object-cover  "
+                      />
+                    </div>
+                  </SwiperSlide>
+
+                  <SwiperSlide>
+                    <div
+                      data-aos="zoom-in-left"
+                      data-aos-once="false"
+                      className="object-cover "
+                      // className=" "
+                    >
+                      <img
+                        // src="countyestate.png"
+                        src="9.jpg"
+                        alt=""
+                        className="object-cover "
+                      />
+                    </div>
+                  </SwiperSlide>
                   {/* <SwiperSlide>
                     <div
                       data-aos="zoom-in-left"
                       data-aos-once="false"
-                      className="w-48 h-48 "
-                    >
-                      <img src="bharat.png" alt="" className="object-cover  " />
-                    </div>
-                  </SwiperSlide> */}
-
-                  <SwiperSlide>
-                    <div
-                      data-aos="zoom-in-left"
-                      data-aos-once="false"
-                      className="w-48 h-48 "
-                    >
-                      <img
-                        src="countyestate.png"
-                        alt=""
-                        className="object-cover "
-                      />
-                    </div>
-                  </SwiperSlide>
-                  <SwiperSlide>
-                    <div
-                      data-aos="zoom-in-left"
-                      data-aos-once="false"
-                      className="w-48 h-48 "
+                      className=" "
                     >
                       <img
                         src="abacrop.jpeg"
@@ -171,7 +198,7 @@ const Partners = () => {
                     <div
                       data-aos="zoom-in-left"
                       data-aos-once="false"
-                      className="w-48 h-48 "
+                      className=" "
                     >
                       <img
                         src="aakash.png"
@@ -179,7 +206,7 @@ const Partners = () => {
                         className="object-cover -mt-3  "
                       />
                     </div>
-                  </SwiperSlide>
+                  </SwiperSlide> */}
                 </Swiper>
               </div>
             </div>

@@ -5,12 +5,14 @@ import Choose from "../Choose";
 import Plan from "../Plan";
 import UltranetWork from '../UltranetWork';
 import Products from "../Partners"
+import Productsss from '../Productsss';
 const Index = () => {
   return (
     <div>
       <HeroPage />
       <Features />
       <Products/>
+      <Productsss/>
       {/* <UltranetWork/> */}
       <Choose />
       <Plan />
