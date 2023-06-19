@@ -47,7 +47,7 @@ const Testimonials = () => {
             <div
               data-aos="flip-down"
               data-aos-once="false"
-              className="lg:max-w-[784px] border-[2px] mt-20 py-10 md:max-w-[716px] max-w-[475px] mx-auto  hover:bg-gradient-to-r bg-[#071343] text-lg  hover:from-pink-500 hover:via-red-500 hover:to-yellow-500 text-white font-medium  transition duration-300  lg:px-10 md:px-6 px-4  rounded-xl"
+              className="lg:max-w-[784px] border-[2px] mt-20 py-10 md:max-w-[716px] max-w-[400px] mx-auto  hover:bg-gradient-to-r bg-[#071343] text-lg  hover:from-pink-500 hover:via-red-500 hover:to-yellow-500 text-white font-medium  transition duration-300  lg:px-10 md:px-6 px-4  rounded-xl"
             >
               <div className="flex justify-center  text-3xl text-[#071343] -mt-[35%] md:-mt-[14%] items-center">
                 <div className="w-28 h-28 rounded-full  text-center pt-[10%] md:pt-[5%] font-bold bg-white">
@@ -82,7 +82,7 @@ const Testimonials = () => {
             <div
               data-aos="flip-down"
               data-aos-once="false"
-              className="lg:max-w-[784px] border-[2px] mt-20 py-10 md:max-w-[716px] max-w-[475px] mx-auto  hover:bg-gradient-to-r bg-[#071343] text-lg  hover:from-pink-500 hover:via-red-500 hover:to-yellow-500 text-white font-medium  transition duration-300  lg:px-10 md:px-6 px-4  rounded-xl"
+              className="lg:max-w-[784px] border-[2px] mt-20 py-10 md:max-w-[716px] max-w-[400px] mx-auto  hover:bg-gradient-to-r bg-[#071343] text-lg  hover:from-pink-500 hover:via-red-500 hover:to-yellow-500 text-white font-medium  transition duration-300  lg:px-10 md:px-6 px-4  rounded-xl"
             >
               <div className="flex justify-center  text-3xl text-[#071343] -mt-[35%] md:-mt-[14%] items-center">
                 <div className="w-28 h-28 rounded-full  text-center pt-[10%] md:pt-[5%] font-bold bg-white">
@@ -119,7 +119,7 @@ const Testimonials = () => {
               data-aos="flip-down"
               data-aos-once="false"
               // data-aos-delay="800"
-              className="lg:max-w-[784px] border-[2px] mt-20 py-10 md:max-w-[716px] max-w-[475px] mx-auto  hover:bg-gradient-to-r bg-[#071343] text-lg  hover:from-pink-500 hover:via-red-500 hover:to-yellow-500 text-white font-medium  transition duration-300  lg:px-10 md:px-6 px-4  rounded-xl"
+              className="lg:max-w-[784px] border-[2px] mt-20 py-10 md:max-w-[716px] max-w-[400px] mx-auto  hover:bg-gradient-to-r bg-[#071343] text-lg  hover:from-pink-500 hover:via-red-500 hover:to-yellow-500 text-white font-medium  transition duration-300  lg:px-10 md:px-6 px-4  rounded-xl"
             >
               <div className="flex justify-center  text-3xl text-[#071343]  -mt-[35%] md:-mt-[14%] items-center">
                 <div className="w-28 h-28 rounded-full  text-center pt-[10%] md:pt-[5%] font-bold bg-white">
@@ -156,7 +156,7 @@ const Testimonials = () => {
               data-aos="flip-down"
               data-aos-once="false"
               // data-aos-delay="1000"
-              className="lg:max-w-[784px] border-[2px] mt-20 py-10 md:max-w-[716px] max-w-[475px] mx-auto  hover:bg-gradient-to-r bg-[#071343] text-lg  hover:from-pink-500 hover:via-red-500 hover:to-yellow-500 text-white font-medium  transition duration-300  lg:px-10 md:px-6 px-4  rounded-xl"
+              className="lg:max-w-[784px] border-[2px] mt-20 py-10 md:max-w-[716px] max-w-[400px] mx-auto  hover:bg-gradient-to-r bg-[#071343] text-lg  hover:from-pink-500 hover:via-red-500 hover:to-yellow-500 text-white font-medium  transition duration-300  lg:px-10 md:px-6 px-4  rounded-xl"
             >
               <div className="flex justify-center  text-3xl text-[#071343]  -mt-[35%] md:-mt-[14%] items-center">
                 <div className="w-28 h-28 rounded-full  text-center pt-[10%] md:pt-[5%] font-bold bg-white">
@@ -193,7 +193,7 @@ const Testimonials = () => {
               data-aos="flip-down"
               data-aos-once="false"
               // data-aos-delay="1500"
-              className="lg:max-w-[784px] border-[2px] mt-20 py-10 md:max-w-[716px] max-w-[475px] mx-auto  hover:bg-gradient-to-r bg-[#071343] text-lg  hover:from-pink-500 hover:via-red-500 hover:to-yellow-500 text-white font-medium  transition duration-300  lg:px-10 md:px-6 px-4  rounded-xl"
+              className="lg:max-w-[784px] border-[2px] mt-20 py-10 md:max-w-[716px] max-w-[400px] mx-auto  hover:bg-gradient-to-r bg-[#071343] text-lg  hover:from-pink-500 hover:via-red-500 hover:to-yellow-500 text-white font-medium  transition duration-300  lg:px-10 md:px-6 px-4  rounded-xl"
             >
               <div className="flex justify-center  text-3xl text-[#071343] -mt-[35%] md:-mt-[14%] items-center">
                 <div className="w-28 h-28 rounded-full  text-center pt-[10%] md:pt-[5%] font-bold bg-white">
@@ -231,7 +231,7 @@ const Testimonials = () => {
               data-aos="flip-down"
               data-aos-once="false"
               // data-aos-delay="2000"
-              className="lg:max-w-[784px] border-[2px] mt-20 py-10 md:max-w-[716px] max-w-[475px] mx-auto  hover:bg-gradient-to-r bg-[#071343] text-lg  hover:from-pink-500 hover:via-red-500 hover:to-yellow-500 text-white font-medium  transition duration-300  lg:px-10 md:px-6 px-4  rounded-xl"
+              className="lg:max-w-[784px] border-[2px] mt-20 py-10 md:max-w-[716px] max-w-[400px] mx-auto  hover:bg-gradient-to-r bg-[#071343] text-lg  hover:from-pink-500 hover:via-red-500 hover:to-yellow-500 text-white font-medium  transition duration-300  lg:px-10 md:px-6 px-4  rounded-xl"
             >
               <div className="flex justify-center  text-3xl text-[#071343] -mt-[35%] md:-mt-[15%] items-center">
                 <div className="w-28 h-28 rounded-full  text-center pt-[10%] md:pt-[5%] font-bold bg-white">
