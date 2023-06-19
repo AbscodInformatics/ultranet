@@ -23,7 +23,6 @@ const Partners = () => {
               <div
                 data-aos="zoom-in-up"
                 data-aos-delay="8000"
-            
                 className="text-5xl font-bold text-center mx-1 md:mx-0 bg-gradient-to-r from-teal-500 via-blue-500 to-pink-500 text-transparent bg-clip-text "
               >
                 Few Of Our Customers Showcase Client
@@ -45,14 +44,10 @@ const Partners = () => {
                   onSwiper={handleSwiper}
                 >
                   <SwiperSlide>
-                    <div
-                     
-                  
-                      className=" "
-                    >
+                    <div className="mx-[5%] ">
                       <img
                         // src="kailash.png"
-                        src="1.jpg"
+                        src="11.jpg"
                         alt=""
                         // className="object-fill -mt-3  "
                         className="object-cover "
@@ -61,14 +56,10 @@ const Partners = () => {
                   </SwiperSlide>
                   <SwiperSlide>
                     {" "}
-                    <div
-                     
-                  
-                      className=" "
-                    >
+                    <div className="mx-[5%] ">
                       <img
                         // src="aditya.png"
-                        src="2.jpg"
+                        src="22.jpg"
                         alt=""
                         // className="object-cover   mt-5"
                         className="object-cover "
@@ -77,14 +68,10 @@ const Partners = () => {
                   </SwiperSlide>
                   <SwiperSlide>
                     {" "}
-                    <div
-                     
-                  
-                      className=""
-                    >
+                    <div className="mx-[5%]">
                       <img
                         // src="siemens.jpeg"
-                        src="3.jpg"
+                        src="33.jpg"
                         alt=""
                         className="object-cover "
                       />
@@ -92,58 +79,32 @@ const Partners = () => {
                   </SwiperSlide>
                   <SwiperSlide>
                     {" "}
-                    <div
-                     
-                  
-                      className=" "
-                    >
+                    <div className="mx-[5%]  ">
                       <img
                         // src="hcl.png"
-                        src="4.jpg"
+                        src="44.jpg"
                         alt=""
                         className="object-cover "
                       />
                     </div>
                   </SwiperSlide>
                   <SwiperSlide>
-                    <div
-                     
-                  
-                      className=" "
-                    >
+                    <div className=" mx-[5%]">
                       <img
                         //  src="dixon.png"
-                        src="5.jpg"
+                        src="55.jpg"
                         alt=""
                         className="object-cover "
                       />
                     </div>
                   </SwiperSlide>
-                  <SwiperSlide>
-                    <div
-                     
-                  
-                      className=" "
-                    >
-                      <img
-                        // src="car24.jpeg"
-                        src="6.jpg"
-                        alt=""
-                        // className="object-cover -mt-5"
-                        className="object-cover "
-                      />
-                    </div>
-                  </SwiperSlide>
+
                   <SwiperSlide>
                     {" "}
-                    <div
-                     
-                  
-                      className=" "
-                    >
+                    <div className="mx-[5%] ">
                       <img
                         // src="rotopump.jpeg"
-                        src="7.jpg"
+                        src="77.jpg"
                         alt=""
                         className="object-cover "
                         // className="object-cover -mt-1"
@@ -152,15 +113,10 @@ const Partners = () => {
                   </SwiperSlide>
 
                   <SwiperSlide>
-                    <div
-                     
-                  
-                      // className=" "
-                      className="object-cover "
-                    >
+                    <div className="mx-[5%] ">
                       <img
                         // src="bharat.png"
-                        src="8.jpg"
+                        src="88.jpg"
                         alt=""
                         className="object-cover  "
                       />
@@ -169,46 +125,28 @@ const Partners = () => {
 
                   <SwiperSlide>
                     <div
-                     
-                  
-                      className="object-cover "
+                      className="mx-[5%] "
                       // className=" "
                     >
                       <img
                         // src="countyestate.png"
-                        src="9.jpg"
+                        src="99.jpg"
                         alt=""
                         className="object-cover "
                       />
                     </div>
                   </SwiperSlide>
-                  {/* <SwiperSlide>
-                    <div
-                     
-                  
-                      className=" "
-                    >
+                  <SwiperSlide>
+                    <div className="mx-[5%] h-10 ">
                       <img
-                        src="abacrop.jpeg"
+                        // src="car24.jpeg"
+                        src="666.jpg"
                         alt=""
-                        className="object-cover -mt-4 w-full"
+                        // className="object-cover -mt-5"
+                        className="object-cover "
                       />
                     </div>
                   </SwiperSlide>
-                  <SwiperSlide>
-                    {" "}
-                    <div
-                     
-                  
-                      className=" "
-                    >
-                      <img
-                        src="aakash.png"
-                        alt=""
-                        className="object-cover -mt-3  "
-                      />
-                    </div>
-                  </SwiperSlide> */}
                 </Swiper>
               </div>
             </div>

@@ -4,7 +4,7 @@ import { Autoplay } from "swiper";
 
 const HeroPage = () => {
   return (
-    <div className="pt-[30%] md:pt-[3%]">
+    <div >
       <Swiper
         loop={true}
         autoplay={{

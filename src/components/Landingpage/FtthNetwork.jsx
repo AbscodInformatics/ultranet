@@ -12,7 +12,7 @@ const FtthNetwork = () => {
   return (
     <>
       <div>
-        <div className="pt-[40%] md:pt-[5%]">
+        <div className="">
           <div>
             <Swiper
               loop={true}

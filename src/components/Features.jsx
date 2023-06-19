@@ -34,14 +34,14 @@ const Features = () => {
           copper wiring. Our mission is to ensure that our customers enjoy high
           bandwidth HD quality video streaming line.
         </div>
-        <button
+        {/* <button
           data-aos="zoom-in-up"
           data-aos-delay="8000"
           data-aos-once="false"
           className="text-lg mt-5 bg-gradient-to-r font-semibold from-red-500 via-yellow-500 to-red-500   px-10 py-4 text-center uppercase transition duration-500 ease-in-out bg-no-repeat bg-size-200% text-white hover:bg-gradient-to-r hover:from-red-300 hover:via-yellow-400 hover:to-red-500 shadow-lg rounded-lg "
         >
           Find Out More
-        </button>
+        </button> */}
       </div>
     </div>
   );

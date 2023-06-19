@@ -13,7 +13,7 @@ const Index = () => {
   });
   return (
     <div>
-      <div className="pt-[40%] md:pt-[3%]">
+      <div >
         <img
           src="/aboutus.jpg"
           alt=""

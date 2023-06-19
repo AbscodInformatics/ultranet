@@ -1,5 +1,6 @@
 import React, { useEffect } from "react";
-import { Link } from 'react-router-dom';
+import { Link } from 'react-scroll';
+import Partners from "../Partners";
 import AOS from "aos";
 import "aos/dist/aos.css";
 
@@ -191,11 +192,16 @@ const Partner = () => {
           data-aos="zoom-in-up"
           data-aos-once="false"
           activeClass="active"
+          smooth={true}
+          offset={-20}
           to="contact"
           className="group-hover:bg-gradient-to-r mt-10 bg-[white] text-[#071343] px-8 text-lg py-3 group-hover:from-pink-500 group-hover:via-red-500 group-hover:to-yellow-500  font-medium rounded transition duration-300"
         >
           Contact Us
         </Link>
+        <div className="mt-[5%]">
+          <Partners />
+        </div>
       </div>
     </>
   );

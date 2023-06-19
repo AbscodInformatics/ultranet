@@ -13,11 +13,17 @@ import FairUsePolicy from "./Landingpage/FairUsePolicy";
 import FtthNetwork from "./Landingpage/FtthNetwork";
 import AboutUs from "./AboutUs/Index"
 import Partner from "./Partner/Partner";
+import Navbarr from "./Navbarr"
+import UltranetWork from "./HowUltraNetWorks/Index"
+import ArrowUpAndDown from "./ArrowUpAndDown";
 const Routing = () => {
   return (
     <div>
       <ScrollToTop />
-      <NavBar />
+      {/* <NavBar /> */}
+      <ArrowUpAndDown/>
+      <Navbarr />
+      <div className="pb-[3%]"></div>
       <Routes>
         <Route exact path="/" element={<LandingPage />} />
         <Route exact path="/Offers" element={<Home />} />
@@ -25,6 +31,7 @@ const Routing = () => {
         <Route exact path="/Business" element={<Business />} />
         <Route exact path="/AboutUs" element={<AboutUs />} />
         <Route exact path="/Partner" element={<Partner />} />
+        <Route exact path="/HowUltraNetWorks" element={<UltranetWork />} />
         <Route
           exact
           path="/TermsAndConditions"

@@ -12,7 +12,6 @@ const FAQs = () => {
       <div
         data-aos="zoom-in-up"
         data-aos-once="false"
-        className="pt-[33%] md:pt-[4%]"
       >
         <img
           src="/faq.jpg"

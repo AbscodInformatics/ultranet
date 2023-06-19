@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from "react";
 import { FaInstagramSquare } from "react-icons/fa";
 import { Link } from "react-router-dom";
+import {Link as Links,animateScroll as scroll} from "react-scroll"
 import { ImLinkedin2, ImFacebook } from "react-icons/im";
 import { BsYoutube, BsTwitter } from "react-icons/bs";
 import {FaRegCopyright} from "react-icons/fa"
@@ -27,15 +28,11 @@ const Footer = () => {
     AOS.init();
   });
   return (
-    <div id="contact" className="pt-[3%] ">
+    <div id="contact">
       <div className=" px-4">
         <div className=" mx-auto py-12 lg:px-20  md:px-6 px-4  bg-white">
           <div className="flex lg:flex-row md:flex-col flex-col gap-8 w-full">
-            <div
-              data-aos="zoom-in-up"
-              data-aos-once="false"
-              className="w-full"
-            >
+            <div data-aos="zoom-in-up" data-aos-once="false" className="w-full">
               <img
                 className=" w-full mt-5 object-cover "
                 src="/contactus1.png"
@@ -132,22 +129,26 @@ const Footer = () => {
                     <p className="text-lg font-semibold e ">Support</p>
                     <ul className="pt-3">
                       <li className="pt-4">
-                        <Link
+                        <Link onClick={()=>scroll.scrollToTop()}
+                          activeClass="active"
                           to="/"
-                          href="javascript:void(0)"
-                          className="text-base e "
+                          offset={-30}
+                          duration={500}
+                          smooth={true}
                         >
                           Home
                         </Link>
                       </li>
                       <li className="pt-4">
-                        <Link
+                        <Links
                           activeClass="active"
                           to="contact"
-                          className="text-base e "
+                          offset={-30}
+                          duration={500}
+                          smooth={true}
                         >
                           Contact Us
-                        </Link>
+                        </Links>
                       </li>
                       <li className="pt-4">
                         <Link to="/AboutUs" className="text-base e">
