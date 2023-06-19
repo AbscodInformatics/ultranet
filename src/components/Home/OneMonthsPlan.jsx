@@ -91,8 +91,8 @@ const OneMonthsPlan = () => {
                   <span className="text-xl mt-5">+ GST</span>
                 </div>
                 <div className="flex gap-3 justify-center">
-                  <span className="text-2xl">|</span>
-                  <span className="text-xl">VALIDITY 28 Days</span>
+                  {/* <span className="text-2xl">|</span>
+                  <span className="text-xl">VALIDITY 28 Days</span> */}
                 </div>
               </div>
               <div className="text-lg py-3 text-black mx-8 text-left font-normal flex items-center  ">
@@ -144,8 +144,8 @@ const OneMonthsPlan = () => {
                   <span className="text-xl mt-5">+ GST</span>
                 </div>
                 <div className="flex gap-3 justify-center">
-                  <span className="text-2xl">|</span>
-                  <span className="text-xl">VALIDITY 28 Days</span>
+                  {/* <span className="text-2xl">|</span>
+                  <span className="text-xl">VALIDITY 28 Days</span> */}
                 </div>
               </div>
               <div className="text-lg py-3 text-black mx-8 text-left font-normal flex items-center  ">
@@ -197,8 +197,8 @@ const OneMonthsPlan = () => {
                   <span className="text-xl mt-5">+ GST</span>
                 </div>
                 <div className="flex gap-3 justify-center">
-                  <span className="text-2xl">|</span>
-                  <span className="text-xl">VALIDITY 28 Days</span>
+                  {/* <span className="text-2xl">|</span>
+                  <span className="text-xl">VALIDITY 28 Days</span> */}
                 </div>
               </div>
               <div className="text-lg py-3 text-black mx-8 text-left font-normal flex items-center  ">
@@ -250,8 +250,8 @@ const OneMonthsPlan = () => {
                   <span className="text-xl mt-5">+ GST</span>
                 </div>
                 <div className="flex gap-3 justify-center">
-                  <span className="text-2xl">|</span>
-                  <span className="text-xl">VALIDITY 28 Days</span>
+                  {/* <span className="text-2xl">|</span>
+                  <span className="text-xl">VALIDITY 28 Days</span> */}
                 </div>
               </div>
               <div className="text-lg py-3 text-black mx-8 text-left font-normal flex items-center  ">
@@ -303,8 +303,8 @@ const OneMonthsPlan = () => {
                   <span className="text-xl mt-5">+ GST</span>
                 </div>
                 <div className="flex gap-3 justify-center">
-                  <span className="text-2xl">|</span>
-                  <span className="text-xl">VALIDITY 28 Days</span>
+                  {/* <span className="text-2xl">|</span>
+                  <span className="text-xl">VALIDITY 28 Days</span> */}
                 </div>
               </div>
               <div className="text-lg py-3 text-black mx-8 text-left font-normal flex items-center  ">
@@ -356,8 +356,8 @@ const OneMonthsPlan = () => {
                   <span className="text-xl mt-5">+ GST</span>
                 </div>
                 <div className="flex gap-3 justify-center">
-                  <span className="text-2xl">|</span>
-                  <span className="text-xl">VALIDITY 28 Days</span>
+                  {/* <span className="text-2xl">|</span>
+                  <span className="text-xl">VALIDITY 28 Days</span> */}
                 </div>
               </div>
               <div className="text-lg py-3 text-black mx-8 text-left font-normal flex items-center  ">
@@ -409,8 +409,8 @@ const OneMonthsPlan = () => {
                   <span className="text-xl mt-5">+ GST</span>
                 </div>
                 <div className="flex gap-3 justify-center">
-                  <span className="text-2xl">|</span>
-                  <span className="text-xl">VALIDITY 28 Days</span>
+                  {/* <span className="text-2xl">|</span>
+                  <span className="text-xl">VALIDITY 28 Days</span> */}
                 </div>
               </div>
               <div className="text-lg py-3 text-black mx-8 text-left font-normal flex items-center  ">
@@ -462,8 +462,8 @@ const OneMonthsPlan = () => {
                   <span className="text-xl mt-5">+ GST</span>
                 </div>
                 <div className="flex gap-3 justify-center">
-                  <span className="text-2xl">|</span>
-                  <span className="text-xl">VALIDITY 28 Days</span>
+                  {/* <span className="text-2xl">|</span>
+                  <span className="text-xl">VALIDITY 28 Days</span> */}
                 </div>
               </div>
               <div className="text-lg py-3 text-black mx-8 text-left font-normal flex items-center  ">
@@ -515,8 +515,8 @@ const OneMonthsPlan = () => {
                   <span className="text-xl mt-5">+ GST</span>
                 </div>
                 <div className="flex gap-3 justify-center">
-                  <span className="text-2xl">|</span>
-                  <span className="text-xl">VALIDITY 28 Days</span>
+                  {/* <span className="text-2xl">|</span>
+                  <span className="text-xl">VALIDITY 28 Days</span> */}
                 </div>
               </div>
               <div className="text-lg py-3 text-black mx-8 text-left font-normal flex items-center  ">
