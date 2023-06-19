@@ -23,7 +23,7 @@ const Routing = () => {
       {/* <NavBar /> */}
       <ArrowUpAndDown/>
       <Navbarr />
-      <div className="pb-[3%]"></div>
+      <div className="md:pb-[3%] pb-[10%]"></div>
       <Routes>
         <Route exact path="/" element={<LandingPage />} />
         <Route exact path="/Offers" element={<Home />} />

@@ -99,7 +99,7 @@ const OneMonthsPlan = () => {
                 50 Mbps upload and download speed. Unlimited usage, no data
                 limits. 99% Uptime Server. No complaints, EVER!
               </div>
-              <div className="flex h-7 gap-2 w-7 mx-[5%]">
+              <div className="flex  h-7 gap-2 w-7 mx-[5%]">
                 {Img.map((imageName, index) => (
                   <img
                     key={index}
@@ -205,7 +205,7 @@ const OneMonthsPlan = () => {
                 100 Mbps upload and download speed. Unlimited usage, no data
                 limits. 99% Uptime Server. No complaints, EVER!
               </div>
-              <div className="flex h-7 gap-2 w-7 mx-[5%]">
+              <div className="flex h-7 gap-2 w-7 mx-[2%] md:mx-[5%]">
                 {Img2.map((imageName, index) => (
                   <img
                     key={index}
@@ -311,7 +311,7 @@ const OneMonthsPlan = () => {
                 200 Mbps upload and download speed. Unlimited usage, no data
                 limits. 99% Uptime Server. No complaints, EVER!
               </div>
-              <div className="flex h-7 gap-2 w-7 mx-[5%]">
+              <div className="flex md:h-7 h-6 gap-2 w-6 md:w-7 mx-[2%] md:mx-[5%]">
                 {Img4.map((imageName, index) => (
                   <img
                     key={index}
@@ -417,7 +417,7 @@ const OneMonthsPlan = () => {
                 300 Mbps upload and download speed. Unlimited usage, no data
                 limits. 99% Uptime Server. No complaints, EVER!
               </div>
-              <div className="flex h-7 gap-2 w-7 mx-[5%]">
+              <div className="flex md:h-7 gap-2 md:w-7 w-6 h-6 mx-[5%]">
                 {Img4.map((imageName, index) => (
                   <img
                     key={index}
@@ -523,7 +523,7 @@ const OneMonthsPlan = () => {
                 500 Mbps upload and download speed. Unlimited usage, no data
                 limits. 99% Uptime Server. No complaints, EVER!
               </div>
-              <div className="flex h-7 gap-2 w-7 mx-[5%]">
+              <div className="flex md:h-7 gap-2 md:w-7 h-6 w-6 mx-[5%]">
                 {Img4.map((imageName, index) => (
                   <img
                     key={index}

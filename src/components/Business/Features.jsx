@@ -28,7 +28,7 @@ const Features = () => {
             <p className="font-bold text-center text-lg xl:text-xl lg:text-xl md:text-xl text-white ">
               Future-proof your business needs
             </p>
-            <p className="text-white text-base md:text-lg mt-3 text-justify md:text-center">
+            <p className="text-white text-sm md:text-lg mt-3 text-justify md:text-center">
               Make your business more productive with UltraNet business
               broadband. Backed by stringent Service Level Agreements, we’ll
               guarantee your connection stays on, and stays fast
@@ -39,7 +39,7 @@ const Features = () => {
             <div className="">
               <ul className="flex flex-col justify-center items-center gap-5">
                 <HiUserGroup size={80} color="white" />
-                <li className="mb-2 text-base md:text-lg text-justify md:text-center text-white ">
+                <li className="mb-2 text-xs md:text-lg text-justify md:text-center text-white ">
                   Effortlessly keep multiple users connected
                 </li>
               </ul>
@@ -47,7 +47,7 @@ const Features = () => {
             <div className="">
               <ul className="flex flex-col justify-center items-center gap-5">
                 <AiOutlinePercentage size={80} color="white" />
-                <li className="mb-2 text-base md:text-lg text-justify md:text-center text-white ">
+                <li className="mb-2 text-xs md:text-lg text-justify md:text-center text-white ">
                   Effortlessly keep multiple users connected
                 </li>
               </ul>
@@ -55,7 +55,7 @@ const Features = () => {
             <div className="">
               <ul className="flex flex-col justify-center items-center gap-5">
                 <RiArrowUpDownFill size={80} color="white" />
-                <li className="mb-2 text-base md:text-lg text-white text-justify md:text-center ">
+                <li className="mb-2 text-xs md:text-lg text-white text-justify md:text-center ">
                   No throttling & no contention
                 </li>
               </ul>
@@ -63,7 +63,7 @@ const Features = () => {
             <div className="">
               <ul className="flex flex-col justify-center items-center gap-5">
                 <BiPhoneCall size={80} color="white" />
-                <li className="mb-2 text-base md:text-lg text-white text-justify md:text-center ">
+                <li className="mb-2 text-xs md:text-lg text-white text-justify md:text-center ">
                   No throttling & no contention
                 </li>
               </ul>
@@ -71,7 +71,7 @@ const Features = () => {
             <div className="">
               <ul className="flex flex-col justify-center items-center gap-5">
                 <SiTimescale size={80} color="white" />
-                <li className="mb-2 text-sm md:text-lg text-white text-justify md:text-center ">
+                <li className="mb-2 text-xs md:text-lg text-white text-justify md:text-center ">
                   24/7 real-time network monitoring and business support
                 </li>
               </ul>
@@ -79,7 +79,7 @@ const Features = () => {
             <div className="">
               <ul className="flex flex-col justify-center items-center gap-5">
                 <SlBadge size={80} color="white" />
-                <li className="mb-2 text-sm md:text-lg  text-justify md:text-center text-white md:">
+                <li className="mb-2 text-xs md:text-lg  text-justify md:text-center text-white md:">
                   24/7 real-time network monitoring and business support
                 </li>
               </ul>
