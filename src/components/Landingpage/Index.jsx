@@ -3,7 +3,7 @@ import HeroPage from "../HeroPage";
 import Features from "../Features";
 import Choose from "../Choose";
 import Plan from "../Plan";
-import UltranetWork from '../UltranetWork';
+// import UltranetWork from '../UltranetWork';
 import Products from "../Partners"
 const Index = () => {
   return (

@@ -3,16 +3,13 @@ import { FaInstagramSquare } from "react-icons/fa";
 import { Link } from "react-router-dom";
 import {Link as Links,animateScroll as scroll} from "react-scroll"
 import { ImLinkedin2, ImFacebook } from "react-icons/im";
-import { BsYoutube, BsTwitter } from "react-icons/bs";
+import { BsYoutube, } from "react-icons/bs";// BsTwitter
 import {FaRegCopyright} from "react-icons/fa"
 import PrivacyPolicy from "./Landingpage/PrivacyPolicy";
-import { motion } from "framer-motion";
-import {ImCross} from "react-icons/im"
 import {SiHandshake} from "react-icons/si"
 import {FaRegLifeRing} from "react-icons/fa"
 import AOS from "aos";
 import "aos/dist/aos.css";
-import { Button } from "react-scroll";
 
 
 
@@ -28,10 +25,11 @@ const Footer = () => {
     AOS.init();
   });
   return (
-    <div id="contact">
+    <div>
+      {/* {id="ContactUs"} */}
       <div className=" px-4">
         <div className=" mx-auto py-12 lg:px-20  md:px-6 px-4  bg-white">
-          <div className="flex lg:flex-row md:flex-col flex-col gap-8 w-full">
+          {/* <div className="flex lg:flex-row md:flex-col flex-col gap-8 w-full">
             <div data-aos="zoom-in-up" data-aos-once="false" className="w-full">
               <img
                 className=" w-full mt-5 object-cover "
@@ -103,7 +101,7 @@ const Footer = () => {
                 Send
               </button>
             </div>
-          </div>
+          </div> */}
           {isOpen && <PrivacyPolicy closePopup={closePopup} />}
           <div className="">
             <div className=" py-12">
@@ -129,7 +127,8 @@ const Footer = () => {
                     <p className="text-lg font-semibold e ">Support</p>
                     <ul className="pt-3">
                       <li className="pt-4">
-                        <Link onClick={()=>scroll.scrollToTop()}
+                        <Link
+                          onClick={() => scroll.scrollToTop()}
                           activeClass="active"
                           to="/"
                           offset={-30}
