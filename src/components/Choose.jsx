@@ -1,6 +1,6 @@
 import React, { useEffect } from "react";
 import { FaDownload } from "react-icons/fa";
-// import { HiRocketLaunch } from "react-icons/hi";
+import { Link } from "react-router-dom";
 import { MdRocketLaunch, MdThumbUp } from "react-icons/md";
 import { RiSecurePaymentFill } from "react-icons/ri";
 import { FaRupeeSign, FaHome } from "react-icons/fa";
@@ -50,11 +50,14 @@ const Choose = () => {
             Enjoy truly unlimited high- speed access to Internet with all
             packages at all times
           </div>{" "}
-          <div className="flex justify-center">
+          <Link
+            to={"https://my.ultranet.co.in/enquiry?src=website"}
+            className="flex justify-center"
+          >
             <button className="group-hover:bg-gradient-to-r bg-[#071343] px-8 text-lg py-3 group-hover:from-pink-500 group-hover:via-red-500 group-hover:to-yellow-500 text-white font-medium rounded transition duration-300">
               Choose Plan
             </button>
-          </div>
+          </Link>
         </div>
         <div
           data-aos-delay="1200"
@@ -69,11 +72,14 @@ const Choose = () => {
             We always Provide the fastest speed available in the market so that
             you can be on top of the world.
           </div>{" "}
-          <div className="flex justify-center">
+          <Link
+            to={"https://my.ultranet.co.in/enquiry?src=website"}
+            className="flex justify-center"
+          >
             <button className="group-hover:bg-gradient-to-r bg-[#071343] px-8 text-lg py-3 group-hover:from-pink-500 group-hover:via-red-500 group-hover:to-yellow-500 text-white font-medium rounded transition duration-300">
               Choose Plan
             </button>
-          </div>
+          </Link>
         </div>
         <div
           data-aos="fade-up"
@@ -88,11 +94,14 @@ const Choose = () => {
             Go cashless Pay Online on MyNet.UltraNet.co.in to save time and
             renew instantly.
           </div>{" "}
-          <div className="flex justify-center">
+          <Link
+            to={"https://my.ultranet.co.in/enquiry?src=website"}
+            className="flex justify-center"
+          >
             <button className="group-hover:bg-gradient-to-r bg-[#071343] px-8 text-lg py-3 group-hover:from-pink-500 group-hover:via-red-500 group-hover:to-yellow-500 text-white font-medium rounded transition duration-300">
               Choose Plan
             </button>
-          </div>
+          </Link>
         </div>
         <div
           data-aos="fade-up"
@@ -108,11 +117,14 @@ const Choose = () => {
             Not only are our connections fast but we have a package to suit
             every budget.
           </div>{" "}
-          <div className="flex justify-center">
+          <Link
+            to={"https://my.ultranet.co.in/enquiry?src=website"}
+            className="flex justify-center"
+          >
             <button className="group-hover:bg-gradient-to-r bg-[#071343] px-8 text-lg py-3 group-hover:from-pink-500 group-hover:via-red-500 group-hover:to-yellow-500 text-white font-medium rounded transition duration-300">
               Choose Plan
             </button>
-          </div>
+          </Link>
         </div>
         <div
           data-aos="fade-up"
@@ -128,11 +140,14 @@ const Choose = () => {
             Our infrastructure is stable. With our service you can look forward
             to reliable and blisteringly.
           </div>{" "}
-          <div className="flex justify-center">
+          <Link
+            to={"https://my.ultranet.co.in/enquiry?src=website"}
+            className="flex justify-center"
+          >
             <button className="group-hover:bg-gradient-to-r bg-[#071343] px-8 text-lg py-3 group-hover:from-pink-500 group-hover:via-red-500 group-hover:to-yellow-500 text-white font-medium rounded transition duration-300">
               Choose Plan
             </button>
-          </div>
+          </Link>
         </div>
         <div
           data-aos="fade-up"
@@ -148,11 +163,14 @@ const Choose = () => {
             Our service are truly unlimited for single household, connect with
             your friends and family.
           </div>{" "}
-          <div className="flex justify-center">
+          <Link
+            to={"https://my.ultranet.co.in/enquiry?src=website"}
+            className="flex justify-center"
+          >
             <button className="group-hover:bg-gradient-to-r bg-[#071343] px-8 text-lg py-3 group-hover:from-pink-500 group-hover:via-red-500 group-hover:to-yellow-500 text-white font-medium rounded transition duration-300">
               Choose Plan
             </button>
-          </div>
+          </Link>
         </div>
       </div>
       <div
@@ -160,11 +178,9 @@ const Choose = () => {
         data-aos="fade-up"
         data-aos-once="false"
         data-aos-delay="8000"
-        // data-aos-anchor-placement="bottom-center"
       >
         <img src="/ml1.png" alt="" />
       </div>
-      {/* <div className="py-[3%] mx-[8%]"></div> */}
     </div>
   );
 };

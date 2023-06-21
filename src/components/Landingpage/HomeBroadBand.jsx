@@ -1,5 +1,6 @@
 import React,{useEffect} from 'react'
 import { BiRupee } from "react-icons/bi";
+import { Link } from 'react-router-dom';
 import AOS from "aos";
 import "aos/dist/aos.css";
 
@@ -32,11 +33,14 @@ const HomeBroadBand = () => {
               Unlimited usage, no data limits Free Activation
             </div>
 
-            <div className="flex justify-center">
-              <button className="group-hover:bg-gradient-to-r bg-[#071343] px-8 text-lg py-3 group-hover:from-pink-500 group-hover:via-red-500 group-hover:to-yellow-500 text-white font-medium rounded transition duration-300 ">
+            <Link
+              to={"https://my.ultranet.co.in/enquiry?src=website"}
+              className="flex justify-center"
+            >
+              <button className="group-hover:bg-gradient-to-r bg-[#071343] px-8 text-lg py-3 group-hover:from-pink-500 group-hover:via-red-500 group-hover:to-yellow-500 text-white font-medium rounded transition duration-300">
                 Get Started
               </button>
-            </div>
+            </Link>
           </div>
         </div>
       </div>
@@ -62,11 +66,14 @@ const HomeBroadBand = () => {
               Unlimited usage, no data limits Free Activation And Free 5 + OTT
               Apps.
             </div>
-            <div className="flex justify-center">
-              <button className="group-hover:bg-gradient-to-r bg-[#071343] px-8 text-lg py-3 group-hover:from-pink-500 group-hover:via-red-500 group-hover:to-yellow-500 text-white font-medium rounded transition duration-300 ">
+            <Link
+              to={"https://my.ultranet.co.in/enquiry?src=website"}
+              className="flex justify-center"
+            >
+              <button className="group-hover:bg-gradient-to-r bg-[#071343] px-8 text-lg py-3 group-hover:from-pink-500 group-hover:via-red-500 group-hover:to-yellow-500 text-white font-medium rounded transition duration-300">
                 Get Started
               </button>
-            </div>
+            </Link>
           </div>
         </div>
       </div>
@@ -93,11 +100,14 @@ const HomeBroadBand = () => {
               Apps.
             </div>
 
-            <div className="flex justify-center">
-              <button className="group-hover:bg-gradient-to-r bg-[#071343] px-8 text-lg py-3 group-hover:from-pink-500 group-hover:via-red-500 group-hover:to-yellow-500 text-white font-medium rounded transition duration-300 ">
+            <Link
+              to={"https://my.ultranet.co.in/enquiry?src=website"}
+              className="flex justify-center"
+            >
+              <button className="group-hover:bg-gradient-to-r bg-[#071343] px-8 text-lg py-3 group-hover:from-pink-500 group-hover:via-red-500 group-hover:to-yellow-500 text-white font-medium rounded transition duration-300">
                 Get Started
               </button>
-            </div>
+            </Link>
           </div>
         </div>
       </div>

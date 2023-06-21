@@ -1,6 +1,6 @@
 import React,{useEffect } from 'react'
 import { BiRupee } from "react-icons/bi";
-import { motion, useAnimation } from "framer-motion";
+import { Link } from 'react-router-dom';
 import AOS from "aos";
 import "aos/dist/aos.css";
 
@@ -34,12 +34,14 @@ const LeasedLinres = () => {
                 <li>10Mbps download & upload speed</li>
                 <li>Unlimited usage</li>
               </ul>
-
-              <div className="flex justify-center">
-                <button className="group-hover:bg-gradient-to-r bg-[#071343] px-8 text-lg py-3 group-hover:from-pink-500 group-hover:via-red-500 group-hover:to-yellow-500 text-white font-medium rounded transition duration-300 ">
+              <Link
+                to={"https://my.ultranet.co.in/enquiry?src=website"}
+                className="flex justify-center"
+              >
+                <button className="group-hover:bg-gradient-to-r bg-[#071343] px-8 text-lg py-3 group-hover:from-pink-500 group-hover:via-red-500 group-hover:to-yellow-500 text-white font-medium rounded transition duration-300">
                   Choose Plan
                 </button>
-              </div>
+              </Link>
             </div>
           </div>
         </div>
@@ -66,12 +68,14 @@ const LeasedLinres = () => {
                 <li>20 Mbps download + upload speed</li>
                 <li>Unlimited usage, no data limits.</li>
               </ul>
-
-              <div className="flex justify-center">
-                <button className="group-hover:bg-gradient-to-r bg-[#071343] px-8 text-lg py-3 group-hover:from-pink-500 group-hover:via-red-500 group-hover:to-yellow-500 text-white font-medium rounded transition duration-300 ">
+              <Link
+                to={"https://my.ultranet.co.in/enquiry?src=website"}
+                className="flex justify-center"
+              >
+                <button className="group-hover:bg-gradient-to-r bg-[#071343] px-8 text-lg py-3 group-hover:from-pink-500 group-hover:via-red-500 group-hover:to-yellow-500 text-white font-medium rounded transition duration-300">
                   Choose Plan
                 </button>
-              </div>
+              </Link>
             </div>
           </div>
         </div>
@@ -98,12 +102,14 @@ const LeasedLinres = () => {
                 <li>30 Mbps download + upload speed</li>
                 <li>Unlimited usage, no data limits.</li>
               </ul>
-
-              <div className="flex justify-center">
-                <button className="group-hover:bg-gradient-to-r bg-[#071343] px-8 text-lg py-3 group-hover:from-pink-500 group-hover:via-red-500 group-hover:to-yellow-500 text-white font-medium rounded transition duration-300 ">
+              <Link
+                to={"https://my.ultranet.co.in/enquiry?src=website"}
+                className="flex justify-center"
+              >
+                <button className="group-hover:bg-gradient-to-r bg-[#071343] px-8 text-lg py-3 group-hover:from-pink-500 group-hover:via-red-500 group-hover:to-yellow-500 text-white font-medium rounded transition duration-300">
                   Choose Plan
                 </button>
-              </div>
+              </Link>
             </div>
           </div>
         </div>
@@ -130,12 +136,14 @@ const LeasedLinres = () => {
                 <li>50 Mbps download + upload speed</li>
                 <li>Unlimited usage, no data limits.</li>
               </ul>
-
-              <div className="flex justify-center">
-                <button className="group-hover:bg-gradient-to-r bg-[#071343] px-8 text-lg py-3 group-hover:from-pink-500 group-hover:via-red-500 group-hover:to-yellow-500 text-white font-medium rounded transition duration-300 ">
+              <Link
+                to={"https://my.ultranet.co.in/enquiry?src=website"}
+                className="flex justify-center"
+              >
+                <button className="group-hover:bg-gradient-to-r bg-[#071343] px-8 text-lg py-3 group-hover:from-pink-500 group-hover:via-red-500 group-hover:to-yellow-500 text-white font-medium rounded transition duration-300">
                   Choose Plan
                 </button>
-              </div>
+              </Link>
             </div>
           </div>
         </div>
