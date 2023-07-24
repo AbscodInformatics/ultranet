@@ -4,7 +4,6 @@ import LandingPage from "./Landingpage/Index";
 import Home from "./Home/Index";
 import Business from "./Business/Index";
 import FAQs from "./FAQs/Index";
-// import NavBar from "./NavBar";
 import Footer from "./Footer";
 import TermsConditinons from "./Landingpage/TermsConditinons";
 import ScrollToTop from "./ScrollToTop";
@@ -21,7 +20,6 @@ const Routing = () => {
   return (
     <div>
       <ScrollToTop />
-      {/* <NavBar /> */}
       <ArrowUpAndDown/>
       <Navbarr />
       <div className="md:pb-[3%] pb-[10%]"></div>
@@ -42,7 +40,7 @@ const Routing = () => {
         <Route exact path="/FairUsePolicy" element={<FairUsePolicy />} />
         <Route exact path="/FtthNetwork" element={<FtthNetwork />} />
       </Routes>
-      <ContactUs/>
+      {/* <ContactUs/> */}
       <Footer />
     </div>
   );

@@ -4,7 +4,7 @@ import { Autoplay } from "swiper";
 
 const HeroPage = () => {
   return (
-    <div >
+    <div>
       <Swiper
         loop={true}
         autoplay={{
@@ -28,6 +28,14 @@ const HeroPage = () => {
             className="object-fill h-[30vh] md:h-[80vh] w-full"
           />
         </SwiperSlide>
+        <SwiperSlide>
+          <img
+            src="/businesshome3.jpg"
+            alt=""
+            className="object-fill h-[30vh] md:h-[80vh] w-full"
+          />
+        </SwiperSlide>
+
         <SwiperSlide>
           <img
             src="/banner21.png"

@@ -1,14 +1,12 @@
-import React from 'react'
-import NavBar from '../NavBar'
-import FAQs from './FAQs'
-import Footer from '../Footer'
+import React from "react";
+import FAQs from "./FAQs";
 
 const Index = () => {
   return (
     <div>
-        <FAQs/>
+      <FAQs />
     </div>
-  )
-}
+  );
+};
 
-export default Index
+export default Index;

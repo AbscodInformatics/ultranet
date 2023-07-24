@@ -85,17 +85,16 @@ const Navbar = () => {
               </Link>
             </li>
             <li onClick={() => scroll.scrollToTop()}>
-              <Links
-              
-                activeClass="active"
-                to="contact"
-                offset={-20}
-                duration={1500}
-                smooth={true}
+              <Link
+                to={"https://my.ultranet.co.in/enquiry?src=website"}
+                // activeClass="active"
+                // offset={-20}
+                // duration={1500}
+                // smooth={true}
                 className="hidden sm:block focus:outline-none text-lg border-transparent font-medium cursor-pointer h-full md:flex items-center hover:text-[#e10000]  text-black tracking-normal border-b-2"
               >
                 Contact Us
-              </Links>
+              </Link>
             </li>
           </ul>
           <div className="md:flex items-center mt-4 md:mt-0">
