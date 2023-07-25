@@ -5,7 +5,7 @@ import HomeBroadBand from './Landingpage/HomeBroadBand';
 import BusinessBroadband from './Landingpage/BusinessBroadband';
 
 const Plan = () => {
-  const [activeTab, setActiveTab] = useState('home');
+  const [activeTab, setActiveTab] = useState("business");
 
   const handleTabChange = (tab) => {
     setActiveTab(tab);
@@ -13,8 +13,8 @@ const Plan = () => {
 
   const renderTabContent = () => {
     switch (activeTab) {
-      case 'home':
-        return <HomeBroadBand />;
+      // case 'home':
+      //   return <HomeBroadBand />;
       case 'business':
         return <BusinessBroadband />;
 
@@ -40,7 +40,7 @@ const Plan = () => {
           INFINITE FIBRE BROADBAND PLANS
         </div>
         <div className="flex md:flex-row flex-col md:w-[700px] mt-5 mx-auto text-xl rounded-xl   justify-center gap-10 items-center">
-          <button
+          {/* <button
             className={`tab  hover:bg-gradient-to-r bg-[#071343] px-8 text-lg py-3 hover:from-pink-500 hover:via-red-500 hover:to-yellow-500 text-white font-medium rounded transition duration-300 ${
               activeTab === "home"
                 ? "active bg-gradient-to-r from-[#ee9ca7] to-[#2980B9]"
@@ -49,7 +49,7 @@ const Plan = () => {
             onClick={() => handleTabChange("home")}
           >
             Home Broadband
-          </button>
+          </button> */}
           <button
             className={`tab  hover:bg-gradient-to-r bg-[#071343] px-8 text-lg py-3 hover:from-pink-500 hover:via-red-500 hover:to-yellow-500 text-white font-medium rounded transition duration-300 ${
               activeTab === "business"

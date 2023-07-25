@@ -81,7 +81,7 @@ const Navbar = () => {
                 to="/HowUltraNetWorks"
                 className="focus:outline-none text-lg border-transparent font-medium cursor-pointer h-full flex items-center hover:text-[#e10000]  text-black tracking-normal border-b-2"
               >
-                How UltraNet Works
+                My Ultranet
               </Link>
             </li>
             <li onClick={() => scroll.scrollToTop()}>
