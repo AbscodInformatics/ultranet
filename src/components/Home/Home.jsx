@@ -15,7 +15,7 @@ const Home = () => {
           backgroundSize: "cover",
         }}
       ></div>
-      <div className="py-[5%]">
+      {/* <div className="py-[5%]">
         <div>
           <div
             data-aos="zoom-in-up"
@@ -35,7 +35,7 @@ const Home = () => {
           </div>
           <div className="bg-white"></div>
         </div>
-      </div>
+      </div> */}
     </div>
   );
 }

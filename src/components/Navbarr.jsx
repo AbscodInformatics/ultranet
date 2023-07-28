@@ -78,7 +78,7 @@ const Navbar = () => {
             </li>
             <li onClick={() => scroll.scrollToTop()}>
               <Link
-                to="/HowUltraNetWorks"
+                to="/myUltranet"
                 className="focus:outline-none text-lg border-transparent font-medium cursor-pointer h-full flex items-center hover:text-[#e10000]  text-black tracking-normal border-b-2"
               >
                 My Ultranet

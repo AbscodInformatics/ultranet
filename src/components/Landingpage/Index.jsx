@@ -6,10 +6,12 @@ import Plan from "../Plan";
 import PlanFilter from '../Home/PlanFilter';
 // import UltranetWork from '../UltranetWork';
 import Products from "../Partners"
+import HeroPage1 from "./HeroPage"
 const Index = () => {
   return (
     <div>
-      <HeroPage />
+      <HeroPage1/>
+      {/* <HeroPage /> */}
       <Features />
       <Products />
       {/* <UltranetWork/> */}

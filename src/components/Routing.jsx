@@ -16,12 +16,15 @@ import Navbarr from "./Navbarr"
 import UltranetWork from "./HowUltraNetWorks/Index"
 import ArrowUpAndDown from "./ArrowUpAndDown";
 import ContactUs from "./ContactUs";
+import Chatboot from "./Chatboot";
 const Routing = () => {
   return (
     <div>
       <ScrollToTop />
-      <ArrowUpAndDown/>
+<ArrowUpAndDown />
+
       <Navbarr />
+      {/* <Chatboot /> */}
       <div className="md:pb-[3%] pb-[10%]"></div>
       <Routes>
         <Route exact path="/" element={<LandingPage />} />
@@ -30,7 +33,7 @@ const Routing = () => {
         <Route exact path="/Business" element={<Business />} />
         <Route exact path="/AboutUs" element={<AboutUs />} />
         <Route exact path="/Partner" element={<Partner />} />
-        <Route exact path="/HowUltraNetWorks" element={<UltranetWork />} />
+        <Route exact path="/myUltranet" element={<UltranetWork />} />
         <Route
           exact
           path="/TermsAndConditions"
