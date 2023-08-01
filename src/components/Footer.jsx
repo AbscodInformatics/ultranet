@@ -25,9 +25,9 @@ const Footer = () => {
     AOS.init();
   });
   return (
-    <div>
+    <h2>
       {/* {id="ContactUs"} */}
-      <div className=" px-4">
+      <h2 className=" px-4">
         <div className=" mx-auto py-12 lg:px-20  md:px-6 px-4  bg-white">
           {/* <div className="flex lg:flex-row md:flex-col flex-col gap-8 w-full">
             <div data-aos="zoom-in-up" data-aos-once="false" className="w-full">
@@ -261,7 +261,10 @@ const Footer = () => {
                                   "radial-gradient(circle farthest-corner at 35% 90%, #fec564, transparent 50%), radial-gradient(circle farthest-corner at 0 140%, #fec564, transparent 50%), radial-gradient(ellipse farthest-corner at 0 -25%, #5258cf, transparent 50%), radial-gradient(ellipse farthest-corner at 20% -50%, #5258cf, transparent 50%), radial-gradient(ellipse farthest-corner at 100% 0, #893dc2, transparent 50%), radial-gradient(ellipse farthest-corner at 60% -20%, #893dc2, transparent 50%), radial-gradient(ellipse farthest-corner at 100% 100%, #d9317a, transparent), linear-gradient(#6559ca, #bc318f 30%, #e33f5f 50%, #f77638 70%, #fec66d 100%)",
                               }}
                             >
-                              <Link to="" className=" ">
+                              <Link
+                                to="https://instagram.com/_ultranet_?igshid=MzRlODBiNWFlZA=="
+                                className=" "
+                              >
                                 <FaInstagramSquare className="text-white" />
                               </Link>
                             </li>
@@ -277,10 +280,18 @@ const Footer = () => {
                     data-aos-once="false"
                     className="flex md:flex-row flex-col gap-6"
                   >
-                    <p className="text-sm  text-white ">+91-7065000280</p>
-                    <p className="text-sm  text-white ">+91-7065000960</p>
+                    <p className="text-sm  text-white ">
+                      +91-7065000280(Support)
+                    </p>
+
+                    <p className="text-sm  text-white ">
+                      +91-7065000262(Support)
+                    </p>
+                    <p className="text-sm  text-white ">
+                      +91-7065000960(Sales)
+                    </p>
                     <p className="text-sm  text-white">
-                      Corp.support@Ultranet.co.in
+                      corp.sales@ultranet.co.in
                     </p>
                   </div>
                   <div
@@ -298,8 +309,8 @@ const Footer = () => {
             </div>
           </div>
         </div>
-      </div>
-    </div>
+      </h2>
+    </h2>
   );
 };
 

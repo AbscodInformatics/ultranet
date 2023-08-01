@@ -16,7 +16,6 @@ import Navbarr from "./Navbarr"
 import UltranetWork from "./HowUltraNetWorks/Index"
 import ArrowUpAndDown from "./ArrowUpAndDown";
 import ContactUs from "./ContactUs";
-import Chatboot from "./Chatboot";
 const Routing = () => {
   return (
     <div>
@@ -24,7 +23,6 @@ const Routing = () => {
 <ArrowUpAndDown />
 
       <Navbarr />
-      {/* <Chatboot /> */}
       <div className="md:pb-[3%] pb-[10%]"></div>
       <Routes>
         <Route exact path="/" element={<LandingPage />} />

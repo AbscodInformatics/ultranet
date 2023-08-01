@@ -47,8 +47,8 @@ const Choose = () => {
             <span> Now No More GB Count</span>
           </div>
           <div className="text-lg  h-28  py-3 text-justify mx-[7%] text-black   font-normal flex items-center  ">
-            Enjoy truly unlimited high- speed access to Internet with all
-            packages at all times
+            Experience boundless, high-speed Internet access with all our
+            packages, anytime and without limitations.
           </div>{" "}
           <Link
             to={"https://my.ultranet.co.in/enquiry?src=website"}
@@ -69,8 +69,8 @@ const Choose = () => {
             <MdRocketLaunch size={40} /> <span> Ultra Fast Connection</span>
           </div>
           <div className="text-lg  h-28  py-3 text-justify mx-[7%] text-black   font-normal flex items-center  ">
-            We always Provide the fastest speed available in the market so that
-            you can be on top of the world.
+            We consistently deliver the market's fastest speeds, ensuring you
+            stay on top of the world.
           </div>{" "}
           <Link
             to={"https://my.ultranet.co.in/enquiry?src=website"}
@@ -90,9 +90,9 @@ const Choose = () => {
           <div className="pl-[7%] flex gap-5 items-center group-hover:bg-gradient-to-r  group-hover:from-pink-500 group-hover:via-red-500 group-hover:to-yellow-500 text-[white] py-3 rounded-t-[20px] bg-[#071343]   text-center font-semibold text-xl  ">
             <RiSecurePaymentFill size={40} /> <span> Online Payments</span>
           </div>
-          <div className="text-lg py-3   h-28 text-justify mx-[7%] text-black   font-normal flex items-center  ">
-            Go cashless Pay Online on MyNet.UltraNet.co.in to save time and
-            renew instantly.
+          <div className="text-lg py-3   h-28 text-justify mx-[7%] text-black   font-normal  ">
+            Embrace a cashless approach by paying online, save time and enable
+            instant renewals.
           </div>{" "}
           <Link
             to={"https://my.ultranet.co.in/enquiry?src=website"}
@@ -114,8 +114,8 @@ const Choose = () => {
             <span> Affordable Packages</span>
           </div>
           <div className="text-lg py-3  h-28  text-justify mx-[7%] text-black   font-normal flex items-center  ">
-            Not only are our connections fast but we have a package to suit
-            every budget.
+            Our connections are fast and designed to cater to every budget with
+            a wide range of packages.
           </div>{" "}
           <Link
             to={"https://my.ultranet.co.in/enquiry?src=website"}
@@ -137,8 +137,8 @@ const Choose = () => {
             <span> 99% Service Uptime</span>
           </div>
           <div className="text-lg py-3  h-28  text-justify mx-[7%] text-black   font-normal flex items-center  ">
-            Our infrastructure is stable. With our service you can look forward
-            to reliable and blisteringly.
+            Count on our stable infrastructure for a service that is not only
+            reliable but also blisteringly fast.
           </div>{" "}
           <Link
             to={"https://my.ultranet.co.in/enquiry?src=website"}
@@ -160,8 +160,8 @@ const Choose = () => {
             <span> Unlimited for a Single Household</span>
           </div>
           <div className="text-lg py-3  h-28  text-justify mx-[7%] text-black   font-normal flex items-center  ">
-            Our service are truly unlimited for single household, connect with
-            your friends and family.
+            Our services are genuinely unlimited, perfect for single households
+            to stay connected with friends and family.
           </div>{" "}
           <Link
             to={"https://my.ultranet.co.in/enquiry?src=website"}

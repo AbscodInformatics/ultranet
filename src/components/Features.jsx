@@ -26,22 +26,19 @@ const Features = () => {
           data-aos-once="false"
           className="text-xl text-justify font-semibold mt-[2%] mx-[8%]"
         >
-          We are voted the best broadband service provider in the India, and our
-          speeds are one of the unmatched in the industry. Most fibre broadband
-          services are usually fibre and copper, fibre optic cables from the
-          exchange to your street and then copper wires into your dwelling. This
-          negatively impacts the speed. Besides, there is more attenuation with
-          copper wiring. Our mission is to ensure that our customers enjoy high
-          bandwidth HD quality video streaming line.
+          As <h2 className='inline font-bold'>India's finest broadband service provider</h2>, we are committed
+          to delivering an unparalleled internet experience with
+          <b> high-speed wifi connections</b>. Unlike other services, we use an
+          all-fiber setup, ensuring no speed loss or attenuation issues caused
+          by copper wiring. Our focus is on providing seamless, high-quality
+          internet to valued customers through our cutting-edge fiber optic
+          technology. With our top-notch <b> wifi broadband service</b>, you can
+          enjoy HD-quality video streaming, smooth online gaming, and efficient
+          remote work. Choose us as your <b> internet service provider</b> to
+          unlock the full potential of the digital world and experience the
+          best-in-class broadband service right at your home or business. Join
+          us today and take your online experience to the next level.
         </div>
-        {/* <button
-          data-aos="zoom-in-up"
-          data-aos-delay="8000"
-          data-aos-once="false"
-          className="text-lg mt-5 bg-gradient-to-r font-semibold from-red-500 via-yellow-500 to-red-500   px-10 py-4 text-center uppercase transition duration-500 ease-in-out bg-no-repeat bg-size-200% text-white hover:bg-gradient-to-r hover:from-red-300 hover:via-yellow-400 hover:to-red-500 shadow-lg rounded-lg "
-        >
-          Find Out More
-        </button> */}
       </div>
     </div>
   );

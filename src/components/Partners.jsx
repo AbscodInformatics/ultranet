@@ -16,6 +16,7 @@ const Partners = () => {
 
   return (
     <>
+    <h1></h1>
       <div className="bg-gray-100">
         <div className="py-14 px-3">
           <div className="lg:max-w-[1440px] md:max-w-[744px] max-w-[375px] w-full mx-auto">

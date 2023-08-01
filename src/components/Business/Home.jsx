@@ -51,13 +51,13 @@ const Home = () => {
               className="object-fill h-[30vh] md:h-[80vh] w-full"
             />
           </SwiperSlide>
-          <SwiperSlide>
+          {/* <SwiperSlide>
             <img
               src="/businesshome2.jpg"
               alt=""
               className="object-fill h-[30vh] md:h-[80vh] w-full"
             />
-          </SwiperSlide>
+          </SwiperSlide> */}
         </Swiper>
       </div>
       <div>
