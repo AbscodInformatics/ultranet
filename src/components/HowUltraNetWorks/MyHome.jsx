@@ -22,7 +22,7 @@ const MyHome = () => {
         </ul>
       </div>
       <div className="mt-[5%]">
-        <div className="text-5xl font-bold text-center mx-1 md:mx-0 bg-gradient-to-r from-teal-500 via-blue-500 to-pink-500 text-transparent bg-clip-text ">
+        <div className="text-5xl leading-[60px] text-[#004281] tracking-[-0.04em]  font-[800] text-center mx-1 md:mx-0  ">
           HOW ULTRANET IS DIFFERENT
         </div>
         <p className="text-lg mt-[3%] font-semibold">

@@ -7,16 +7,19 @@ import PlanFilter from '../Home/PlanFilter';
 // import UltranetWork from '../UltranetWork';
 import Products from "../Partners"
 import HeroPage1 from "./HeroPage"
+import Form from '../Form';
 const Index = () => {
   return (
     <div>
-      <HeroPage1/>
+      {" "}
+      <Form />
+      <HeroPage1 />
       {/* <HeroPage /> */}
       <Features />
       <Products />
       {/* <UltranetWork/> */}
       <Choose />
-      <PlanFilter/>
+      <PlanFilter />
       <Plan />
     </div>
   );

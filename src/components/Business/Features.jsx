@@ -23,7 +23,7 @@ const Features = () => {
         data-aos-once="false"
         className="mx-auto  mb-[5%] shadow rounded w-full"
       >
-        <div className=" rounded-3xl  hover:bg-gradient-to-r bg-[#071343] px-8 text-lg  hover:from-pink-500 hover:via-red-500 hover:to-yellow-500 text-white font-medium  transition duration-300  mx-[7%] p-[5%]">
+        <div className=" rounded-3xl  hover:bg-gradient-to-r from-[#DE466C] to-[#004281] bg-[#004281] px-8 text-lg text-white font-medium  transition duration-300  mx-[7%] p-[5%]">
           <div className="py-6 xl:px-8 text-center lg:px-8 md:px-8  flex flex-col justify-between items-center">
             <p className="font-bold text-center text-lg xl:text-xl lg:text-xl md:text-xl text-white ">
               Future-proof your business needs

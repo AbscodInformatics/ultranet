@@ -49,10 +49,10 @@ const SixMonths = () => {
         >
           <div className="flex items-center  justify-center py-8 px-4">
             <div className="md:w-[400px] flex flex-col gap-7 shadow-lg  rounded-[20px] pb-10  bg-white">
-              <h1 className="pl-[7%] group-hover:bg-gradient-to-r  group-hover:from-pink-500 group-hover:via-red-500 group-hover:to-yellow-500 text-[white] py-3 rounded-t-[20px] bg-[#071343]   text-center font-bold text-xl ">
+              <h1 className="pl-[7%] group-hover:bg-gradient-to-r from-[#DE466C] to-[#004281] text-[white] py-3 rounded-t-[20px] bg-[#004281]   text-center font-bold text-xl ">
                 50 Mbps
               </h1>
-              <button className=" flex justify-evenly  group-hover:bg-gradient-to-r  group-hover:from-pink-500 group-hover:via-red-500 group-hover:to-yellow-500 text-[white] py-3 rounded-3xl bg-[#071343]  mx-2 text-center font-bold text-lg">
+              <button className=" flex justify-evenly  group-hover:bg-gradient-to-r from-[#DE466C] to-[#004281] text-[white] py-3 rounded-3xl bg-[#004281]  mx-2 text-center font-bold text-lg">
                 <span>₹ 2149 for Base Plan + ₹ 450 for OTT Apps</span>
               </button>
               <div className="flex items-center mx-3 gap-3">
@@ -60,10 +60,10 @@ const SixMonths = () => {
                   {" "}
                   <BiRupee size={50} />
                   <span className="text-5xl font-bold">2,599</span>
-                  <span className="text-xl mt-5">+ GST</span>
+                  <span className="font-bold mt-5">+ GST</span>
                 </div>
               </div>
-              <div className="text-lg py-3 text-black mx-8 text-left font-normal flex items-center  ">
+              <div className="py-3 mx-8 text-justify leading-7 tracking-normal text-[#30353a] font-medium">
                 50 Mbps upload and download speed. Unlimited usage, no data
                 limits. 99% Uptime Server. No complaints, EVER!
               </div>
@@ -81,7 +81,8 @@ const SixMonths = () => {
                 to={"https://my.ultranet.co.in/enquiry?src=website"}
                 className="flex justify-center"
               >
-                <button className="group-hover:bg-gradient-to-r bg-[#071343] px-8 text-lg py-3 group-hover:from-pink-500 group-hover:via-red-500 group-hover:to-yellow-500 text-white font-medium rounded transition duration-300">
+                {" "}
+                <button className="group-hover:bg-gradient-to-r from-[#DE466C] to-[#004281] bg-[#004281] px-5 rounded-full text-lg py-2  text-white font-medium  transition duration-300">
                   Choose Plan
                 </button>
               </Link>
@@ -96,10 +97,10 @@ const SixMonths = () => {
         >
           <div className="flex items-center  justify-center py-8 px-4">
             <div className="md:w-[400px] flex flex-col gap-7 shadow-lg  rounded-[20px] pb-10  bg-white">
-              <h1 className="pl-[7%] group-hover:bg-gradient-to-r  group-hover:from-pink-500 group-hover:via-red-500 group-hover:to-yellow-500 text-[white] py-3 rounded-t-[20px] bg-[#071343]   text-center font-bold text-xl ">
+              <h1 className="pl-[7%] group-hover:bg-gradient-to-r from-[#DE466C] to-[#004281] text-[white] py-3 rounded-t-[20px] bg-[#004281]   text-center font-bold text-xl ">
                 100 Mbps
               </h1>
-              <button className=" flex justify-evenly  group-hover:bg-gradient-to-r  group-hover:from-pink-500 group-hover:via-red-500 group-hover:to-yellow-500 text-[white] py-3 rounded-3xl bg-[#071343]  mx-2 text-center font-bold text-lg">
+              <button className=" flex justify-evenly  group-hover:bg-gradient-to-r from-[#DE466C] to-[#004281] text-[white] py-3 rounded-3xl bg-[#004281]  mx-2 text-center font-bold text-lg">
                 <span>₹ 2,499 for Base Plan + ₹ 800 for OTT Apps</span>
               </button>
               <div className="flex items-center mx-3 gap-3">
@@ -107,10 +108,10 @@ const SixMonths = () => {
                   {" "}
                   <BiRupee size={50} />
                   <span className="text-5xl font-bold">3,299</span>
-                  <span className="text-xl mt-5">+ GST</span>
+                  <span className="font-bold mt-5">+ GST</span>
                 </div>
               </div>
-              <div className="text-lg py-3 text-black mx-8 text-left font-normal flex items-center  ">
+              <div className="py-3 mx-8 text-justify leading-7 tracking-normal text-[#30353a] font-medium">
                 100 Mbps upload and download speed. Unlimited usage, no data
                 limits. 99% Uptime Server. No complaints, EVER!
               </div>
@@ -128,7 +129,8 @@ const SixMonths = () => {
                 to={"https://my.ultranet.co.in/enquiry?src=website"}
                 className="flex justify-center"
               >
-                <button className="group-hover:bg-gradient-to-r bg-[#071343] px-8 text-lg py-3 group-hover:from-pink-500 group-hover:via-red-500 group-hover:to-yellow-500 text-white font-medium rounded transition duration-300">
+                {" "}
+                <button className="group-hover:bg-gradient-to-r from-[#DE466C] to-[#004281] bg-[#004281] px-5 rounded-full text-lg py-2  text-white font-medium  transition duration-300">
                   Choose Plan
                 </button>
               </Link>
@@ -143,10 +145,10 @@ const SixMonths = () => {
         >
           <div className="flex items-center  justify-center py-8 px-4">
             <div className="md:w-[400px] flex flex-col gap-7 shadow-lg  rounded-[20px] pb-10  bg-white">
-              <h1 className="pl-[7%] group-hover:bg-gradient-to-r  group-hover:from-pink-500 group-hover:via-red-500 group-hover:to-yellow-500 text-[white] py-3 rounded-t-[20px] bg-[#071343]   text-center font-bold text-xl ">
+              <h1 className="pl-[7%] group-hover:bg-gradient-to-r from-[#DE466C] to-[#004281] text-[white] py-3 rounded-t-[20px] bg-[#004281]   text-center font-bold text-xl ">
                 100 Mbps
               </h1>
-              <button className=" flex justify-evenly  group-hover:bg-gradient-to-r  group-hover:from-pink-500 group-hover:via-red-500 group-hover:to-yellow-500 text-[white] py-3 rounded-3xl bg-[#071343]  mx-2 text-center font-bold text-lg">
+              <button className=" flex justify-evenly  group-hover:bg-gradient-to-r from-[#DE466C] to-[#004281] text-[white] py-3 rounded-3xl bg-[#004281]  mx-2 text-center font-bold text-lg">
                 <span>₹ 2499 for Base Plan + ₹ 1380 for OTT Apps</span>
               </button>
               <div className="flex items-center mx-3 gap-3">
@@ -154,10 +156,10 @@ const SixMonths = () => {
                   {" "}
                   <BiRupee size={50} />
                   <span className="text-5xl font-bold">3,879</span>
-                  <span className="text-xl mt-5">+ GST</span>
+                  <span className="font-bold mt-5">+ GST</span>
                 </div>
               </div>
-              <div className="text-lg py-3 text-black mx-8 text-left font-normal flex items-center  ">
+              <div className="py-3 mx-8 text-justify leading-7 tracking-normal text-[#30353a] font-medium">
                 100 Mbps upload and download speed. Unlimited usage, no data
                 limits. 99% Uptime Server. No complaints, EVER!
               </div>
@@ -175,7 +177,8 @@ const SixMonths = () => {
                 to={"https://my.ultranet.co.in/enquiry?src=website"}
                 className="flex justify-center"
               >
-                <button className="group-hover:bg-gradient-to-r bg-[#071343] px-8 text-lg py-3 group-hover:from-pink-500 group-hover:via-red-500 group-hover:to-yellow-500 text-white font-medium rounded transition duration-300">
+                {" "}
+                <button className="group-hover:bg-gradient-to-r from-[#DE466C] to-[#004281] bg-[#004281] px-5 rounded-full text-lg py-2  text-white font-medium  transition duration-300">
                   Choose Plan
                 </button>
               </Link>
@@ -191,10 +194,10 @@ const SixMonths = () => {
         >
           <div className="flex items-center  justify-center py-8 px-4">
             <div className="md:w-[400px] flex flex-col gap-7 shadow-lg  rounded-[20px] pb-10  bg-white">
-              <h1 className="pl-[7%] group-hover:bg-gradient-to-r  group-hover:from-pink-500 group-hover:via-red-500 group-hover:to-yellow-500 text-[white] py-3 rounded-t-[20px] bg-[#071343]   text-center font-bold text-xl ">
+              <h1 className="pl-[7%] group-hover:bg-gradient-to-r from-[#DE466C] to-[#004281] text-[white] py-3 rounded-t-[20px] bg-[#004281]   text-center font-bold text-xl ">
                 200 Mbps
               </h1>
-              <button className=" flex justify-evenly  group-hover:bg-gradient-to-r  group-hover:from-pink-500 group-hover:via-red-500 group-hover:to-yellow-500 text-[white] py-3 rounded-3xl bg-[#071343]  mx-2 text-center font-bold text-lg">
+              <button className=" flex justify-evenly  group-hover:bg-gradient-to-r from-[#DE466C] to-[#004281] text-[white] py-3 rounded-3xl bg-[#004281]  mx-2 text-center font-bold text-lg">
                 <span>₹ 3099 for Base Plan + ₹ 1380 for OTT Apps</span>
               </button>
               <div className="flex items-center mx-3 gap-3">
@@ -202,10 +205,10 @@ const SixMonths = () => {
                   {" "}
                   <BiRupee size={50} />
                   <span className="text-5xl font-bold">4,479</span>
-                  <span className="text-xl mt-5">+ GST</span>
+                  <span className="font-bold mt-5">+ GST</span>
                 </div>
               </div>
-              <div className="text-lg py-3 text-black mx-8 text-left font-normal flex items-center  ">
+              <div className="py-3 mx-8 text-justify leading-7 tracking-normal text-[#30353a] font-medium">
                 200 Mbps upload and download speed. Unlimited usage, no data
                 limits. 99% Uptime Server. No complaints, EVER!
               </div>
@@ -223,7 +226,8 @@ const SixMonths = () => {
                 to={"https://my.ultranet.co.in/enquiry?src=website"}
                 className="flex justify-center"
               >
-                <button className="group-hover:bg-gradient-to-r bg-[#071343] px-8 text-lg py-3 group-hover:from-pink-500 group-hover:via-red-500 group-hover:to-yellow-500 text-white font-medium rounded transition duration-300">
+                {" "}
+                <button className="group-hover:bg-gradient-to-r from-[#DE466C] to-[#004281] bg-[#004281] px-5 rounded-full text-lg py-2  text-white font-medium  transition duration-300">
                   Choose Plan
                 </button>
               </Link>
@@ -238,10 +242,10 @@ const SixMonths = () => {
         >
           <div className="flex items-center  justify-center py-8 px-4">
             <div className="md:w-[400px] flex flex-col gap-7 shadow-lg  rounded-[20px] pb-10  bg-white">
-              <h1 className="pl-[7%] group-hover:bg-gradient-to-r  group-hover:from-pink-500 group-hover:via-red-500 group-hover:to-yellow-500 text-[white] py-3 rounded-t-[20px] bg-[#071343]   text-center font-bold text-xl ">
+              <h1 className="pl-[7%] group-hover:bg-gradient-to-r from-[#DE466C] to-[#004281] text-[white] py-3 rounded-t-[20px] bg-[#004281]   text-center font-bold text-xl ">
                 300 Mbps
               </h1>
-              <button className=" flex justify-evenly  group-hover:bg-gradient-to-r  group-hover:from-pink-500 group-hover:via-red-500 group-hover:to-yellow-500 text-[white] py-3 rounded-3xl bg-[#071343]  mx-2 text-center font-bold text-lg">
+              <button className=" flex justify-evenly  group-hover:bg-gradient-to-r from-[#DE466C] to-[#004281] text-[white] py-3 rounded-3xl bg-[#004281]  mx-2 text-center font-bold text-lg">
                 <span>₹ 4099 for Base Plan + ₹ 1380 for OTT Apps</span>
               </button>
               <div className="flex items-center mx-3 gap-3">
@@ -249,10 +253,10 @@ const SixMonths = () => {
                   {" "}
                   <BiRupee size={50} />
                   <span className="text-5xl font-bold">5,479</span>
-                  <span className="text-xl mt-5">+ GST</span>
+                  <span className="font-bold mt-5">+ GST</span>
                 </div>
               </div>
-              <div className="text-lg py-3 text-black mx-8 text-left font-normal flex items-center  ">
+              <div className="py-3 mx-8 text-justify leading-7 tracking-normal text-[#30353a] font-medium">
                 300 Mbps upload and download speed. Unlimited usage, no data
                 limits. 99% Uptime Server. No complaints, EVER!
               </div>
@@ -270,7 +274,8 @@ const SixMonths = () => {
                 to={"https://my.ultranet.co.in/enquiry?src=website"}
                 className="flex justify-center"
               >
-                <button className="group-hover:bg-gradient-to-r bg-[#071343] px-8 text-lg py-3 group-hover:from-pink-500 group-hover:via-red-500 group-hover:to-yellow-500 text-white font-medium rounded transition duration-300">
+                {" "}
+                <button className="group-hover:bg-gradient-to-r from-[#DE466C] to-[#004281] bg-[#004281] px-5 rounded-full text-lg py-2  text-white font-medium  transition duration-300">
                   Choose Plan
                 </button>
               </Link>
@@ -285,10 +290,10 @@ const SixMonths = () => {
         >
           <div className="flex items-center  justify-center py-8 px-4">
             <div className="md:w-[400px] flex flex-col gap-7 shadow-lg  rounded-[20px] pb-10  bg-white">
-              <h1 className="pl-[7%] group-hover:bg-gradient-to-r  group-hover:from-pink-500 group-hover:via-red-500 group-hover:to-yellow-500 text-[white] py-3 rounded-t-[20px] bg-[#071343]   text-center font-bold text-xl ">
+              <h1 className="pl-[7%] group-hover:bg-gradient-to-r from-[#DE466C] to-[#004281] text-[white] py-3 rounded-t-[20px] bg-[#004281]   text-center font-bold text-xl ">
                 500 Mbps
               </h1>
-              <button className=" flex justify-evenly  group-hover:bg-gradient-to-r  group-hover:from-pink-500 group-hover:via-red-500 group-hover:to-yellow-500 text-[white] py-3 rounded-3xl bg-[#071343]  mx-2 text-center font-bold text-lg">
+              <button className=" flex justify-evenly  group-hover:bg-gradient-to-r from-[#DE466C] to-[#004281] text-[white] py-3 rounded-3xl bg-[#004281]  mx-2 text-center font-bold text-lg">
                 <span>₹ 4799 for Base Plan + ₹ 1380 for OTT Apps</span>
               </button>
               <div className="flex items-center mx-3 gap-3">
@@ -296,10 +301,10 @@ const SixMonths = () => {
                   {" "}
                   <BiRupee size={50} />
                   <span className="text-5xl font-bold">6,179</span>
-                  <span className="text-xl mt-5">+ GST</span>
+                  <span className="font-bold mt-5">+ GST</span>
                 </div>
               </div>
-              <div className="text-lg py-3 text-black mx-8 text-left font-normal flex items-center  ">
+              <div className="py-3 mx-8 text-justify leading-7 tracking-normal text-[#30353a] font-medium">
                 500 Mbps upload and download speed. Unlimited usage, no data
                 limits. 99% Uptime Server. No complaints, EVER!
               </div>
@@ -317,7 +322,8 @@ const SixMonths = () => {
                 to={"https://my.ultranet.co.in/enquiry?src=website"}
                 className="flex justify-center"
               >
-                <button className="group-hover:bg-gradient-to-r bg-[#071343] px-8 text-lg py-3 group-hover:from-pink-500 group-hover:via-red-500 group-hover:to-yellow-500 text-white font-medium rounded transition duration-300">
+                {" "}
+                <button className="group-hover:bg-gradient-to-r from-[#DE466C] to-[#004281] bg-[#004281] px-5 rounded-full text-lg py-2  text-white font-medium  transition duration-300">
                   Choose Plan
                 </button>
               </Link>

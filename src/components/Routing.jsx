@@ -26,6 +26,7 @@ const Routing = () => {
       <div className="md:pb-[3%] pb-[10%]"></div>
       <Routes>
         <Route exact path="/" element={<LandingPage />} />
+        <Route exact path="*" element={<LandingPage />} />
         <Route exact path="/Offers" element={<Home />} />
         <Route exact path="/FAQs" element={<FAQs />} />
         <Route exact path="/Business" element={<Business />} />

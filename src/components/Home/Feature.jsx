@@ -18,7 +18,7 @@ const Feature = () => {
         data-aos-once="false"
         className="mx-auto my-[3%]  rounded w-full"
       >
-        <div className=" rounded-3xl hover:bg-gradient-to-r  hover:from-pink-500 hover:via-red-500 hover:to-yellow-500 text-[white] py-3  bg-[#071343]   text-center font-bold text-xl  mx-[7%] p-[5%]">
+        <div className=" rounded-3xl hover:bg-gradient-to-r from-[#DE466C] to-[#004281]  text-[white] py-3  bg-[#004281]   text-center font-bold text-xl  mx-[7%] p-[5%]">
           <div className="py-6 xl:px-8 text-center lg:px-8 md:px-8 px-4 flex justify-between items-center">
             <p className="font-bold text-center text-lg xl:text-xl lg:text-xl md:text-xl text-white ">
               THIS GIVES YOU THE FOLLOWING CLEAR BENEFITS WHEN YOU ARE CONNECTED

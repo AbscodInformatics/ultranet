@@ -16,7 +16,7 @@ const Navbar = () => {
   };
 
   return (
-    <nav className="bg-white shadow fixed z-30 w-full ">
+    <nav className="bg-white shadow fixed z-50 w-full ">
       <div className="container mx-auto px-4 py-2 md:flex md:items-center md:justify-between ">
         <div className="flex justify-between items-center md:ml-[3%]">
           <Link onClick={() => scroll.scrollToTop()} to="/">
@@ -37,7 +37,7 @@ const Navbar = () => {
             <li onClick={() => scroll.scrollToTop()}>
               <Link
                 to="/"
-                className="focus:outline-none text-lg border-transparent font-medium cursor-pointer h-full flex items-center hover:text-[#e10000]  text-black tracking-normal border-b-2"
+                className="focus:outline-none text-base border-transparent font-bold  cursor-pointer h-full flex items-center hover:text-[#DE466C]  text-[#004281] tracking-normal border-b-2"
               >
                 Home
               </Link>
@@ -45,7 +45,7 @@ const Navbar = () => {
             <li onClick={() => scroll.scrollToTop()}>
               <Link
                 to="/Business"
-                className="focus:outline-none text-lg border-transparent font-medium cursor-pointer h-full flex items-center hover:text-[#e10000]  text-black tracking-normal border-b-2"
+                className="focus:outline-none text-base border-transparent font-bold  cursor-pointer h-full flex items-center hover:text-[#DE466C]  text-[#004281] tracking-normal border-b-2"
               >
                 Business
               </Link>
@@ -53,7 +53,7 @@ const Navbar = () => {
             <li onClick={() => scroll.scrollToTop()}>
               <Link
                 to="/Offers"
-                className="focus:outline-none text-lg border-transparent font-medium cursor-pointer h-full flex items-center hover:text-[#e10000]  text-black tracking-normal border-b-2"
+                className="focus:outline-none text-base border-transparent font-bold  cursor-pointer h-full flex items-center hover:text-[#DE466C]  text-[#004281] tracking-normal border-b-2"
               >
                 {" "}
                 Offers
@@ -62,7 +62,7 @@ const Navbar = () => {
             <li onClick={() => scroll.scrollToTop()}>
               <Link
                 to="/FAQs"
-                className="focus:outline-none text-lg border-transparent font-medium cursor-pointer h-full flex items-center hover:text-[#e10000]  text-black tracking-normal border-b-2"
+                className="focus:outline-none text-base border-transparent font-bold  cursor-pointer h-full flex items-center hover:text-[#DE466C]  text-[#004281] tracking-normal border-b-2"
               >
                 FAQ's
               </Link>
@@ -71,7 +71,7 @@ const Navbar = () => {
               <Link
                 to={"https://www.speedtest.net/"}
                 target="_blank"
-                className="focus:outline-none text-lg border-transparent font-medium cursor-pointer h-full flex items-center hover:text-[#e10000]  text-black tracking-normal border-b-2"
+                className="focus:outline-none text-base border-transparent font-bold  cursor-pointer h-full flex items-center hover:text-[#DE466C]  text-[#004281] tracking-normal border-b-2"
               >
                 Speed Test
               </Link>
@@ -79,7 +79,7 @@ const Navbar = () => {
             <li onClick={() => scroll.scrollToTop()}>
               <Link
                 to="/myUltranet"
-                className="focus:outline-none text-lg border-transparent font-medium cursor-pointer h-full flex items-center hover:text-[#e10000]  text-black tracking-normal border-b-2"
+                className="focus:outline-none text-base border-transparent font-bold  cursor-pointer h-full flex items-center hover:text-[#DE466C]  text-[#004281] tracking-normal border-b-2"
               >
                 My Ultranet
               </Link>
@@ -91,7 +91,7 @@ const Navbar = () => {
                 // offset={-20}
                 // duration={1500}
                 // smooth={true}
-                className="hidden sm:block focus:outline-none text-lg border-transparent font-medium cursor-pointer h-full md:flex items-center hover:text-[#e10000]  text-black tracking-normal border-b-2"
+                className="hidden sm:block focus:outline-none text-base border-transparent font-bold  cursor-pointer h-full md:flex items-center hover:text-[#DE466C]  text-[#004281] tracking-normal border-b-2"
               >
                 Contact Us
               </Link>
@@ -99,7 +99,7 @@ const Navbar = () => {
           </ul>
           <div className="md:flex items-center mt-4 md:mt-0">
             <Link to={"https://my.ultranet.co.in/customer_portal"}>
-              <button className="text-base md:text-lg font-semibold bg-[#071343] hover:to-yellow-500  hover:via-red-500 hover:bg-gradient-to-r hover:from-pink-500  px-5 py-1  md:py-2 text-center u transition duration-500 ease-in-out bg-no-repeat bg-size-200% text-white  shadow-lg rounded-lg">
+              <button className="hover:bg-gradient-to-r from-[#DE466C] to-[#004281] bg-[#004281] px-5 text-lg py-2  text-white font-medium rounded-full transition duration-300">
                 Quick Pay!
               </button>
             </Link>

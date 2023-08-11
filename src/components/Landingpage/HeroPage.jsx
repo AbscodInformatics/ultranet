@@ -48,7 +48,7 @@ const HeroPage = () => {
   };
 
   return (
-    <div>
+    <div >
       <Swiper
         loop={true}
         autoplay={{
@@ -57,13 +57,14 @@ const HeroPage = () => {
         slidesPerView={1}
         effect={"fade"}
         className="mySwiper"
-        onSlideChangeTransitionEnd={handleSlideChange} // Use onSlideChangeTransitionEnd instead of onSlideChange
+        onSlideChangeTransitionEnd={handleSlideChange}
       >
         {slides.map((slide, index) => (
           <SwiperSlide key={index}>
             <motion.div
               initial={{ scale: 1.1 }}
               animate={{
+                opacity: 1,
                 scale: currentSlideIndex === index ? 1.2 : 1.1,
               }}
               transition={{ duration: 1 }}
@@ -81,24 +82,27 @@ const HeroPage = () => {
                   right: "-10%",
                   bottom: "-10%",
                   zIndex: "-1",
-                  scale: currentSlideIndex === index ? 1.2 : 1.1,
+                  scale: currentSlideIndex === index ? 2 : 5.1,
                 }}
                 initial={{ scale: 1.1 }}
                 animate={{
                   scale: currentSlideIndex === index ? 1.2 : 1.1,
                 }}
-                transition={{ duration: 1 }}
+                transition={{ duration: 5 }}
               />
-
-              {/* Text Content */}
-              <div className="absolute top-1/2 md:left-1/3 left-1/2 md:w-[40%] md:text-start text-center  transform -translate-x-1/2 -translate-y-1/2 text-white">
-                <h1 className="md:text-5xl text-xl mx-auto  md:my-3 uppercase font-bold">
-                  {slide.heading}
-                </h1>
-                <h1 className="md:text-3xl text-lg md:my-3 font-bold">{slide.subheading}</h1>
-                <p className="md:text-xl text-base font-semibold">{slide.title}</p>
-              </div>
             </motion.div>
+            {/* Text Content */}
+            <div className="absolute top-1/2 md:left-1/3 left-1/2 md:w-[40%] md:text-start text-center  transform -translate-x-1/2 -translate-y-1/2 text-white">
+              <h1 className="md:text-5xl text-xl mx-auto  md:my-3 uppercase font-bold">
+                {slide.heading}
+              </h1>
+              <h1 className="md:text-3xl text-lg md:my-3 font-bold">
+                {slide.subheading}
+              </h1>
+              <p className="md:text-xl text-base font-semibold">
+                {slide.title}
+              </p>
+            </div>
           </SwiperSlide>
         ))}
       </Swiper>

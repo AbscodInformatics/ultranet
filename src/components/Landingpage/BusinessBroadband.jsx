@@ -22,23 +22,24 @@ const BusinessBroadband = () => {
       >
         <div className="flex items-center  justify-center py-8 px-4">
           <div className="md:max-w-[280px] w-full flex flex-col gap-7 shadow-lg  rounded-[20px] pb-10  bg-white">
-            <h1 className=" pl-[7%] group-hover:bg-gradient-to-r  group-hover:from-pink-500 group-hover:via-red-500 group-hover:to-yellow-500 text-[white] py-3 rounded-t-[20px] bg-[#071343]   text-center font-bold text-xl ">
+            <h1 className="pl-[7%] group-hover:bg-gradient-to-r from-[#DE466C] to-[#004281] text-[white] py-3 rounded-t-[20px] bg-[#004281]   text-center font-bold text-xl ">
               50 Mbps
             </h1>
-            <div className="pl-[7%] text-lg">Business Broadband</div>
+            <div className="pl-[7%] text-xl text-center font-bold">
+              Business Broadband
+            </div>
             <div className="flex mx-3 gap-3">
               <BiRupee size={60} />
               <span className="text-5xl font-bold">1000/</span>
-              {/* <span className="text-xl mt-5">+ GST</span> */}
             </div>
-            <div className="text-lg  text-black mx-8 text-left font-normal flex items-center  ">
-              10+ employees 50Mbps download + upload speed
+            <div className=" mx-8 text-justify leading-7 tracking-normal text-[#30353a] font-medium">
+              download + upload speed
             </div>
             <Link
               to={"https://my.ultranet.co.in/enquiry?src=website"}
               className="flex justify-center"
             >
-              <button className="group-hover:bg-gradient-to-r bg-[#071343] px-8 text-lg py-3 group-hover:from-pink-500 group-hover:via-red-500 group-hover:to-yellow-500 text-white font-medium rounded transition duration-300">
+              <button className="group-hover:bg-gradient-to-r from-[#DE466C] to-[#004281] bg-[#004281] px-5 rounded-full text-lg py-2  text-white font-medium  transition duration-300">
                 Get Started
               </button>
             </Link>
@@ -53,23 +54,24 @@ const BusinessBroadband = () => {
       >
         <div className="flex items-center  justify-center py-8 px-4">
           <div className="md:max-w-[280px] w-full flex flex-col gap-7 shadow-lg  rounded-[20px] pb-10  bg-white">
-            <h1 className=" pl-[7%] group-hover:bg-gradient-to-r  group-hover:from-pink-500 group-hover:via-red-500 group-hover:to-yellow-500 text-[white] py-3 rounded-t-[20px] bg-[#071343]   text-center font-bold text-xl ">
+            <h1 className=" pl-[7%] group-hover:bg-gradient-to-r from-[#DE466C] to-[#004281] text-[white] py-3 rounded-t-[20px] bg-[#004281]   text-center font-bold text-xl ">
               100 Mbps
-            </h1>
-            <div className="pl-[7%] text-lg">Business Broadband</div>
+            </h1>{" "}
+            <div className="pl-[7%] text-xl text-center font-bold">
+              Business Broadband
+            </div>
             <div className="flex mx-3 gap-3">
               <BiRupee size={60} />
               <span className="text-5xl font-bold">1500/</span>
-              {/* <span className="text-xl mt-5">+ GST</span> */}
             </div>
-            <div className="text-lg  text-black mx-8 text-left font-normal flex items-center  ">
-              2-9 employees 100Mbps download + upload speed
+            <div className=" mx-8 text-justify leading-7 tracking-normal text-[#30353a] font-medium">
+              download + upload speed
             </div>
             <Link
               to={"https://my.ultranet.co.in/enquiry?src=website"}
               className="flex justify-center"
             >
-              <button className="group-hover:bg-gradient-to-r bg-[#071343] px-8 text-lg py-3 group-hover:from-pink-500 group-hover:via-red-500 group-hover:to-yellow-500 text-white font-medium rounded transition duration-300">
+              <button className="group-hover:bg-gradient-to-r from-[#DE466C] to-[#004281] bg-[#004281] px-5 rounded-full text-lg py-2  text-white font-medium  transition duration-300">
                 Get Started
               </button>
             </Link>
@@ -84,24 +86,24 @@ const BusinessBroadband = () => {
       >
         <div className="flex items-center  justify-center py-8 px-4">
           <div className="md:max-w-[280px] w-full flex flex-col gap-7 shadow-lg  rounded-[20px] pb-10  bg-white">
-            <h1 className=" pl-[7%] group-hover:bg-gradient-to-r  group-hover:from-pink-500 group-hover:via-red-500 group-hover:to-yellow-500 text-[white] py-3 rounded-t-[20px] bg-[#071343]   text-center font-bold text-xl ">
+            <h1 className=" pl-[7%] group-hover:bg-[#DE466C] text-[white] py-3 rounded-t-[20px] bg-[#004281]   text-center font-bold text-xl ">
               200 Mbps
-            </h1>
-            <div className="pl-[7%] text-lg">Business Broadband</div>
+            </h1>{" "}
+            <div className="pl-[7%] text-xl text-center font-bold">
+              Business Broadband
+            </div>
             <div className="flex mx-3 gap-3">
               <BiRupee size={60} />
               <span className="text-5xl font-bold">2000/</span>
-              {/* <span className="text-xl mt-5">+ GST</span> */}
             </div>
-            <div className="text-lg  text-black mx-8 text-left font-normal flex items-center  ">
-              1-2 employees 200Mbps download + upload speed
+            <div className=" mx-8 text-justify leading-7 tracking-normal text-[#30353a] font-medium">
+              download + upload speed
             </div>
-
             <Link
               to={"https://my.ultranet.co.in/enquiry?src=website"}
               className="flex justify-center"
             >
-              <button className="group-hover:bg-gradient-to-r bg-[#071343] px-8 text-lg py-3 group-hover:from-pink-500 group-hover:via-red-500 group-hover:to-yellow-500 text-white font-medium rounded transition duration-300">
+              <button className="group-hover:bg-gradient-to-r from-[#DE466C] to-[#004281] bg-[#004281] px-5 rounded-full text-lg py-2  text-white font-medium  transition duration-300">
                 Get Started
               </button>
             </Link>
@@ -116,24 +118,24 @@ const BusinessBroadband = () => {
       >
         <div className="flex items-center  justify-center py-8 px-4">
           <div className="md:max-w-[280px] w-full flex flex-col gap-7 shadow-lg  rounded-[20px] pb-10  bg-white">
-            <h1 className=" pl-[7%] group-hover:bg-gradient-to-r  group-hover:from-pink-500 group-hover:via-red-500 group-hover:to-yellow-500 text-[white] py-3 rounded-t-[20px] bg-[#071343]   text-center font-bold text-xl ">
+            <h1 className=" pl-[7%] group-hover:bg-gradient-to-r from-[#DE466C] to-[#004281] text-[white] py-3 rounded-t-[20px] bg-[#004281]   text-center font-bold text-xl ">
               500 Mbps
-            </h1>
-            <div className="pl-[7%] text-lg">Business Broadband</div>
+            </h1>{" "}
+            <div className="pl-[7%] text-xl text-center font-bold">
+              Business Broadband
+            </div>
             <div className="flex mx-3 gap-3">
               <BiRupee size={60} />
               <span className="text-5xl font-bold">3500/</span>
-              {/* <span className="text-xl mt-5">+ GST</span> */}
             </div>
-            <div className="text-lg  text-black mx-8 text-left font-normal flex items-center  ">
-              1-2 employees 200Mbps download + upload speed
+            <div className="mx-8 text-justify leading-7 tracking-normal text-[#30353a] font-medium">
+              download + upload speed
             </div>
-
             <Link
               to={"https://my.ultranet.co.in/enquiry?src=website"}
               className="flex justify-center"
             >
-              <button className="group-hover:bg-gradient-to-r bg-[#071343] px-8 text-lg py-3 group-hover:from-pink-500 group-hover:via-red-500 group-hover:to-yellow-500 text-white font-medium rounded transition duration-300">
+              <button className="group-hover:bg-gradient-to-r from-[#DE466C] to-[#004281] bg-[#004281] px-5 rounded-full text-lg py-2  text-white font-medium  transition duration-300">
                 Get Started
               </button>
             </Link>

@@ -105,7 +105,7 @@ const Footer = () => {
           {isOpen && <PrivacyPolicy closePopup={closePopup} />}
           <div className="">
             <div className=" py-12">
-              <div className=" w-full mx-auto  bg-[#071343] text-lg   text-white font-medium  transition duration-300  lg:px-10 md:px-6 px-4 py-7">
+              <div className=" w-full mx-auto hover:bg-gradient-to-r from-[#DE466C] to-[#004281] bg-[#004281] text-lg   text-white font-medium  transition duration-300  lg:px-10 md:px-6 px-4 py-7">
                 <div className="grid lg:grid-cols-4 md:grid-cols-3 grid-cols-1">
                   <div
                     data-aos="zoom-in-up"
