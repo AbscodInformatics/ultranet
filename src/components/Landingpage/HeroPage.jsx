@@ -22,24 +22,25 @@ const HeroPage = () => {
 
   const slides = [
     {
-      image: "/b11.jpg",
-      heading: "ULTRA SMART FIBER",
+      image: "/banner.jpg",
+      heading: "PRICE AND EFFICIENCY OF EXPERT RELOCATION SERVICE",
       subheading: "fiber plan anytime ",
       title:
-        "Stream, Game, Repeat Get Lost in a World of Blazing-Fast Internet",
+        "According to the pricing of relocation companies in Dubai, a financial strategy is essential, and this is one aspect that characterises the final decision before transfer.",
     },
     {
-      image: "/b12.jpg",
-      heading: "upgrade your ultranet ",
-      subheading: "fiber plan anytime ",
-      title: "Just by paying the balance amount",
+      image: "/card3.avif",
+      heading: "Expert Relocation Company in Dubai",
+      subheading: "PLAN NEAR YOU ",
+      title:
+        "Our relocation company in Dubai needs to know all the details of your project to give you a price according to your situation.",
     },
     {
-      image: "/b13.jpg",
-      heading: "India's fastest Fiber ",
+      image: "/servicesBanner.jpg",
+      heading: "BEST PACKERS AND MOVERS IN UAE ",
       subheading: " plan near you",
       title:
-        "Stream videos, work and learn online, connect with anyone anywhere, and do much more with UltraNet",
+        "Best movers and packers in Dubai are successful in the implementation of a brand for clients in Dubai, Abu-Dhabi and the Middle East. ",
     },
   ];
 
@@ -48,7 +49,7 @@ const HeroPage = () => {
   };
 
   return (
-    <div >
+    <div className="w-full">
       <Swiper
         loop={true}
         autoplay={{
@@ -93,7 +94,7 @@ const HeroPage = () => {
             </motion.div>
             {/* Text Content */}
             <div className="absolute top-1/2 md:left-1/3 left-1/2 md:w-[40%] md:text-start text-center  transform -translate-x-1/2 -translate-y-1/2 text-white">
-              <h1 className="md:text-5xl text-xl mx-auto  md:my-3 uppercase font-bold">
+              <h1 className="md:text-5xl text-xl mx-auto mt-4  md:my-3 uppercase font-bold">
                 {slide.heading}
               </h1>
               <h1 className="md:text-3xl text-lg md:my-3 font-bold">

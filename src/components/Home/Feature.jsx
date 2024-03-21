@@ -1,96 +1,152 @@
-import React,{useState,useEffect} from 'react'
-import {MdOutlineSpeed} from "react-icons/md"
+import React, { useState, useEffect } from "react";
+import { MdOutlineSpeed } from "react-icons/md";
 import { BsFiles, BsSpeedometer } from "react-icons/bs";
-import {CgArrowsExchangeAlt} from "react-icons/cg"
+import { CgArrowsExchangeAlt } from "react-icons/cg";
 // import { BsSpeedometer } from "react-icons/io";
 import AOS from "aos";
 import "aos/dist/aos.css";
+import { useNavigate } from "react-router-dom";
 
 const Feature = () => {
-   useEffect(() => {
-     AOS.init();
-   });
+  useEffect(() => {
+    AOS.init();
+  });
   const [showDropdown, setShowDropdown] = useState(false);
+  const navigate = useNavigate();
   return (
     <>
       <div
-        data-aos="zoom-in-up"
-        data-aos-once="false"
-        className="mx-auto my-[3%]  rounded w-full"
+        data-aos='zoom-in-up'
+        data-aos-once='false'
+        className='mx-auto   p-3 w-full'
       >
-        <div className=" rounded-3xl hover:bg-gradient-to-r from-[#DE466C] to-[#004281]  text-[white] py-3  bg-[#004281]   text-center font-bold text-xl  mx-[7%] p-[5%]">
-          <div className="py-6 xl:px-8 text-center lg:px-8 md:px-8 px-4 flex justify-between items-center">
-            <p className="font-bold text-center text-lg xl:text-xl lg:text-xl md:text-xl text-white ">
-              THIS GIVES YOU THE FOLLOWING CLEAR BENEFITS WHEN YOU ARE CONNECTED
-              WITH ULTRANET:
+        <div className='flex flex-col justify-center items-center py-2'>
+          <h2 className='text-3xl font-[700] text-center'>Our Services</h2>
+          <span className='w-20 border-customYellow border-2 text-center'></span>
+          <p className='text-yellow-500'>We have provide these services</p>
+        </div>
+        <div className='flex md:flex-row flex-col gap-6 md:gap-40 items-center md:mx-40 my-6'>
+          <img
+            src='/trolly.png'
+            className='w-full md:w-[34rem] h-[24rem]  object-cover'
+          />
+          <div>
+            <h2 className='text-4xl text-center font-[700]'>
+              Moving and Packing Services in Dubai
+            </h2>
+            <p className='pt-8 text-justify'>
+              Best movers and packers in Dubai are successful in the
+              implementation of a brand for clients in Dubai, Abu-Dhabi and the
+              Middle East. We are the best movers in Dubai and offer a number of
+              services to meet the needs of everyone, from individuals and
+              families to businesses and organizations. It makes us one of the
+              Expert Movers in UAE for all demands with the help of the best
+              movers and packers in Dubai. So we can surely be a good option for
+              you.
             </p>
           </div>
-
-          <div className="p-5 grid grid-cols-1 gap-8 rounded mb-6  ">
-            <div className="">
-              <ul className="flex  gap-5">
-                <MdOutlineSpeed
-                  color="white"
-                  className="text-[80px] md:text-[50px]"
-                />
-                <li className="mb-2 text-lg text-justify text-white ">
-                  The fastest speeds – this ensures that your upload and
-                  download speeds will not suffer no matter how much the load.
-                </li>
-              </ul>
-            </div>
-            <div className="">
-              <ul className="flex gap-5">
-                <BsFiles className="text-[80px] md:text-[80px]" color="white" />
-                <li className="mb-2 md:ml-1 text-lg text-justify text-white ">
-                  The data load capacity is the highest when you use full fiber
-                  networks, because fiber optic lines have much more load
-                  capacity compared to any other type of cabling. Also, the
-                  attention is considerably very low.
-                </li>
-              </ul>
-            </div>
-            <div className="">
-              <ul className="flex gap-5">
-                <CgArrowsExchangeAlt
-                  className="text-[80px] md:text-[80px]"
-                  color="white"
-                />
-                <li className="mb-2 md:-ml-2 text-lg text-justify text-white ">
-                  Our broadband is not just fiber till the exchange, but fiber
-                  to your premises- home or office. Now you can sit back and
-                  relax as the network will never fail you.
-                </li>
-              </ul>
-            </div>
-            <div className="">
-              <ul className="flex gap-5">
-                <BsSpeedometer
-                  className="text-[80px] md:text-[80px]"
-                  color="white"
-                />
-                <li className="mb-2 md:ml-3 text-lg text-justify text-white ">
-                  Our promise is the same for uploads and downloads – unmatched
-                  speeds of 1GB at affordable prices. So now you can choose our
-                  plans of up to 100 Mbps per connection and enjoy Internet
-                  broadband services in a whole new way.
-                </li>
-              </ul>
+        </div>
+        <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10 p-6 w-full '>
+          <div className='rounded-lg shadow-xl border-[1px]'>
+            <img src='/card1.jpeg' className='w-full h-[40vh]' />
+            <div className='p-4 flex flex-col items-center pb-8'>
+              <h2 className='text-2xl font-[600] text-center '>
+                House Movers in Dubai
+              </h2>
+              <span className='w-20 border-yellow-500 border-2 text-center'></span>
+              <p className='py-4 text-justify text-gray-600'>
+                Our house shifting company helps you to relocate a single item
+                or an entire apartment relocation.
+              </p>
+              <button
+                onClick={() => navigate("/contact")}
+                className='bg-yellow-500 rounded-full px-6 py-3 text-white hover:shadow-xl'
+              >
+                Book Service
+              </button>
             </div>
           </div>
-          <div className="">
-            <ul className="">
-              <li className="mb-2 text-xl text-justify md:text-center text-white ">
-                Our speeds and connectivity are not affected no matter how many
-                connections are made to the network and how many active users
-                are on the network using up the bandwidth.
-              </li>
-            </ul>
+          <div className='rounded-lg shadow-xl border-[1px]'>
+            <img src='/card2.webp' className='w-full h-[40vh]' />
+            <div className='p-4 flex flex-col items-center pb-8'>
+              <h2 className='text-2xl font-[600] text-center '>Storage</h2>
+              <span className='w-20 border-yellow-500 border-2 text-center'></span>
+              <p className='py-4 text-justify text-gray-600'>
+                Looking for a storage company? Our secure and climate-controlled
+                storage facilities provide the perfect solution for your
+                short-term or long-term storage needs.
+              </p>
+              <button
+                onClick={() => navigate("/contact")}
+                className='bg-yellow-500 rounded-full px-6 py-3 text-white hover:shadow-xl'
+              >
+                Book Service
+              </button>
+            </div>
+          </div>
+          <div className='rounded-lg shadow-xl border-[1px]'>
+            <img src='/card3.avif' className='w-full h-[40vh]' />
+            <div className='p-4 flex flex-col items-center pb-8'>
+              <h2 className='text-2xl font-[600] text-center '>
+                Cheap Movers in Dubai
+              </h2>
+              <span className='w-20 border-yellow-500 border-2 text-center'></span>
+              <p className='py-4 text-justify text-gray-600'>
+                Our efficient and cheap movers in Dubai offer you cheap moving
+                prices in Dubai and provide competitive rates for your move to
+                Dubai, Abu-Dhabi, and all over UAE.
+              </p>
+              <button
+                onClick={() => navigate("/contact")}
+                className='bg-yellow-500 rounded-full px-6 py-3 text-white hover:shadow-xl'
+              >
+                Book Service
+              </button>
+            </div>
+          </div>
+          <div className='rounded-lg shadow-xl border-[1px]'>
+            <img src='/card4.avif' className='w-full h-[40vh]' />
+            <div className='p-4 flex flex-col items-center pb-8'>
+              <h2 className='text-2xl font-[600] text-center '>
+                Safe Movers in Dubai
+              </h2>
+              <span className='w-20 border-yellow-500 border-2 text-center'></span>
+              <p className='py-4 text-justify text-gray-600'>
+                Do you have to move your heavy safe in Dubai? First, contact
+                professional large safe movers in Dubai. Together, we can assess
+                the different levels of accessibility.
+              </p>
+              <button
+                onClick={() => navigate("/contact")}
+                className='bg-yellow-500 rounded-full px-6 py-3 text-white hover:shadow-xl'
+              >
+                Book Service
+              </button>
+            </div>
+          </div>
+          <div className='rounded-lg shadow-xl border-[1px]'>
+            <img src='/card6.jpeg' className='w-full h-[40vh]' />
+            <div className='p-4 flex flex-col items-center pb-8'>
+              <h2 className='text-2xl font-[600] text-center '>
+                Move out Painting Services in Dubai
+              </h2>
+              <span className='w-20 border-yellow-500 border-2 text-center'></span>
+              <p className='py-4 text-justify text-gray-600'>
+                Our professional painting services offer a variety of options to
+                enhance and refresh the look of your home or business to ensure
+                long-lasting durability and beauty.
+              </p>
+              <button
+                onClick={() => navigate("/contact")}
+                className='bg-yellow-500 rounded-full px-6 py-3 text-white hover:shadow-xl'
+              >
+                Book Service
+              </button>
+            </div>
           </div>
         </div>
       </div>
-      {/* Card code block end */}
     </>
   );
-}
-export default Feature
+};
+export default Feature;

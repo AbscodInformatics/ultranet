@@ -5,25 +5,26 @@ import "aos/dist/aos.css";
 const Features = () => {
   AOS.init();
   return (
-      <div className=" flex justify-center py-[5%] gap-5 flex-col items-center">
-        <div className="text-5xl leading-[60px] text-[#004281] tracking-[-0.04em]  font-[800] text-center mx-1 md:mx-0  ">
-          HOW ULTRANET IS DIFFERENT
+    <div className='w-full flex justify-center py-[5%] gap-5 flex-col items-center bg-[#f5f5f5] mt-8'>
+      <div className='flex flex-col items-center'>
+        <div className='text-[3rem] leading-[60px] text-customBlue tracking-[-0.04em]  font-[800] text-center mx-1 md:mx-0  '>
+          HOW MOVENPACK IS DIFFERENT
         </div>
-        <div className="text-xl font-medium leading-8 text-[#818487] text-justify  mt-[2%] mx-[8%]">
-          As <b>India's finest broadband service provider</b>, we are committed
-          to delivering an unparalleled internet experience with
-          <b> high-speed wifi connections</b>. Unlike other services, we use an
-          all-fiber setup, ensuring no speed loss or attenuation issues caused
-          by copper wiring. Our focus is on providing seamless, high-quality
-          internet to valued customers through our cutting-edge fiber optic
-          technology. With our top-notch <b> wifi broadband service</b>, you can
-          enjoy HD-quality video streaming, smooth online gaming, and efficient
-          remote work. Choose us as your <b> internet service provider</b> to
-          unlock the full potential of the digital world and experience the
-          best-in-class broadband service right at your home or business. Join
-          us today and take your online experience to the next level.
+        <span className='w-40 border-customYellow border-[3px] rounded'></span>
+      </div>
+      <div className='flex md:flex-row flex-col  gap-4 p-8'>
+        <img src='/card1.jpeg' className='border-4 rounded' />
+        <div className=' text-xl font-medium leading-8 text-[#818487] text-justify  mt-[2%] px-2 md:px-14'>
+          To hire movers in Dubai, you can find out from your surroundings, your
+          colleagues or your friends may already have used a professional moving
+          company in Dubai. Of course, all moving companies have detailed
+          profiles on the Internet to give a precise idea of the cost that will
+          involve your departure. In order to avoid unpleasant surprises, it is
+          advised to prefer professional movers Dubai who are certified like
+          Expert Mover.
         </div>
       </div>
+    </div>
   );
 };
 

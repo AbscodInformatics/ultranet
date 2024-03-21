@@ -11,7 +11,6 @@ const Index = () => {
       <Home />
       <PlanFilter />
       <Feature />
-      <Testimonials />
     </div>
   );
 };

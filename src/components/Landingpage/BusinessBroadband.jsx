@@ -1,149 +1,71 @@
-import React,{useEffect} from 'react'
+import React, { useEffect } from "react";
 import { BiRupee } from "react-icons/bi";
-import { Link } from 'react-router-dom';
+import { Link } from "react-router-dom";
 import AOS from "aos";
 import "aos/dist/aos.css";
 
 const BusinessBroadband = () => {
-    useEffect(() => {
-     
-     AOS.init({
-       duration: 3000,
-       offset: 0,
-     });
-    })
+  useEffect(() => {
+    AOS.init({
+      duration: 3000,
+      offset: 0,
+    });
+  });
   return (
-    <div className="flex md:flex-row md:flex-nowrap flex-wrap flex-col">
-      <div
-        data-aos="fade-up"
-        data-aos-once="false"
-        data-aos-anchor-placement="top-center"
-        className="group flex justify-center md:flex-row flex-col mx-auto gap-10 mt-3"
-      >
-        <div className="flex items-center  justify-center py-8 px-4">
-          <div className="md:max-w-[280px] w-full flex flex-col gap-7 shadow-lg  rounded-[20px] pb-10  bg-white">
-            <h1 className="pl-[7%] group-hover:bg-gradient-to-r from-[#DE466C] to-[#004281] text-[white] py-3 rounded-t-[20px] bg-[#004281]   text-center font-bold text-xl ">
-              50 Mbps
-            </h1>
-            <div className="pl-[7%] text-xl text-center font-bold">
-              Business Broadband
-            </div>
-            <div className="flex mx-3 gap-3">
-              <BiRupee size={60} />
-              <span className="text-5xl font-bold">1000/</span>
-            </div>
-            <div className=" mx-8 text-justify leading-7 tracking-normal text-[#30353a] font-medium">
-              download + upload speed
-            </div>
-            <Link
-              to={"https://my.ultranet.co.in/enquiry?src=website"}
-              className="flex justify-center"
-            >
-              <button className="group-hover:bg-gradient-to-r from-[#DE466C] to-[#004281] bg-[#004281] px-5 rounded-full text-lg py-2  text-white font-medium  transition duration-300">
-                Get Started
-              </button>
-            </Link>
-          </div>
-        </div>
-      </div>
-      <div
-        data-aos="fade-up"
-        data-aos-once="false"
-        data-aos-anchor-placement="top-center"
-        className="group flex justify-center md:flex-row flex-col mx-auto gap-10 mt-3"
-      >
-        <div className="flex items-center  justify-center py-8 px-4">
-          <div className="md:max-w-[280px] w-full flex flex-col gap-7 shadow-lg  rounded-[20px] pb-10  bg-white">
-            <h1 className=" pl-[7%] group-hover:bg-gradient-to-r from-[#DE466C] to-[#004281] text-[white] py-3 rounded-t-[20px] bg-[#004281]   text-center font-bold text-xl ">
-              100 Mbps
-            </h1>{" "}
-            <div className="pl-[7%] text-xl text-center font-bold">
-              Business Broadband
-            </div>
-            <div className="flex mx-3 gap-3">
-              <BiRupee size={60} />
-              <span className="text-5xl font-bold">1500/</span>
-            </div>
-            <div className=" mx-8 text-justify leading-7 tracking-normal text-[#30353a] font-medium">
-              download + upload speed
-            </div>
-            <Link
-              to={"https://my.ultranet.co.in/enquiry?src=website"}
-              className="flex justify-center"
-            >
-              <button className="group-hover:bg-gradient-to-r from-[#DE466C] to-[#004281] bg-[#004281] px-5 rounded-full text-lg py-2  text-white font-medium  transition duration-300">
-                Get Started
-              </button>
-            </Link>
-          </div>
-        </div>
-      </div>
-      <div
-        data-aos="fade-up"
-        data-aos-once="false"
-        data-aos-anchor-placement="top-center"
-        className="group flex justify-center md:flex-row flex-col mx-auto gap-10 mt-3"
-      >
-        <div className="flex items-center  justify-center py-8 px-4">
-          <div className="md:max-w-[280px] w-full flex flex-col gap-7 shadow-lg  rounded-[20px] pb-10  bg-white">
-            <h1 className=" pl-[7%] group-hover:bg-[#DE466C] text-[white] py-3 rounded-t-[20px] bg-[#004281]   text-center font-bold text-xl ">
-              200 Mbps
-            </h1>{" "}
-            <div className="pl-[7%] text-xl text-center font-bold">
-              Business Broadband
-            </div>
-            <div className="flex mx-3 gap-3">
-              <BiRupee size={60} />
-              <span className="text-5xl font-bold">2000/</span>
-            </div>
-            <div className=" mx-8 text-justify leading-7 tracking-normal text-[#30353a] font-medium">
-              download + upload speed
-            </div>
-            <Link
-              to={"https://my.ultranet.co.in/enquiry?src=website"}
-              className="flex justify-center"
-            >
-              <button className="group-hover:bg-gradient-to-r from-[#DE466C] to-[#004281] bg-[#004281] px-5 rounded-full text-lg py-2  text-white font-medium  transition duration-300">
-                Get Started
-              </button>
-            </Link>
-          </div>
-        </div>
-      </div>
-      <div
-        data-aos="fade-up"
-        data-aos-once="false"
-        data-aos-anchor-placement="top-center"
-        className="group flex justify-center md:flex-row flex-col mx-auto gap-10 mt-3"
-      >
-        <div className="flex items-center  justify-center py-8 px-4">
-          <div className="md:max-w-[280px] w-full flex flex-col gap-7 shadow-lg  rounded-[20px] pb-10  bg-white">
-            <h1 className=" pl-[7%] group-hover:bg-gradient-to-r from-[#DE466C] to-[#004281] text-[white] py-3 rounded-t-[20px] bg-[#004281]   text-center font-bold text-xl ">
-              500 Mbps
-            </h1>{" "}
-            <div className="pl-[7%] text-xl text-center font-bold">
-              Business Broadband
-            </div>
-            <div className="flex mx-3 gap-3">
-              <BiRupee size={60} />
-              <span className="text-5xl font-bold">3500/</span>
-            </div>
-            <div className="mx-8 text-justify leading-7 tracking-normal text-[#30353a] font-medium">
-              download + upload speed
-            </div>
-            <Link
-              to={"https://my.ultranet.co.in/enquiry?src=website"}
-              className="flex justify-center"
-            >
-              <button className="group-hover:bg-gradient-to-r from-[#DE466C] to-[#004281] bg-[#004281] px-5 rounded-full text-lg py-2  text-white font-medium  transition duration-300">
-                Get Started
-              </button>
-            </Link>
-          </div>
-        </div>
-      </div>
+    <div className='flex flex-col px-10 md:px-2'>
+      <p className='text-gray-600 text-[16px]'>
+        Choosing MoveNPack Packers and Movers in UAE means choosing a
+        stress-free and seamless moving experience. Our team of experts handles
+        every detail, ensuring that your belongings are packed, transported, and
+        delivered with care. We pride ourselves on our punctuality and
+        efficiency, striving to meet deadlines and deliver your possessions on
+        time.
+      </p>
+      <h2 className='text-[22px] py-3'>
+        When you entrust your move to us, you can expect:
+      </h2>
+      <p className='pt-2'>
+        <strong>1. Experienced Professionals : </strong> Our team consists of
+        highly skilled and experienced professionals who understand the nuances
+        of the moving industry. They are trained to handle all types of items,
+        from fragile and delicate pieces to heavy furniture and machinery.
+      </p>
+      <p className='pt-2'>
+        <strong>3. Safety and Security : </strong> Your belongings are precious,
+        and we treat them as such. At MoveNPack Packers and Movers in Dubai, we
+        use top-quality packing materials and techniques to protect your items
+        from damage during transit. Our vehicles are equipped with GPS tracking
+        systems, allowing us to monitor the progress of your move in real-time.
+        We also provide insurance coverage for added peace of mind.
+      </p>
+      <p className='pt-2'>
+        <strong>4. Transparent Pricing : </strong> With MoveNPack Packers and
+        Movers, you can expect fair and transparent pricing. We provide detailed
+        cost estimates upfront, ensuring that there are no hidden fees or
+        surprises along the way. We understand the importance of budgeting
+        during a move, and we strive to provide affordable rates without
+        compromising on the quality of our services.{" "}
+      </p>
+      <p className='pt-2'>
+        <strong>5. Customer Support : </strong> Our dedicated customer support
+        team is available to assist you at every step of your relocation
+        journey. Whether you have questions about the moving process, need
+        updates on the status of your shipment, or require any additional
+        assistance, our friendly and knowledgeable staff is always ready to
+        help. Your satisfaction is our priority, and we go the extra mile to
+        ensure that your needs are met.
+      </p>
+      <p className='pt-2'>
+        <strong>6. Commitment to Sustainability : </strong> In addition to
+        providing exceptional packing and moving services in Dubai, we are also
+        committed to minimizing our environmental impact. We embrace
+        eco-friendly practices, such as using recyclable packing materials and
+        optimizing our transportation routes to reduce carbon emissions. With Om
+        International Packers and Movers, you can trust that your move is not
+        only efficient but also environmentally responsible.
+      </p>
     </div>
   );
-}
+};
 
-export default BusinessBroadband
+export default BusinessBroadband;
