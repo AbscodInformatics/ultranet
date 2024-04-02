@@ -20,6 +20,9 @@ const Navbar = () => {
         <div className='flex justify-between items-center md:ml-[3%]'>
           <Link onClick={() => scroll.scrollToTop()} to='/'>
             <img src='moveNPackLogo.jpg' className='h-[66px] md:w-40 ' />
+            <h2 className='text-[11px] text-center font-semibold text-yellow-500'>
+              Your Destination We Move
+            </h2>
           </Link>
           <button className='md:hidden focus:outline-none' onClick={toggleMenu}>
             {isMenuOpen ? <MdClose size={30} /> : <BiMenuAltRight size={30} />}

@@ -119,7 +119,6 @@ const Footer = () => {
                     </ul>
                   </div>
                   <div className='lg:pt-0 md:pt-16 pt-8 lg:flex-col md:flex block lgLw-0 md:w-96 lg:justify-start md:justify-between'>
-                   
                     <div
                       data-aos='zoom-out'
                       data-aos-once='false'
@@ -170,11 +169,12 @@ const Footer = () => {
                     className='flex md:flex-row flex-col gap-6'
                   >
                     <p className='text-sm  text-white '>
-                      +971-44471565
-                      +971-542436037(Support)
+                      +971-44471565 +971-542436037(Support)
                     </p>
 
-                    <p className='text-sm  text-white'>movenpackdxb@gmail.com</p>
+                    <p className='text-sm  text-white'>
+                      movenpackdxb@gmail.com
+                    </p>
                   </div>
                   <div
                     data-aos='fade-down'
@@ -186,6 +186,17 @@ const Footer = () => {
                       Copyright : 2024, MoveNPack. All Rights Reserved.
                     </p>
                   </div>
+                </div>
+                <div
+                  data-aos='fade-down'
+                  data-aos-once='false'
+                  className='flex justify-end lg:gap-4 gap-2 lg:pt-0 md:pt-0  lg:pr-20'
+                >
+                  <p className='text-sm e text-white'>
+                    <a href='https://theopensoft.com' target='_blank'>
+                      @developedBy:TheOpenSoft
+                    </a>
+                  </p>
                 </div>
               </div>
             </div>
